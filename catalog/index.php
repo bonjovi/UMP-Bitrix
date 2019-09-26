@@ -32,8 +32,7 @@ $APPLICATION->SetTitle("");
 							</div>
 						</div>
 						<div class="col-lg-9 catalog">
-							<h1 class="title title_large">Инструменты и оборудование</h1>
-							<div class="catalog__categories row">
+							
 							<?$APPLICATION->IncludeComponent(
 					"bitrix:catalog", 
 					"simple", 
@@ -47,7 +46,7 @@ $APPLICATION->SetTitle("");
 						"AJAX_OPTION_HISTORY" => "N",
 						"AJAX_OPTION_JUMP" => "N",
 						"AJAX_OPTION_STYLE" => "Y",
-						"BASKET_URL" => "/personal/basket.php",
+						"BASKET_URL" => "/personal/cart/",
 						"BIG_DATA_RCM_TYPE" => "personal",
 						"CACHE_FILTER" => "N",
 						"CACHE_GROUPS" => "Y",
@@ -261,7 +260,7 @@ $APPLICATION->SetTitle("");
 					),
 					false
 				);?>
-			</div>
+			
 		</div>
 	</div>
 </div>

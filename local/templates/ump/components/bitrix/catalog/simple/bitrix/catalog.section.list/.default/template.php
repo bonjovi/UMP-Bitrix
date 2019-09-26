@@ -13,7 +13,8 @@ $CURRENT_DEPTH = $TOP_DEPTH;
 
 
 
-
+<h1 class="title title_large"><?=$arResult["SECTION"]["NAME"]?></h1>
+	<div class="catalog__categories row">
 
 
 
@@ -63,3 +64,5 @@ while($CURRENT_DEPTH > $TOP_DEPTH)
 	$CURRENT_DEPTH--;
 }
 ?>
+
+</div>

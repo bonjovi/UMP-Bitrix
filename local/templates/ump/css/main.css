@@ -6477,6 +6477,13 @@ label {
 
 .catalog__categories {
   padding: 40px 0; }
+  .catalog__categories > ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
 
 .catalog__image-container {
   min-height: 163px;
@@ -6485,7 +6492,7 @@ label {
 .catalog__item {
   margin-bottom: 40px;
   list-style: none;
-  height: 235px; }
+  min-height: 235px; }
   .catalog__item ul {
     display: none; }
 
