@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Гарантия", 
+		"/service/guarantee/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/service/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инструкции", 
+		"/service/instructions/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ПО", 
+		"/service/software/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"FAQ", 
+		"/service/faq/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Цены", 
+		"/service/prices/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ход ремонта", 
+		"/service/progress/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

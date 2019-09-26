@@ -1,0 +1,284 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<!doctype html>
+<html>
+<head>
+	<?
+    $APPLICATION->ShowHead();
+    use Bitrix\Main\Page\Asset;
+    // CSS
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/owl.carousel.min.css');
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/owl.theme.default.min.css');
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/jquery.fancybox.min.css');
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/main.css');
+    // JS
+    CJSCore::Init(array("jquery"));
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/owl.carousel.min.js');
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/jquery.fancybox.min.js');
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/custom.js');
+
+    //STRING
+    Asset::getInstance()->addString("<link rel='shortcut icon' href='/local/favicon.ico' />");
+    Asset::getInstance()->addString("<meta name='viewport' content='width=device-width, initial-scale=1'>");
+    Asset::getInstance()->addString("<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>");
+    //Asset::getInstance()->addString("<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext' rel='stylesheet'>");
+    ?>
+	<title><?$APPLICATION->ShowTitle()?></title>
+
+</head>
+<body>
+<?
+global $USER; if ($USER->IsAdmin()){echo "<style>#bx-panel {z-index:99999999 !important;} .fancybox-container {margin-top: 184px !important;}</style>";}
+$APPLICATION->ShowPanel();
+?>
+
+<div class="pagewrapper">
+		<header class="header">
+			<div class="header__top">
+				<div class="container">
+					<div class="row">
+						<div class="header__phones col-lg-6">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/phone.png" alt="Телефон" class="header__phone-icon">
+							<div class="header__phone text text_xsmall text_grey">
+								<span class="text_lightgrey">+7 (499) </span>
+								649-32-74
+								<span class="text_lightgrey">;</span>
+							</div>
+							<div class="header__phone text text_xsmall text_grey">
+								<span class="text_lightgrey">+7 (499) </span>
+								704-09-07
+								<span class="text_lightgrey">;</span>
+							</div>
+							<div class="header__phone text text_xsmall text_grey">
+								<span class="text_lightgrey">+7 (499) </span>
+								505-62-75 
+							</div>
+						</div><!-- /.header__phones -->
+						<div class="header__links col-lg-6">
+							<a class="header__link" data-fancybox data-src="#header__callback-content" href="javascript:;">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/callback.png" alt="Обратный звонок" class="header__callback-icon">
+								<span class="text text_xsmall text_lightgrey">Обратный звонок</span>
+							</a>
+							<div id="header__callback-content" class="header__popup">
+								<div class="text text_xsmall text_lightgrey">
+									Закажите обратный звонок и мы сами позвоним Вам!
+								</div>
+								<form action="#" class="header__popup-form">
+									<input type="text" name="" id="" class="header__input" placeholder="Ваше имя">
+									<input type="text" name="" id="" class="header__input header__input_phone-number" placeholder="Номер телефона">
+									<button class="button header__button">Заказать звонок</button>
+								</form>
+							</div>
+							<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
+								<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
+							</a>
+							<div id="header__login-content" class="header__popup">
+								<div class="text text_xsmall text_lightgrey text_pink">
+									Ошибка
+								</div>
+								<form action="#" class="header__popup-form">
+									<input type="text" name="" id="" class="header__input" placeholder="Логин">
+									<input type="text" name="" id="" class="header__input header__input_password" placeholder="Пароль">
+									<button class="button header__button">Войти</button>
+								</form>
+								<a href="#" class="text text_xsmall header__callback-link">Не помню пароль</a>
+								<a href="#" class="text text_xsmall header__callback-link">Как стать дилером?</a>	
+							</div>
+						</div><!-- /.header__links -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.header__top -->
+			<div class="header__main">
+				<div class="container">
+					<div class="row">
+						<div class="header_logo col-lg-2">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="АО «ЮМП»">
+                        </div>
+						<nav class="topmenu col-lg-8">
+							<ul class="topmenu__list">
+								<li class="topmenu__item">
+									<a href="" class="topmenu__link">Компания</a>
+									<ul class="dropdown-topmenu__list">
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">История</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Новости</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Акции</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Вакансии</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Выставки</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Сертификаты</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Торговые марки</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Политика конфиденциальности</a>
+										</li>
+									</ul>
+								</li>
+								<li class="topmenu__item">
+									<a href="#" class="topmenu__link products">Продукция</a>
+									<ul class="dropdown-topmenu__list">
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
+											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/01-2.svg" alt="">
+														Портативные принтеры этикеток
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Электрогидравлические аккумуляторные инструменты для опрессовки и резки являются наиболее удобным решением для соответствующих применений. Чтобы приложить необходимое усилие, достаточно лишь коснуться кнопки. Инструменты предназначены для работы одной рукой. Отличительной особенностью всех инструментов является двухскоростной режим работы гидравлической системы с высокой скоростью движения поршня к проводу/кабелю и автоматическим замедлением его движения при выполнении операции. 
+														</li>
+													</ul>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/02.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/02-2.svg" alt="">
+														Настольные принтеры этикеток
+													</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/03.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/03-2.svg" alt="">
+														Принтеры знаков безопасности
+													</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/04.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/04-2.svg" alt="">
+														Принтеры-аппликаторы/Другое
+													</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/05.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/05-2.svg" alt="">
+														Материалы/Этикетки/Риббоны
+													</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">Маркировка на офисном оборудовании</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">Готовая маркировка для провода/кабеля</a>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">Программное обеспечение</a>
+												</li>
+											</ul>
+										</li>
+										<li class="dropdown-topmenu__item">
+                                            <a href="#" class="text text_xsmall dropdown-topmenu__link" counter="second">Механическая<br>маркировка</a>
+                                            <ul class="dropdown-topmenu__list dropdown-topmenu__level2">
+                                                <li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        Ударно-точечная маркировка.<br>Портативное
+                                                    </a>
+												</li> 
+                                            </ul>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>пром. назначения</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Блокираторы<br>и замки ЛОТО</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Каб. наконечники<br>и соединители</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Инструменты<br>и оборудование</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Визуализация</a>
+										</li>
+									</ul>
+								</li>
+								<li class="topmenu__item">
+									<a href="" class="topmenu__link">Применение</a>
+								</li>
+								<li class="topmenu__item">
+									<a href="" class="topmenu__link">Сервис</a>
+								</li>
+								<li class="topmenu__item">
+									<a href="" class="topmenu__link">Партнёрам</a>
+								</li>
+								<li class="topmenu__item">
+									<a href="" class="topmenu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="col-lg-2">
+							<div class="header__searchbutton"></div>
+						</div>
+					</div><!-- /.row -->
+					<div class="header__searchcontainer">
+						<input href="#" type="text" class="header__searchinput" placeholder="Введите фразу для поиска...">
+					</div>
+				</div><!-- /.container -->
+			</div><!-- /.header__main -->
+            
+
+            <? if ($APPLICATION->GetCurPage(false) === '/'): ?>
+			<div class="slider">
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/bmp61.png);">
+					<div class="container">
+						<div class="slider__content">
+							<div class="slider__title">
+								Все секреты<br>
+								<span class="slider__title_bold">нового принтера ВМР61</span>
+							</div>
+							<div class="slider__text text text_grey">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</div>
+							<a class="button" href="#">
+								Подробнее
+							</a>
+						</div>
+					</div>	
+				</div>
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/bmp61.png);">
+					<div class="container">
+						<div class="slider__content">
+							<div class="slider__title">
+								Все секреты<br>
+								<span class="slider__title_bold">нового принтера ВМР61</span>
+							</div>
+							<div class="slider__text text text_grey">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</div>
+							<a class="button" href="#">
+								Подробнее1
+							</a>
+						</div>
+					</div>	
+				</div>			
+            </div><!-- /.slider -->
+            <? endif; ?>
+		</header>
+
+
+	

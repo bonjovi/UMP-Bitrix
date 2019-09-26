@@ -1,0 +1,40 @@
+.news {
+    padding: 40px 0;
+
+    &__item {
+        border-radius: 6px;
+        box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ededed;
+        padding: 0;
+    }
+
+    &__header {
+        padding: 20px;
+        display: flex;
+    }
+
+    &__content {
+        padding: 20px;
+    }
+
+    &__date {
+        margin-right: 25px;
+    }
+
+    &__image-container {
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        color: #808080;
+    }
+
+    &__title {
+        font-family: 'MuseoSans Regular';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}

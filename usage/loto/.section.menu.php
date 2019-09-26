@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О системе", 
+		"/usage/loto/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/usage/loto/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Стандарты", 
+		"/usage/loto/standarts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Опыт", 
+		"/usage/loto/experience/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полезно знать", 
+		"/usage/loto/useful/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Видео", 
+		"/usage/loto/video/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сертификаты", 
+		"/usage/loto/sertificates/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/usage/loto/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

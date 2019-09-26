@@ -1,0 +1,46 @@
+.title {
+    font-family: 'MuseoSans Regular';
+    color: #000000;
+    text-transform: uppercase;
+
+    &_small {
+        font-family: 'MuseoSans Bold';
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+    }
+
+    &_medium {
+        font-family: 'MuseoSans Bold';
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: none;
+    }
+
+    &_large {
+        font-family: 'MuseoSans ExtraBold';
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 900;
+    }
+
+    &_redline {
+        height: 22px;
+        display: flex;
+        padding-left: 45px;
+        align-items: center;
+
+        &:before {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 20px;
+            background-color: red;
+            border-radius: 2px;
+            position: absolute;
+            margin-left: -45px;
+            margin-top: -1px;
+        }
+    }
+}

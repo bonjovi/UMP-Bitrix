@@ -1,0 +1,35 @@
+.text {
+    font-family: 'OpenSans Regular';
+    color: #585858;
+
+    &_xsmall {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    &_small {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    &_medium {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    &_lightgrey {
+        color: #a7a7a7;
+    }
+
+    &_grey {
+        color: #585858;
+    }
+
+    &_pink {
+        color: #ee7878;
+    }
+
+    
+}

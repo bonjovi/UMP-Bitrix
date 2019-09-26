@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Теория";
+$arDirProperties = Array(
+
+);
+?>

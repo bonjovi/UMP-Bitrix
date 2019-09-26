@@ -1,0 +1,50 @@
+.intro {
+    display: flex;
+    margin-bottom: 120px;
+
+    &__content {
+        text-align: center;
+    }
+
+    &__item {
+        padding: 20px 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &_grey {
+            border: 2px solid #ececec;
+            background-color: #f9f9f9;
+            border-radius: 3px;
+        }
+    }
+
+    &__text {
+        font-family: 'MuseoSans Regular';
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+
+        &_bold {
+            font-family: 'MuseoSans ExtraBold';
+        }
+    }
+
+    &__icon {
+        margin: 40px 50px;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__simpletext {
+        line-height: 24px;
+    }
+
+    &__button {
+        margin: 60px auto 50px auto;
+    }
+}

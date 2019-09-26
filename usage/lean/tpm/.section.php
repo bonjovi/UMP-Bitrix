@@ -1,0 +1,6 @@
+<?
+$sSectionName = "TPM";
+$arDirProperties = Array(
+
+);
+?>

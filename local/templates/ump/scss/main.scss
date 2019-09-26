@@ -1,0 +1,42 @@
+@import 'vendors/normalize';
+@import 'vendors/bootstrap.min';
+@import 'utils/variables';
+@import 'base/fonts';
+@import 'utils/placeholders';
+@import 'base/media';
+
+@import 'blocks/common/base';
+@import 'blocks/common/pagewrapper';
+@import 'blocks/common/header';
+@import 'blocks/common/main';
+@import 'blocks/common/footer';
+
+@import 'blocks/common/text';
+@import 'blocks/common/title';
+@import 'blocks/common/input';
+@import 'blocks/common/textarea';
+@import 'blocks/common/checkbox';
+@import 'blocks/common/button';
+
+@import 'blocks/common/topmenu';
+@import 'blocks/common/dropdown-topmenu';
+@import 'blocks/common/search';
+
+
+// MAINPAGE
+@import 'blocks/mainpage/slider';
+@import 'blocks/mainpage/intro';
+@import 'blocks/mainpage/directions';
+
+
+
+// CATALOG
+@import 'blocks/catalog/catalog';
+@import 'blocks/catalog/leftmenu';
+
+
+// NEWS
+@import 'blocks/news/news';
+
+// PRODUCT
+@import 'blocks/product/product';

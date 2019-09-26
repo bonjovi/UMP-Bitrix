@@ -1,0 +1,66 @@
+.slider {
+    overflow: hidden;
+
+    &__item {
+        height: 570px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    & .owl-stage {
+        display: flex;
+    }
+
+    & .owl-nav {
+        display: none;
+    }
+
+    & .owl-dots {
+        margin: -70px auto 50px auto;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        & .owl-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid #d7d7d7;
+            cursor: pointer;
+            text-indent: -9999px;
+            margin-right: 10px;
+
+            &.active {
+                background-color: #ff3f30;
+                border-color: #ff3f30;
+            }
+        }
+    }
+
+    &__content {
+        width: 340px;
+        margin: 75px 0 0 195px;
+    }
+
+    &__text {
+        line-height: 24px;
+        margin-bottom: 70px;
+    }
+
+    &__title {
+        font-family: 'MuseoSans Regular';
+        color: #000000;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+
+        &_bold {
+            font-family: 'MuseoSans ExtraBold';
+        }
+    }
+
+    
+}

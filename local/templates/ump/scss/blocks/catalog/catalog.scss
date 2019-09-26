@@ -1,0 +1,27 @@
+.catalog {
+    &__categories {
+        padding: 40px 0;
+    }
+
+    &__image-container {
+        min-height: 163px;
+        background-color: lightgray;
+    }
+
+    &__item {
+        margin-bottom: 40px;
+        list-style: none;
+        height: 235px;
+
+        & ul {
+            display: none;
+        }
+    }
+
+    &__link {
+        &:hover h3 {
+            transition: color 0.5s;
+            color: #034ea2;
+        }
+    }
+}
