@@ -1,10 +1,27 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $this->setFrameMode(true);
+
+
+if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
+	$el = new CIBlockElement;
+	$arLoadProductArray = Array(
+	   "DETAIL_TEXT_TYPE" => "html",
+	);
+	$res = $el->Update($arResult["ID"], $arLoadProductArray);
+ }
 ?>
 
 
 <!-- Картинка детальная -->
-<img src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arResult["NAME"]?>" title="<?=$arResult["NAME"]?>" />
+<img 
+src="
+<?if (true == is_array($arResult["DETAIL_PICTURE"])):?>
+	<?=$arResult["DETAIL_PICTURE"]["SRC"]?>
+<?else:?>
+	/local/templates/ump/images/no-image.jpg
+<?endif?>
+" 
+alt="<?=$arElement["NAME"]?>"/>
 				
 
 <!-- Доп картинки -->

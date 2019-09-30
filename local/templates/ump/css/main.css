@@ -6500,6 +6500,30 @@ label {
   transition: color 0.5s;
   color: #034ea2; }
 
+.catalog__products {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.catalog__product {
+  margin-bottom: 40px; }
+
+.catalog__product-pic {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px; }
+  .catalog__product-pic > img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    display: block; }
+
+.catalog__product-desc {
+  margin-top: 10px; }
+
 .leftmenu__list {
   list-style: none;
   margin: 0;

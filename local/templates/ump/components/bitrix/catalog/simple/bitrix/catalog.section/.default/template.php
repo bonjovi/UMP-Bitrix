@@ -6,7 +6,7 @@ $this->setFrameMode(true);
 	<?=$arResult["NAV_STRING"]?>
 <?endif;?>
 
-
+<div class="catalog__products row">
 
 		<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
 		<?
@@ -14,11 +14,25 @@ $this->setFrameMode(true);
 		$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
 		?>
 		
-		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>">
+		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3">
 
-			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>">
-				<img src="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>" alt="<?=$arElement["NAME"]?>"/>
+			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small">
+				<div class="catalog__product-pic">
+					<img 
+					src="
+					<?if (true == is_array($arElement["PREVIEW_PICTURE"])):?>
+						<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>
+					<?else:?>
+						/local/templates/ump/images/no-image.jpg
+					<?endif?>
+					" 
+					alt="<?=$arElement["NAME"]?>"/>
+				</div>
+				<?=$arElement["NAME"]?>
 			</a>
+
+			<? //var_dump($arElement); ?>
+			
 
 			<?foreach($arElement["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 				<?=$arProperty["NAME"]?>: <?
@@ -27,8 +41,10 @@ $this->setFrameMode(true);
 					else
 						echo $arProperty["DISPLAY_VALUE"];?>
 			<?endforeach?>
+			<div class="text text_small text_lightgrey catalog__product-desc">
+				<?=$arElement["PREVIEW_TEXT"]?>
+			</div>
 			
-			<?=$arElement["PREVIEW_TEXT"]?>
 					
 
 			<?if(is_array($arElement["OFFERS"]) && !empty($arElement["OFFERS"])):?>
@@ -90,6 +106,8 @@ $this->setFrameMode(true);
 </div>
 
 		<?endforeach;?>
+		
+</div> <!-- /.catalog__products -->
 
 <?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?>
