@@ -6665,3 +6665,13 @@ label {
   border: 1px solid #f5f7f8; }
   .product__image img {
     width: 100%; }
+
+.product__tabs {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.product__tabinfo {
+  display: none; }
+  .product__tabinfo:first-child {
+    display: block; }

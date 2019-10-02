@@ -22,4 +22,16 @@
             width: 100%;
         }
     }
+
+    &__tabs {
+        display: flex;
+    }
+
+    &__tabinfo {
+        display: none;
+
+        &:first-child {
+            display: block;
+        }
+    }
 }

@@ -12,7 +12,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 
 <div class="product">
-	<div class="col-lg-5">
+	<div class="col-lg-5 product__image">
 		<!-- Картинка детальная -->
 		<img 
 		src="
@@ -41,27 +41,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						<? endif ?>
 	</div>
 	<div class="col-lg-7">
-		<!-- Свойства -->
-		<?php
-		//var_dump($arResult["DISPLAY_PROPERTIES"]);
-		?>
-		<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
-			<?=$arProperty["NAME"]?>: <?
-			if(is_array($arProperty["DISPLAY_VALUE"])):
-				echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-			elseif($pid=="MANUAL"):
-				?><a href="<?=$arProperty["VALUE"]?>"><?=GetMessage("CATALOG_DOWNLOAD")?></a><?
-			else:
-				echo $arProperty["DISPLAY_VALUE"];?>
-			<?endif?>
-		<?endforeach?>
-
-
-
-
-
-					
-
+		
 			<?if(is_array($arResult["OFFERS"]) && !empty($arResult["OFFERS"])):?>
 			<!-- Если есть преддожения -->
 				<?foreach($arResult["OFFERS"] as $arOffer):?>
@@ -161,6 +141,52 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						),
 							false
 						); ?> 
+	</div>
+
+	<div class="col-lg-12">
+		<div class="product__tabs">
+			<?
+			$custom_properties_array = [
+				'MOQ',
+				'ATT_BRAND',
+				'ATT_COMPLECTATION',
+				'ATT_TECHS',
+				'ATT_OPTIONS',
+				'ATT_ADVANTAGES',
+				'ATT_VIDEO',
+			];
+			?>
+
+			<!-- Названия свойств -->
+			<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+			<?//var_dump($arProperty)?>
+				<?if($arProperty["VALUE"] != '' && in_array($arProperty["CODE"], $custom_properties_array)):?>
+					<div class="product__tab" data-tabname="<?=$arProperty["CODE"]?>">
+						<?=$arProperty["NAME"]?>
+					</div>
+				<?endif?>	
+			<?endforeach?>
+		</div>
+		<div class="product__tabsinfo">
+			<!-- Значения свойств -->
+			<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+				<?if(is_array($arProperty["DISPLAY_VALUE"])):?>
+					<?if($arProperty["DISPLAY_VALUE"] != ''):?>
+						<div class="product__tabinfo" data-tabname="<?=$arProperty["CODE"]?>">
+							<?echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);?>
+						</div>
+					<?endif?>
+				<?elseif($pid=="MANUAL"):?>
+					<div class="product__tabinfo">
+						<a href="<?=$arProperty["VALUE"]?>"><?=GetMessage("CATALOG_DOWNLOAD")?></a>
+					</div>
+				<?else:?>
+					<div class="product__tabinfo">
+						<?echo $arProperty["DISPLAY_VALUE"];?>
+					</div>
+				<?endif?>
+			<?endforeach?>
+		</div>
 	</div>
 </div>
 
