@@ -45,6 +45,26 @@ $(document).ready(function(){
     //     $(this).parent().find('> .leftmenu__sublist').slideToggle();
     // });
 
+    // Табы в карточке товара
+    $('.product__tab').on('click', function() {
+        $('.product__tabinfo').hide();
+        var currentDataTabname = $(this).attr('data-tabname');
+        $('.product__tabinfo[data-tabname="' + currentDataTabname + '"]').fadeIn();
+
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        url.searchParams.append('tab', currentDataTabname);
+    });
+
+    // var url_string = window.location.href;
+    // var url = new URL(url_string);
+    // var tab = url.searchParams.get("tab");
+    // if(tab == 'true') {
+    
+    // } else {
+    
+    // }
+
 
 
 

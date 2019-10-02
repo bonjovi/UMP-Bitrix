@@ -147,13 +147,16 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 		<div class="product__tabs">
 			<?
 			$custom_properties_array = [
-				'MOQ',
 				'ATT_BRAND',
 				'ATT_COMPLECTATION',
 				'ATT_TECHS',
 				'ATT_OPTIONS',
 				'ATT_ADVANTAGES',
 				'ATT_VIDEO',
+				'ATT_USAGE',
+				'ATT_ORDERINFO',
+				'ATT_PUBLICATION',
+				'ATT_DOWNLOAD',
 			];
 			?>
 
@@ -161,7 +164,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 			<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 			<?//var_dump($arProperty)?>
 				<?if($arProperty["VALUE"] != '' && in_array($arProperty["CODE"], $custom_properties_array)):?>
-					<div class="product__tab" data-tabname="<?=$arProperty["CODE"]?>">
+					<div class="product__tab text text_grey text_medium" data-tabname="<?=$arProperty["CODE"]?>">
 						<?=$arProperty["NAME"]?>
 					</div>
 				<?endif?>	
@@ -171,19 +174,21 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 			<!-- Значения свойств -->
 			<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 				<?if(is_array($arProperty["DISPLAY_VALUE"])):?>
-					<?if($arProperty["DISPLAY_VALUE"] != ''):?>
+					<?if($arProperty["DISPLAY_VALUE"] != '' && in_array($arProperty["CODE"], $custom_properties_array)):?>
 						<div class="product__tabinfo" data-tabname="<?=$arProperty["CODE"]?>">
 							<?echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);?>
 						</div>
 					<?endif?>
 				<?elseif($pid=="MANUAL"):?>
-					<div class="product__tabinfo">
+					<div class="product__tabinfo" data-tabname="<?=$arProperty["CODE"]?>">
 						<a href="<?=$arProperty["VALUE"]?>"><?=GetMessage("CATALOG_DOWNLOAD")?></a>
 					</div>
 				<?else:?>
-					<div class="product__tabinfo">
-						<?echo $arProperty["DISPLAY_VALUE"];?>
-					</div>
+					<?if($arProperty["DISPLAY_VALUE"] != '' && in_array($arProperty["CODE"], $custom_properties_array)):?>
+						<div class="product__tabinfo" data-tabname="<?=$arProperty["CODE"]?>">
+							<?echo $arProperty["DISPLAY_VALUE"];?>
+						</div>
+					<?endif?>
 				<?endif?>
 			<?endforeach?>
 		</div>
