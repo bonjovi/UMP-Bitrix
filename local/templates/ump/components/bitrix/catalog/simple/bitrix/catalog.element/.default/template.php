@@ -119,7 +119,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 
 			<!-- Оценка -->
-			<? $APPLICATION->IncludeComponent("bitrix:iblock.vote", "starstemp", Array(
+			<? /*$APPLICATION->IncludeComponent("bitrix:iblock.vote", "starstemp", Array(
 							"IBLOCK_TYPE" => "catalog",    // Тип инфоблока
 							"IBLOCK_ID" => "5",    // Инфоблок
 							"ELEMENT_ID" => $arResult["ID"],    // ID элемента
@@ -140,14 +140,13 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 							"DISPLAY_AS_RATING" => "vote_avg",    // В качестве рейтинга показывать
 						),
 							false
-						); ?> 
+						);*/ ?> 
 	</div>
 
 	<div class="col-lg-12">
-		<div class="product__tabs">
-			<?
+
+		<?
 			$custom_properties_array = [
-				'ATT_BRAND',
 				'ATT_COMPLECTATION',
 				'ATT_TECHS',
 				'ATT_OPTIONS',
@@ -158,8 +157,11 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				'ATT_PUBLICATION',
 				'ATT_DOWNLOAD',
 			];
-			?>
+		?>
 
+
+
+		<div class="product__tabs">
 			<!-- Названия свойств -->
 			<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 			<?//var_dump($arProperty)?>
@@ -192,6 +194,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				<?endif?>
 			<?endforeach?>
 		</div>
+
 	</div>
 </div>
 

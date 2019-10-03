@@ -35,11 +35,13 @@ $this->setFrameMode(true);
 			
 
 			<?foreach($arElement["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
-				<?=$arProperty["NAME"]?>: <?
-					if(is_array($arProperty["DISPLAY_VALUE"]))
-						echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-					else
-						echo $arProperty["DISPLAY_VALUE"];?>
+				<?//echo $arProperty["NAME"];?> <?
+					if(is_array($arProperty["DISPLAY_VALUE"])) {
+						//echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
+					} else {
+						//echo $arProperty["DISPLAY_VALUE"];
+					}
+				?>
 			<?endforeach?>
 			<div class="text text_small text_lightgrey catalog__product-desc">
 				<?=$arElement["PREVIEW_TEXT"]?>

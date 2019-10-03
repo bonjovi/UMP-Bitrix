@@ -21,6 +21,7 @@
 @import 'blocks/common/topmenu';
 @import 'blocks/common/dropdown-topmenu';
 @import 'blocks/common/search';
+@import 'blocks/common/breadcrumbs';
 
 
 // MAINPAGE
@@ -28,7 +29,8 @@
 @import 'blocks/mainpage/intro';
 @import 'blocks/mainpage/directions';
 
-
+// SIMPLE PAGE
+@import 'blocks/simplepage/simplepage';
 
 // CATALOG
 @import 'blocks/catalog/catalog';

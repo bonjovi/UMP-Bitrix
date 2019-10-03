@@ -68,7 +68,7 @@
         text-transform: uppercase;
         transition: color 0.5s;
 
-        &:hover {
+        &:hover, &_active {
             text-decoration: none;
             color: #034ea2;
         }

@@ -1,5 +1,5 @@
 <?
-$sSectionName = "Сертификаты дистрибьютора";
+$sSectionName = "О компании";
 $arDirProperties = Array(
 
 );

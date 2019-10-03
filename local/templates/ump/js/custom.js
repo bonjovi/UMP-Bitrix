@@ -46,10 +46,20 @@ $(document).ready(function(){
     // });
 
     // Табы в карточке товара
+    if($('.product__tab').length == 0) {
+        $('.product__tabs').hide();
+    }
+    
+    $('.product__tab:first-child').addClass('product__tab_active');
+
     $('.product__tab').on('click', function() {
         $('.product__tabinfo').hide();
         var currentDataTabname = $(this).attr('data-tabname');
         $('.product__tabinfo[data-tabname="' + currentDataTabname + '"]').fadeIn();
+
+        $('.product__tab').removeClass('product__tab_active');
+        $(this).addClass('product__tab_active');
+
 
         var url_string = window.location.href;
         var url = new URL(url_string);

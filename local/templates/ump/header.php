@@ -97,36 +97,36 @@ $APPLICATION->ShowPanel();
 						<nav class="topmenu col-lg-8">
 							<ul class="topmenu__list">
 								<li class="topmenu__item">
-									<a href="" class="topmenu__link">Компания</a>
+									<a href="/about" class="topmenu__link <?if(CSite::InDir('/about/')){echo 'topmenu__link_active';}?>">Компания</a>
 									<ul class="dropdown-topmenu__list">
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">История</a>
+											<a href="/about" class="text text_xsmall dropdown-topmenu__link">История</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Новости</a>
+											<a href="/about/news" class="text text_xsmall dropdown-topmenu__link">Новости</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Акции</a>
+											<a href="/about/promo" class="text text_xsmall dropdown-topmenu__link">Акции</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Вакансии</a>
+											<a href="/about/vacancies" class="text text_xsmall dropdown-topmenu__link">Вакансии</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Выставки</a>
+											<a href="/about/exhibitions" class="text text_xsmall dropdown-topmenu__link">Выставки</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Сертификаты</a>
+											<a href="/about/sertificates" class="text text_xsmall dropdown-topmenu__link">Сертификаты</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Торговые марки</a>
+											<a href="/about/trademarks" class="text text_xsmall dropdown-topmenu__link">Торговые марки</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Политика конфиденциальности</a>
+											<a href="/about/confidential" class="text text_xsmall dropdown-topmenu__link">Политика конфиденциальности</a>
 										</li>
 									</ul>
 								</li>
 								<li class="topmenu__item">
-									<a href="#" class="topmenu__link products">Продукция</a>
+									<a href="/catalog" class="topmenu__link products <?if(CSite::InDir('/catalog/')){echo 'topmenu__link_active';}?>">Продукция</a>
 									<ul class="dropdown-topmenu__list">
 										<li class="dropdown-topmenu__item">
 											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
