@@ -118,7 +118,7 @@ $APPLICATION->ShowPanel();
 											<a href="/about/sertificates" class="text text_xsmall dropdown-topmenu__link">Сертификаты</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/about/trademarks" class="text text_xsmall dropdown-topmenu__link">Торговые марки</a>
+											<a href="/about/brands" class="text text_xsmall dropdown-topmenu__link">Торговые марки</a>
 										</li>
 										<li class="dropdown-topmenu__item">
 											<a href="/about/confidential" class="text text_xsmall dropdown-topmenu__link">Политика конфиденциальности</a>
