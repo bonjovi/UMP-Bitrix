@@ -30,10 +30,34 @@ $APPLICATION->SetTitle("Полиграфия");
         );?>
 
         <h1 class="title title_large simplepage__title">
-            Полиграфия
+            <?=$APPLICATION->ShowTitle()?> </h1>
         </h1>
 
-        <p>Список полиграфии</p>
+        <?if(CUser::IsAuthorized()):?>
+		    <p><strong>Уважаемые пользователи!</strong></p>
+
+            <p>Плановая машина по маршруту Склад ЮМП-Подольск — Транспортная компания Деловые Линии планируется на Пятницу, 11.10.2019</p>
+
+            <p>Доставка для заказчика до терминала Транспортной компании в Москве является бесплатной.</p>
+
+            <p>Чтобы воспользоваться данным предложением, просим Вас связаться с менеджером, выписавшим счет, до 13:00 Четверга, 10.10.2019</p>
+        <?else:?>
+            <p>Для просмотра раздела Вам необходимо авторизоваться</p>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:system.auth.form", 
+                ".default", 
+                array(
+                    "COMPONENT_TEMPLATE" => ".default",
+                    "REGISTER_URL" => "registration.php",
+                    "FORGOT_PASSWORD_URL" => "forgotpassword.php",
+                    "PROFILE_URL" => "/cabinet/",
+                    "SHOW_ERRORS" => "Y"
+                ),
+                false
+            );?>
+        <?endif?>
+
+
 
 
 

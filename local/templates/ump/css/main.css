@@ -5856,7 +5856,11 @@ strong {
 .header__phones {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  height: 24px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .header__phone-icon {
   margin-right: 21px; }
@@ -6649,12 +6653,13 @@ label {
   margin-bottom: 7px; }
 
 .news {
-  padding: 40px 0; }
+  padding: 0 0 40px 0; }
   .news__item {
     border-radius: 6px;
     box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.1);
     border: 1px solid #ededed;
-    padding: 0; }
+    padding: 0;
+    height: 100%; }
   .news__header {
     padding: 20px;
     display: -webkit-flex;
@@ -6662,14 +6667,18 @@ label {
     display: flex; }
   .news__content {
     padding: 20px; }
+    .news__content h3 {
+      transition: color 0.5s; }
+      .news__content h3:hover {
+        color: #034ea2; }
   .news__date {
     margin-right: 25px; }
   .news__image-container {
     height: 200px;
     overflow: hidden; }
     .news__image-container img {
-      width: 100%;
-      margin-top: -25%; }
+      height: 100%;
+      overflow: hidden; }
   .news__text {
     color: #808080; }
   .news__title {
@@ -6677,6 +6686,32 @@ label {
     font-size: 18px;
     font-weight: 700;
     line-height: 24px; }
+  .news__noimage {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e0dedf;
+    color: #8f8f8f;
+    text-transform: uppercase; }
+
+ul.news-list {
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  ul.news-list > li {
+    margin-bottom: 40px; }
 
 .product__helplinks {
   display: -webkit-flex;
@@ -6742,7 +6777,7 @@ label {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin: 40px 0;
+  margin: 40px 0 80px 0;
   padding: 0; }
 
 .dealer__item {

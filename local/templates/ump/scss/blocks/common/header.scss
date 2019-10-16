@@ -9,6 +9,8 @@
 
     &__phones {
         display: flex;
+        height: 24px;
+        align-items: center;
     }
 
     &__phone-icon {

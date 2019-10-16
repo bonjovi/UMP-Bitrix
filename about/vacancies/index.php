@@ -5,6 +5,16 @@ $APPLICATION->SetTitle("Вакансии");
 
 <div class="container news">
 
+<?$APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb",
+	"breadcrumbs",
+	Array(
+		"PATH" => "",
+		"SITE_ID" => "s1",
+		"START_FROM" => "0"
+	)
+);?>
+
 <h1 class="title title_large"><?$APPLICATION->ShowTitle();?></h1>
 
 <?$APPLICATION->IncludeComponent("bitrix:news", "blog", Array(
