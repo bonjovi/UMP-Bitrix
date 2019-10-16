@@ -224,10 +224,10 @@ $APPLICATION->ShowPanel();
 									<a href="" class="topmenu__link">Сервис</a>
 								</li>
 								<li class="topmenu__item">
-									<a href="" class="topmenu__link">Партнёрам</a>
+									<a href="/dealer/" class="topmenu__link <?if(CSite::InDir('/dealer/')){echo 'topmenu__link_active';}?>">Партнёрам</a>
 								</li>
 								<li class="topmenu__item">
-									<a href="" class="topmenu__link">Контакты</a>
+									<a href="/contacts/" class="topmenu__link <?if(CSite::InDir('/contacts/')){echo 'topmenu__link_active';}?>">Контакты</a>
 								</li>
 							</ul>
 						</nav>

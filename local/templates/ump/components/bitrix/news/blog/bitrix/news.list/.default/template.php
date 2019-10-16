@@ -27,7 +27,62 @@ $this->setFrameMode(true);
 	$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 	?>
 	<div class="col-lg-4">
-		<p class="news-item news__item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+
+		<div class="news__item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+			<div class="news__header">
+				<?if($arParams["DISPLAY_DATE"]!="N" && $arItem["DISPLAY_ACTIVE_FROM"]):?>
+					<div class="news__date text text_small text_lightgrey"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?></div>
+				<?endif?>
+
+				<div class="text text_small text_lightgrey">Категория</div>
+			</div>
+			<div class="news__image-container">
+				<!-- <img src="img/news-1.png" alt=""> -->
+				<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
+					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
+						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><img
+								class="preview_picture"
+								border="0"
+								src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+								width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
+								height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
+								alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
+								title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
+								style="float:left"
+								/></a>
+					<?else:?>
+						<img
+							class="preview_picture"
+							border="0"
+							src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+							width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
+							height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
+							alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
+							title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
+							style="float:left"
+							/>
+					<?endif;?>
+				<?else:?>
+					<img src="/local/templates/ump/images/no-image.jpg" alt="">
+				<?endif?>
+			</div>
+			<div class="news__content">
+				<?if($arParams["DISPLAY_NAME"]!="N" && $arItem["NAME"]):?>
+					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
+						<a href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><h3 class="title news__title"><?echo $arItem["NAME"]?></h3></a>
+					<?else:?>
+						<h3 class="title news__title"><?echo $arItem["NAME"]?></h3>
+					<?endif;?>
+				<?endif;?>
+				<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
+					<div class="text news__text">
+						<?echo $arItem["PREVIEW_TEXT"];?> 
+					</div>
+				<?endif;?>
+			</div>
+		</div>
+
+		<!-- <p class="news-item news__item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 			<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
 				<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
 					<a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><img
@@ -84,7 +139,7 @@ $this->setFrameMode(true);
 				<?endif?>
 				</small><br />
 			<?endforeach;?>
-		</p>
+		</p> -->
 	</div>
 <?endforeach;?>
 <?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>

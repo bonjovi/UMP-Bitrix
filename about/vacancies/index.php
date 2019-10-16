@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("Вакансии");
 		"PAGER_SHOW_ALL" => "N",	// Показывать ссылку "Все"
 		"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
 		"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
-		"PAGER_TITLE" => "Вакансии",	// Название категорий
+		"PAGER_TITLE" => "Новости",	// Название категорий
 		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
 		"SEF_MODE" => "Y",	// Включить поддержку ЧПУ
 		"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
@@ -86,7 +86,7 @@ $APPLICATION->SetTitle("Вакансии");
 		"USE_SEARCH" => "N",	// Разрешить поиск
 		"USE_SHARE" => "N",	// Отображать панель соц. закладок
 		"COMPONENT_TEMPLATE" => ".default",
-		"SEF_FOLDER" => "/about/vacancies/",	// Каталог ЧПУ (относительно корня сайта)
+		"SEF_FOLDER" => "/about/news/",	// Каталог ЧПУ (относительно корня сайта)
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",

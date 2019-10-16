@@ -5834,6 +5834,9 @@ ul ul, ol ol {
 li {
   font-size: 13px; }
 
+strong {
+  font-family: 'OpenSans Bold'; }
+
 .pagewrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6661,8 +6664,12 @@ label {
     padding: 20px; }
   .news__date {
     margin-right: 25px; }
-  .news__image-container img {
-    width: 100%; }
+  .news__image-container {
+    height: 200px;
+    overflow: hidden; }
+    .news__image-container img {
+      width: 100%;
+      margin-top: -25%; }
   .news__text {
     color: #808080; }
   .news__title {
@@ -6729,3 +6736,25 @@ label {
 
 .product__tabsinfo {
   padding: 20px 0; }
+
+.dealer__list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 40px 0;
+  padding: 0; }
+
+.dealer__item {
+  margin-right: 65px; }
+
+.dealer__link {
+  font-family: 'MuseoSans Regular';
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.5s; }
+  .dealer__link_active {
+    color: #034ea2; }

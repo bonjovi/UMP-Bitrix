@@ -1,0 +1,27 @@
+.dealer {
+
+    &__list {
+        display: flex;
+        list-style: none;
+        margin: 40px 0;
+        padding: 0;
+    }
+
+    &__item {
+        margin-right: 65px;
+    }
+
+    &__link {
+        font-family: 'MuseoSans Regular';
+        color: #000000;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: color 0.5s;
+
+        &_active {
+            color: #034ea2;
+        }
+    }
+}
