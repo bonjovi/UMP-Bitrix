@@ -53,4 +53,8 @@ foreach($arResult as $arItem):?>
 
 </ul>
 
+
+
+<?$APPLICATION->ShowViewContent("left_area")?>
+
 <?endif?>
