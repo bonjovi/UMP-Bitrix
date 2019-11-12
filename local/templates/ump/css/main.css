@@ -6504,6 +6504,50 @@ label {
 .directions__icon {
   margin-bottom: 20px; }
 
+.newsfeed {
+  width: 100%;
+  padding: 60px 90px 25px 90px;
+  background-color: #f9f9f9;
+  border: 2px solid #ececec;
+  margin-top: 120px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .newsfeed__section:first-child {
+    width: 60%;
+    padding-right: 40px; }
+  .newsfeed__section:last-child {
+    width: 40%; }
+  .newsfeed__article {
+    margin-bottom: 10px; }
+  .newsfeed__button {
+    text-transform: unset;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 15px 25px;
+    width: 100%;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .newsfeed__button img {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
+      opacity: 0.4;
+      transition: 0.5s; }
+    .newsfeed__button:hover img {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      opacity: 1; }
+  .newsfeed__rotator {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .newsfeed__rotator .owl-stage {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+
 .simplepage {
   padding: 0 0 40px 0; }
   .simplepage__title {

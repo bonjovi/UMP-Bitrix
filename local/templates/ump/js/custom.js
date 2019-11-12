@@ -9,8 +9,14 @@ $(document).ready(function(){
     });
 
     $('.owl-dot').click(function(){owl.trigger('to.owl.carousel', [$(this).index(), 300]);});
-
     
+    $(".newsfeed__rotator").owlCarousel({
+        items: 1,
+        autoplay: true,
+        animateOut: 'fadeOut',
+        loop: true,
+        mouseDrag: false
+    });
 
     // Центрируем картинки в главном навигационном меню
     $('.dropdown-topmenu__level2 .dropdown-topmenu__link').each(function( index ) {
