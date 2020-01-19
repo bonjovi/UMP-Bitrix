@@ -1,4 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
+    $('.newsfeed__container').mCustomScrollbar({
+        axis: "x"
+    });
+
     var owl = $(".slider").owlCarousel({
         items: 1,
         autoplay: true,
@@ -10,13 +15,25 @@ $(document).ready(function(){
 
     $('.owl-dot').click(function(){owl.trigger('to.owl.carousel', [$(this).index(), 300]);});
     
-    $(".newsfeed__rotator").owlCarousel({
+    $(".pricerotator__rotator").owlCarousel({
         items: 1,
         autoplay: true,
         animateOut: 'fadeOut',
         loop: true,
         mouseDrag: false
     });
+
+    $(".newsfeed__items").owlCarousel({
+        items: 4,
+        autoplay: false,
+        animateOut: 'fadeOut',
+        loop: false,
+        mouseDrag: true,
+        nav: false,
+        dots: false
+    });
+
+
 
     // Центрируем картинки в главном навигационном меню
     $('.dropdown-topmenu__level2 .dropdown-topmenu__link').each(function( index ) {
