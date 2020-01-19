@@ -6504,8 +6504,7 @@ label {
 .directions__icon {
   margin-bottom: 20px; }
 
-.newsfeed {
-  width: 100%;
+.pricerotator {
   padding: 60px 90px 25px 90px;
   background-color: #f9f9f9;
   border: 2px solid #ececec;
@@ -6513,14 +6512,14 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  .newsfeed__section:first-child {
+  .pricerotator__section:first-child {
     width: 60%;
     padding-right: 40px; }
-  .newsfeed__section:last-child {
+  .pricerotator__section:last-child {
     width: 40%; }
-  .newsfeed__article {
+  .pricerotator__article {
     margin-bottom: 10px; }
-  .newsfeed__button {
+  .pricerotator__button {
     text-transform: unset;
     font-size: 14px;
     background-color: #fff;
@@ -6529,24 +6528,58 @@ label {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .newsfeed__button img {
+    .pricerotator__button img {
       -webkit-filter: grayscale(100%);
               filter: grayscale(100%);
       opacity: 0.4;
       transition: 0.5s; }
-    .newsfeed__button:hover img {
+    .pricerotator__button:hover img {
       -webkit-filter: grayscale(0%);
               filter: grayscale(0%);
       opacity: 1; }
-  .newsfeed__rotator {
+  .pricerotator__rotator {
     overflow: hidden;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    .newsfeed__rotator .owl-stage {
+    .pricerotator__rotator .owl-stage {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
+
+.newsfeed {
+  margin-top: 150px; }
+  .newsfeed__container {
+    overflow-x: scroll;
+    position: relative; }
+  .newsfeed .owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .newsfeed .owl-nav {
+    display: none; }
+  .newsfeed .mCSB_dragger_bar {
+    background-color: #585858 !important;
+    height: 4px !important;
+    border-radius: 2px !important; }
+  .newsfeed .mCSB_draggerRail {
+    background-color: #ededed !important;
+    height: 4px !important;
+    border-radius: 2px !important; }
+  .newsfeed__items {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .newsfeed__item {
+    padding: 0 30px 0 0; }
+  .newsfeed__itemtitle {
+    margin: 30px 0; }
+
+.lotointro {
+  padding: 100px 0;
+  background-image: url(/local/templates/ump/img/loto_bg.svg); }
 
 .simplepage {
   padding: 0 0 40px 0; }
