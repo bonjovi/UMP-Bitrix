@@ -270,22 +270,176 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 
 
 	<section class="lotointro">
-
+		<div class="container">
+			<div class="col-lg-6 lotointro__left">
+				<img src="/local/templates/ump/img/loto-pic.png" class="lotointro__pic" alt="">
+			</div>
+			<div class="col-lg-6 lotointro__right">
+				<div class="title title_large title_white">Система LOTO (Lockout Tagout)</div>
+				<div class="text text_medium text_white lotointro__text">
+					На сегодняшний день, мы имеем опыт разработки и внедрения системы ЛОТО в России, во многих отраслях промышленности – в металлургической, пищевой, нефтегазовой, химической и целлюлозно-бумажной промышленности, и предоставляем максимально полный пакет услуг по внедрению системы.
+				</div>
+				<a href="#" class="button lotointro__button">Подробнее</a>
+			</div>
+		</div>
 	</section><!-- /.lotointro -->
 
 
-	<section class="certificates">
+	<section class="certificates container">
+		<div class="title title_large title_redline">
+			Сертификаты
+		</div>
+		<div class="text text_medium certificates__text">
+			Мы официально представляем в РФ продукцию торговых марок Brady, Klauke, Greenlee, General Cable, Weicon, SIC Marking, Leoni, Novkabel. Наши сертификаты официального дистрибьютерства в России:
+		</div>
+		<div class="certificates__items">
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
 
+				</div>
+				<div class="text text_medium text_lightgrey">Brady</div>
+			</div>
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
+
+				</div>
+				<div class="text text_medium text_lightgrey">Klauke / Greenlee</div>
+			</div>
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
+
+				</div>
+				<div class="text text_medium text_lightgrey">Weicon</div>
+			</div>
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
+
+				</div>
+				<div class="text text_medium text_lightgrey">SIC</div>
+			</div>
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
+
+				</div>
+				<div class="text text_medium text_lightgrey">Novkabel</div>
+			</div>
+			<div class="certificates__item col-lg-2">
+				<div class="certificates__itempic">
+
+				</div>
+				<div class="text text_medium text_lightgrey">Leoni</div>
+			</div>
+		</div><!-- /.certificates__items -->
 	</section><!-- /.certificates -->
 
 
-	<section class="brandmanagers">
+	<section class="brandmanagers container">
+		<div class="title title_large title_redline">
+			Бренд-менеджеры
+		</div>
+		<div class="brandmanagers__items">
+			<div class="brandmanagers__item col-lg-3">
+				<div class="brandmanagers__itempic">
 
+				</div>
+				<div class="title title_medium brandmanagers__itemtitle">Андрей Бондаренко</div>
+				<div class="text text_medium text_grey">Klauke</div>
+			</div>
+			<div class="brandmanagers__item col-lg-3">
+				<div class="brandmanagers__itempic">
+
+				</div>
+				<div class="title title_medium brandmanagers__itemtitle">Наталья Охрименко</div>
+				<div class="text text_medium text_grey">Brady</div>
+			</div>
+			<div class="brandmanagers__item col-lg-3">
+				<div class="brandmanagers__itempic">
+
+				</div>
+				<div class="title title_medium brandmanagers__itemtitle">Екатерина Голубева</div>
+				<div class="text text_medium text_grey">Weicon</div>
+			</div>
+			<div class="brandmanagers__item col-lg-3">
+				<div class="brandmanagers__itempic">
+
+				</div>
+				<div class="title title_medium brandmanagers__itemtitle">Павел Домашук</div>
+				<div class="text text_medium text_grey">SIC Marking</div>
+			</div>
+		</div>
 	</section><!-- /.brandmanagers -->
 
 
-	<section class="clients">
+	<section class="clients container">
+		<div class="title title_large title_redline">
+			Клиенты / Партнёры
+		</div>
+		<div class="text text_medium certificates__text">
+			Мы работаем с крупнейшими предприятиями как в России, так и зарубежом:
+		</div>
 
+		<div class="row clients__items">
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/avtovaz.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/legrand.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/maz.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/ikea.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/gazprom.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/nestle.png" class="clients__itempic" alt="">
+			</div>
+		</div>
+
+		<div class="row clients__items">
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/renault.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/tatneft.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/danone.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/motorola.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/kamaz.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/nissan.png" class="clients__itempic" alt="">
+			</div>
+		</div>
+
+		<div class="row clients__items">
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/baltika.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/mars.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/clients/kalashnikov.png" class="clients__itempic" alt="">
+			</div>
+			<div class="col-lg-2">
+				
+			</div>
+			<div class="col-lg-2">
+				
+			</div>
+			<div class="col-lg-2">
+				
+			</div>
+		</div>
 	</section><!-- /.clients -->
 
 	

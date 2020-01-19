@@ -1,4 +1,32 @@
 .lotointro {
-    padding: 100px 0;
-    background-image: url(/local/templates/ump/img/loto_bg.svg);
+    padding: 300px 0 300px 0;
+    background-image: url(/local/templates/ump/img/loto-bg.png);
+    background-repeat: no-repeat;
+    margin: 100px 0;
+
+    &__pic {
+        width: 100%;
+    }
+
+    &__button {
+        color: #fff;
+        border-color: #fff;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #fff;
+            border-color: #fff;
+            color: #ff3f30;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__text {
+        margin: 40px 0 60px 0;
+    }
 }

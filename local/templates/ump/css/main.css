@@ -6037,6 +6037,8 @@ strong {
     color: #585858; }
   .text_pink {
     color: #ee7878; }
+  .text_white {
+    color: #fff; }
 
 .title {
   font-family: 'MuseoSans Regular';
@@ -6077,6 +6079,8 @@ strong {
       position: absolute;
       margin-left: -45px;
       margin-top: -1px; }
+  .title_white {
+    color: #fff; }
 
 .input {
   background-color: #fff;
@@ -6156,7 +6160,7 @@ label {
   color: #000000;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 20px 80px;
+  padding: 15px 70px;
   border-radius: 3px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6550,7 +6554,6 @@ label {
 .newsfeed {
   margin-top: 150px; }
   .newsfeed__container {
-    overflow-x: scroll;
     position: relative; }
   .newsfeed .owl-stage {
     display: -webkit-flex;
@@ -6578,8 +6581,72 @@ label {
     margin: 30px 0; }
 
 .lotointro {
-  padding: 100px 0;
-  background-image: url(/local/templates/ump/img/loto_bg.svg); }
+  padding: 300px 0 300px 0;
+  background-image: url(/local/templates/ump/img/loto-bg.png);
+  background-repeat: no-repeat;
+  margin: 100px 0; }
+  .lotointro__pic {
+    width: 100%; }
+  .lotointro__button {
+    color: #fff;
+    border-color: #fff;
+    transition: 0.5s; }
+    .lotointro__button:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #ff3f30; }
+  .lotointro__right {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .lotointro__text {
+    margin: 40px 0 60px 0; }
+
+.certificates {
+  margin-bottom: 180px; }
+  .certificates__text {
+    margin: 55px 0; }
+  .certificates__item {
+    text-align: center; }
+  .certificates__itempic {
+    border: 1px solid #f0f0f0;
+    height: 235px;
+    width: 100%;
+    margin-bottom: 20px; }
+
+.brandmanagers__items {
+  margin-top: 55px; }
+
+.brandmanagers__item {
+  text-align: center; }
+
+.brandmanagers__itempic {
+  border: 1px solid #f0f0f0;
+  height: 300px;
+  width: 100%; }
+
+.brandmanagers__itemtitle {
+  margin: 35px 0 15px 0;
+  text-transform: uppercase;
+  font-size: 18px; }
+
+.clients {
+  margin-top: 190px; }
+  .clients__itempic {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    opacity: 0.3;
+    transition: 0.5s; }
+    .clients__itempic:hover {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%); }
 
 .simplepage {
   padding: 0 0 40px 0; }
