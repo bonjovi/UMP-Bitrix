@@ -1,0 +1,15 @@
+.clients {
+    margin-top: 190px;
+
+    &__itempic {
+        filter: grayscale(100%);
+        opacity: 0.3;
+        transition: 0.5s;
+
+        &:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+    }
+    
+}
