@@ -222,7 +222,21 @@ $APPLICATION->ShowPanel();
 									</ul>
 								</li>
 								<li class="topmenu__item">
-									<a href="" class="topmenu__link">Применение</a>
+									<a href="/usage/solutions/" class="topmenu__link">Применение</a>
+									<ul class="dropdown-topmenu__list">
+										<li class="dropdown-topmenu__item">
+											<a href="/usage/loto/" class="text text_xsmall dropdown-topmenu__link">Система LOTO</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="/usage/solutions/" class="text text_xsmall dropdown-topmenu__link">Решения</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="/usage/useful/" class="text text_xsmall dropdown-topmenu__link">Полезно знать</a>
+										</li>
+										<li class="dropdown-topmenu__item">
+											<a href="/usage/5s/" class="text text_xsmall dropdown-topmenu__link">Бережливое производство</a>
+										</li>
+									</ul>
 								</li>
 								<li class="topmenu__item">
 									<a href="" class="topmenu__link">Сервис</a>
