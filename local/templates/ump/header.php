@@ -135,54 +135,99 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/01.svg" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/01-2.svg" alt="">
-														Портативные принтеры этикеток
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_02.svg" alt="">
+														Портативные<br>принтеры<br>этикеток
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
 														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-														Применение термопринтеров (сокр. от термотрансферные принтеры) является наиболее эффективным способом создания долговечных и износостойких маркирующих этикеток.
-
-Принтер этикеток осуществляет печать при высоком разрешении (до 600 точек на дюйм), что позволяет выбирать размер шрифта без потери четкости наносимых символов. Это особенно важно, когда нужно уместить длинный идентификационный номер в маленькое поле.
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
 														</li>
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/02.svg" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/02-2.svg" alt="">
-														Настольные принтеры этикеток
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Промышленные принтеры_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Промышленные принтеры_02.svg" alt="">
+														Настольные<br>принтеры<br>этикеток
 													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/03.svg" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/03-2.svg" alt="">
-														Принтеры знаков безопасности
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры знаков безопасности_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры знаков безопасности_02.svg" alt="">
+														Принтеры<br>знаков<br>безопасности
 													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/04.svg" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/04-2.svg" alt="">
-														Принтеры-аппликаторы/Другое
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры-аппликаторы-другое_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры-аппликаторы-другое_02.svg" alt="">
+														Принтеры-<br>аппликаторы/<br>Другое
 													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/05.svg" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/01/05-2.svg" alt="">
-														Материалы/Этикетки/Риббоны
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Материалы. Этикетки и риббоны_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Материалы. Этикетки и риббоны_02.svg" alt="">
+														Материалы/<br>Этикетки/<br>Риббоны
 													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">Маркировка на офисном оборудовании</a>
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Маркировка на офисном оборудовании_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Маркировка на офисном оборудовании_02.svg" alt="">
+														Маркировка<br>на офисном<br>оборудовании
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">Готовая маркировка для провода/кабеля</a>
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Готовая маркировка_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Готовая маркировка_02.svg" alt="">
+														Готовая<br>маркировка для<br>провода/кабеля
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">Программное обеспечение</a>
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. ПО_01.svg" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. ПО_02.svg" alt="">
+														Программное<br>обеспечение<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе термотрансферные промышленные принтеры для маркировки этикетками от портативных трудяг до промышленных аппликаторов. Расходные материалы к ним представлены во всех существующих типоразмерах, видах, цветах для работы в различных условиях. Кроме этого в ассортименте представлена готовая маркировка и промышленные материалы для маркировки на офисном оборудовании.
+														</li>
+													</ul>
 												</li>
 											</ul>
 										</li>

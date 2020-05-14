@@ -1,7 +1,5 @@
 .dropdown-topmenu {
     background-color: #fff;
-    border-top: 1px solid #ededed;
-    border-bottom: 1px solid #ededed;
     
     &__top {
         padding: 35px 0;
@@ -84,6 +82,9 @@
         }
 
         &:before {
+            border-top: 1px solid #ededed;
+            border-bottom: 1px solid #ededed;
+            margin-top: -1px;
             content: '';
             height: 100%;
             width: calc(100% + 1000px);
@@ -102,15 +103,16 @@
     }
 
     &__item {
-        margin-right: 45px;
         line-height: 14px;
-        padding: 42px 0;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        width: 100%;
         z-index: 1;
 
         & ul {
             display: none;
             position: absolute;
-            margin-top: 42px;
+            margin-top: 40px;
             z-index: 1;
         }
 
@@ -152,12 +154,12 @@
     }
 
     &__level2 {
-        border-top: 1px solid #ededed;
-        border-bottom: 1px solid #ededed;
+        justify-content: space-between;
 
         & .dropdown-topmenu__link {
             padding-top: 110px;
             text-align: center;
+            width: 110px;
         }
 
         & .dropdown-topmenu__link img {

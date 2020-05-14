@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128.22 128.22" style="enable-background:new 0 0 128.22 128.22;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#000003;stroke-width:0.7498;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#2065AF;}
+	
+		.st2{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#000003;stroke-width:1.4998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;}
+</style>
+<path class="st0" d="M78,61.79c0.56-0.13,1.13-0.2,1.73-0.2c4.16,0,7.53,3.37,7.53,7.53s-3.37,7.53-7.53,7.53
+	c-0.6,0-1.18-0.07-1.73-0.2"/>
+<path class="st0" d="M95.07,75.27c-1.56,3.93-4.59,7.13-8.41,8.9c-2.11,0.98-4.45,1.52-6.93,1.52"/>
+<polygon class="st1" points="74.53,101.4 74.53,28.41 74.53,26.74 73.66,25.87 32.85,28.48 32.7,28.48 26.77,28.48 25.9,29.35 
+	25.9,100.47 26.84,101.4 32.67,101.52 32.75,101.52 32.79,101.52 73.66,102.27 "/>
+<g>
+	<path class="st2" d="M77.99,46.6c0.57-0.04,1.16-0.07,1.74-0.07c12.48,0,22.59,10.11,22.59,22.59c0,12.48-10.11,22.59-22.59,22.59
+		c-0.58,0-1.16-0.02-1.73-0.07"/>
+	<polyline class="st2" points="81.47,94.52 81.47,100.47 80.53,101.4 74.53,101.4 73.66,102.34 26.84,101.4 25.9,100.47 25.9,29.35 
+		26.77,28.48 32.85,28.48 73.66,25.87 74.53,26.74 74.53,28.41 79.59,28.41 81.47,30.29 81.47,44.12 	"/>
+	<polyline class="st2" points="32.7,28.48 73.66,25.87 74.53,26.74 74.53,101.4 73.66,102.27 32.68,101.52 	"/>
+	<path class="st2" d="M78,65.78c0.52-0.27,1.1-0.42,1.72-0.42c2.08,0,3.76,1.69,3.76,3.76s-1.69,3.77-3.76,3.77
+		c-0.62,0-1.21-0.15-1.73-0.42"/>
+</g>
+<line class="st0" x1="32.85" y1="101.4" x2="32.85" y2="28.48"/>
+</svg>
