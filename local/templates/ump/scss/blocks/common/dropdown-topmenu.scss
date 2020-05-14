@@ -104,9 +104,7 @@
 
     &__item {
         line-height: 14px;
-        padding-top: 42px;
-        padding-bottom: 42px;
-        width: 100%;
+        padding: 42px 21px;
         z-index: 1;
 
         & ul {
@@ -154,7 +152,7 @@
     }
 
     &__level2 {
-        justify-content: space-between;
+        
 
         & .dropdown-topmenu__link {
             padding-top: 110px;

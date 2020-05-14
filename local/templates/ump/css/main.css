@@ -6320,9 +6320,7 @@ label {
       line-height: 20px; }
   .dropdown-topmenu__item {
     line-height: 14px;
-    padding-top: 42px;
-    padding-bottom: 42px;
-    width: 100%;
+    padding: 42px 21px;
     z-index: 1; }
     .dropdown-topmenu__item ul {
       display: none;
@@ -6351,17 +6349,13 @@ label {
     opacity: 0; }
   .dropdown-topmenu__link:hover img:nth-child(2) {
     opacity: 1; }
-  .dropdown-topmenu__level2 {
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .dropdown-topmenu__level2 .dropdown-topmenu__link {
-      padding-top: 110px;
-      text-align: center;
-      width: 110px; }
-    .dropdown-topmenu__level2 .dropdown-topmenu__link img {
-      margin-top: -110px;
-      left: 50%; }
+  .dropdown-topmenu__level2 .dropdown-topmenu__link {
+    padding-top: 110px;
+    text-align: center;
+    width: 110px; }
+  .dropdown-topmenu__level2 .dropdown-topmenu__link img {
+    margin-top: -110px;
+    left: 50%; }
 
 .search {
   padding: 30px 0;
@@ -6513,13 +6507,18 @@ label {
   margin-bottom: 20px; }
 
 .pricerotator {
-  padding: 60px 90px 25px 90px;
-  background-color: #f9f9f9;
-  border: 2px solid #ececec;
-  margin-top: 120px;
+  margin-top: 150px;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  border: 2px solid #ececec;
+  padding: 45px 85px;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .pricerotator__section:first-child {
     width: 60%;
     padding-right: 40px; }
@@ -6549,7 +6548,8 @@ label {
     overflow: hidden;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    height: 30px; }
     .pricerotator__rotator .owl-stage {
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -6557,6 +6557,22 @@ label {
 
 .newsfeed {
   margin-top: 150px; }
+  .newsfeed__date {
+    margin-bottom: 25px; }
+  .newsfeed__button {
+    text-transform: none;
+    font-size: 16px;
+    padding: 15px 60px; }
+    .newsfeed__button:hover img {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      opacity: 1; }
+    .newsfeed__button img {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
+      opacity: 0.5;
+      margin-left: 20px;
+      transition: 0.5s; }
   .newsfeed__container {
     position: relative; }
   .newsfeed .owl-stage {
@@ -6582,7 +6598,8 @@ label {
   .newsfeed__item {
     padding: 0 30px 0 0; }
   .newsfeed__itemtitle {
-    margin: 30px 0; }
+    margin-bottom: 25px;
+    display: block; }
 
 .lotointro {
   padding: 300px 0 300px 0;
@@ -6613,16 +6630,9 @@ label {
     margin: 40px 0 60px 0; }
 
 .certificates {
-  margin-bottom: 180px; }
-  .certificates__text {
-    margin: 55px 0; }
-  .certificates__item {
-    text-align: center; }
-  .certificates__itempic {
-    border: 1px solid #f0f0f0;
-    height: 235px;
-    width: 100%;
-    margin-bottom: 20px; }
+  margin-top: 180px; }
+  .certificates__title {
+    margin-bottom: 50px; }
 
 .brandmanagers__items {
   margin-top: 55px; }

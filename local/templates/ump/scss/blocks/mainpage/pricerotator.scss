@@ -1,9 +1,10 @@
 .pricerotator {
-    padding: 60px 90px 25px 90px;
-    background-color: #f9f9f9;
-    border: 2px solid #ececec;
-    margin-top: 120px;
+    margin-top: 150px;
     display: flex;
+    border: 2px solid #ececec;
+    padding: 45px 85px;
+    justify-content: space-between;
+    align-items: center;
 
     &__section {
         &:first-child {
@@ -45,6 +46,7 @@
     &__rotator {
         overflow: hidden;
         display: flex;
+        height: 30px;
 
         & .owl-stage {
             display: flex;

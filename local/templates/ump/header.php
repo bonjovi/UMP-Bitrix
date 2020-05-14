@@ -236,106 +236,164 @@ $APPLICATION->ShowPanel();
                                             <ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Портативное оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Портативное оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Портативное
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Стационарное оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Стационарное оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Стационарное
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Интегрируемое оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Интегрируемое оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Интегрируемое
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Прочерчиванием.<br>Интегрируемое
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Прочерчиванием. Интегрируемое оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Прочерчиванием. Интегрируемое оборудование_02.svg" width="110" alt="">
+                                                        Прочерчиванием.<br>Интегрируемое<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная. Стационарное оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная. Стационарное оборудование_02.svg" width="110" alt="">
                                                         Лазерная маркировка.<br>Стационарное
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная маркировка. Интегрируемое_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная маркировка. Интегрируемое_02.svg" width="110" alt="">
                                                         Лазерная маркировка.<br>Интергрируемое
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															SIC Marking Group сегодня – это ведущая международная компания в области промышленной маркировки сложных материалов. В разделе представлено как серийное оборудование для типовых задач маркировки, так и нестандартные решения, которые возможно изготовить на заказ. С применением оборудования SIC Marking можно полностью автоматизировать процессы маркировки и прослеживаемости деталей внутри любого производственного цикла, а также идентифицировать маркированные детали даже спустя многие годы эксплуатации.
+														</li>
+													</ul>
 												</li> 
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
 											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>промышленные</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Re-Form - экосорбенты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Re-Form - экосорбенты_02.svg" width="110" alt="">
+                                                        Re-form экосорбенты<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
+												</li> 
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Для сбора масла
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Масловпитывающие_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Масловпитывающие_02.svg" width="110" alt="">
+                                                        Для сбора масла<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Для сбора на воде
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для водных поверхностей_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для водных поверхностей_02.svg" width="110" alt="">
+                                                        Для сбора на воде<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Универсальные
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для сбора химикатов_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для сбора химикатов_02.svg" width="110" alt="">
+                                                        Для сбора химии<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Для сбора химии
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Маты и покрытия_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Маты и покрытия_02.svg" width="110" alt="">
+                                                        Маты и напольные покрытия
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Маты и покрытия
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Средства локализации_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Средства локализации_02.svg" width="110" alt="">
+                                                        Наборы сорбентов<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Re-form экосорбенты
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Станции/комплекты
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Наборы блокираторов
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Универсальные сорбенты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Универсальные сорбенты_02.svg" width="110" alt="">
+                                                        Универсальные<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе адсорбирующая продукция Brady SPC, применяемая для сбора, удержания, ограждения протечек и проливов жидкостей в местах хранения, на земле и воде. В ассортименте представлены изделия, адсорбирующие воду, маслосодержащие вещества, химические вещества, а также напольные покрытия, готовые комплекты для сбора веществ, комплекты и станции.
+														</li>
+													</ul>
 												</li> 
                                             </ul>
 										</li>
@@ -344,52 +402,99 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Блокираторы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_02.svg" width="110" alt="">
+                                                        Аксессуары<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Блокировочные замки
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_02.svg" width="110" alt="">
+                                                        Бирки информационные
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Групповая блокировка
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_02.svg" width="110" alt="">
+                                                        Блокираторы<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Бирки и знаки
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_02.svg" width="110" alt="">
+                                                        Блокировка групповая
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Доп.оборудование
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_02.svg" width="110" alt="">
+                                                        Замки блокировочные
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_02.svg" width="110" alt="">
                                                         Наборы блокираторов
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_02.svg" width="110" alt="">
                                                         Программные продукты
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_02.svg" width="110" alt="">
+                                                        Хранение и переноска
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе продукция для внедрения системы предупреждающей блокировки и маркировки (Lockout Tagout) – комплекса мероприятий в области охраны труда, предусматривающий полное отключение производственного оборудования от всех опасных энергий и сред, и их блокировку на время проведения технического обслуживания или ремонта.
+														</li>
+													</ul>
 												</li>
                                             </ul>
 										</li>
@@ -398,87 +503,87 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Трубчатые медные лужёные стандарта KLAUKE
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Из листовой меди<br>&nbsp;<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Специальные трубчатые из стали, из никеля
-                                                    </a>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Изолированные втулочные наконечники<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Трубчатые медные лужёные стандартов DIN
-                                                    </a>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Изолированные кольцевые, вилочные, штыревые
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Из листовой меди
-                                                    </a>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Неизолированные втулочные<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Втулки для опрессовки
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Алюминиевые
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Алюмомедные
-                                                    </a>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
                                                         Соединительные зажимы и винтовые соединители
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Неизолированные втулочные
-                                                    </a>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Трубчатые медные лужёные стандарта DIN 46235
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Изолированные кольцевые, вилочные, штыревые малых сечений
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Изолированные и неизолированные разъёмы, контакты
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Наборы с инструментами, ящики, боксы
-                                                    </a>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        Трубчатые медные лужёные стандарта KLAUKE<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Широкий ассортимент кабельных наконечников для применения в системах низкого и среднего напряжения. Края наконечника не имеют заусенцев, легкая заправка жилы. Стабильная точность, повышенная безопасность и высокие номинальные характеристики благодаря использованию высококачественной рафинированной электролитической меди. Наконечники соответствуют российским и международным стандартам.
+														</li>
+													</ul>
 												</li>
                                             </ul>
 										</li>
@@ -487,93 +592,117 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Механические инструменты
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Гидравлическое оборудование_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Гидравлическое оборудование_02.svg" width="110" alt="">
+                                                        Гидравлические инструменты и аксессуары<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Ручные гидравлические прессы и кабелерезы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Механические инструменты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Механические инструменты_02.svg" width="110" alt="">
+                                                        Механические инструменты<br>&nbsp;<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Ручные электромеханические инструменты
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Ручные электро-изолированные элинструмент_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Ручные электро-изолированные элинструмент_02.svg" width="110" alt="">
+                                                        Ручные электро-изолированные монтажные инструменты VDE до 1000В
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Электрогидравлические аккумуляторные инструменты
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Ручныеэлектромеханические инструменты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Ручныеэлектромеханические инструменты_02.svg" width="110" alt="">
+                                                        Ручные электромеханические инструменты<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Гидравлическое оборудование
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Сменные пресс-матрицы для мех. и гидр. инстр_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Сменные пресс-матрицы для мех. и гидр. инстр_02.svg" width="110" alt="">
+                                                        Сменные пресс-матрицы для механических и гидравлических инструментов
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Ручные электро-изолированные монтажные инструменты
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Электрогидравлические аккум. инструменты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Инструменты и оборудование/Инструменты и оборудования. Электрогидравлические аккум. инструменты_02.svg" width="110" alt="">
+                                                        Электрогидравлические аккумуляторные инструменты<br>&nbsp;<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Инструменты для резки кабеля, опрессовки кабельных наконечников и снятия изоляции, предлагаемые компаниями Klauke и Weicon-Tools (Германия), всегда являлись самыми удобными и эффективными решениями, когда необходимо было обеспечить действительно надежную опрессовку, качественную резку и удобную работу с проводом. Эти инструменты делают процесс выполнения электротехнических соединений более безопасным и эффективным, чем когда-либо прежде.
+														</li>
+													</ul>
 												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Гидравлическое оборудование и аксессуары
-                                                    </a>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Сменные пресс-матрицы
-                                                    </a>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Ручные электромонтажные инструменты
-                                                    </a>
-												</li>
                                             </ul>
 										</li>
 										
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Провод</a>
+											<a href="#" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Гибкий монтажный провод
-                                                    </a>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Безопасный монтажный провод_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Безопасный монтажный провод_02.svg" width="110" alt="">
                                                         Безопасный монтажный провод
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Кабельно-проводниковая продукция европейских заводов с честным сечением жилы и оптимальным соотношением цены и качества продукции, сертифицированной по российским и европейским стандартам.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Распродажа остатков
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Гибкий монтажный провод_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Гибкий монтажный провод_02.svg" width="110" alt="">
+                                                        Гибкий монтажный провод
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Кабельно-проводниковая продукция европейских заводов с честным сечением жилы и оптимальным соотношением цены и качества продукции, сертифицированной по российским и европейским стандартам.
+														</li>
+													</ul>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Распродажа остатков_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Распродажа остатков_02.svg" width="110" alt="">
+                                                        Распродажа остатков<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Кабельно-проводниковая продукция европейских заводов с честным сечением жилы и оптимальным соотношением цены и качества продукции, сертифицированной по российским и европейским стандартам.
+														</li>
+													</ul>
 												</li> 
 												
                                             </ul>
@@ -583,59 +712,99 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Металлополимеры
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_02.svg" width="110" alt="">
+                                                        Антикоры<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Ремонтные стики
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_02.svg" width="110" alt="">
+                                                        Вспомогательные материалы
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Клеи
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_02.svg" width="110" alt="">
+                                                        Герметики<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Герметики
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_02.svg" width="110" alt="">
+                                                        Защита плюс<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Клеи-герметики
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_02.svg" width="110" alt="">
+                                                        Клеи<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Смазывающие составы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_02.svg" width="110" alt="">
+                                                        Металлополимеры<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Антикоррозионные составы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_02.svg" width="110" alt="">
+                                                        Очистители<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Технические составы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_02.svg" width="110" alt="">
+                                                        Ремонтные наборы
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+														</li>
+													</ul>
 												</li> 
                                             </ul>
 										</li>
@@ -644,59 +813,99 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Лента и знаки для разметки ToughtStripe
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Аэрозольная краска EasyLine_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Аэрозольная краска EasyLine_02.svg" width="110" alt="">
+                                                        Аэрозольная краска EasyLine<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Защитные амортизаторы_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Защитные амортизаторы_02.svg" width="110" alt="">
+                                                        Защитные амортизаторы<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
+												</li>
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Знаки безопасности_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Знаки безопасности_02.svg" width="110" alt="">
+                                                        Знаки безопасности<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
+												</li> 
+												<li class="dropdown-topmenu__item">
+													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Лента для постоянной разметки_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Лента для постоянной разметки_02.svg" width="110" alt="">
                                                         Лента для постоянной разметки
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Фотолюминесцентная разметка
-                                                    </a>
-												</li> 
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Лента и знаки для разметки из материала ToughtStripe_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Лента и знаки для разметки из материала ToughtStripe_02.svg" width="110" alt="">
+                                                        Лента и знаки для разметки ToughtStripe
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
+												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Материалы и ленты с эфектом антискольжения_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Материалы и ленты с эфектом антискольжения_02.svg" width="110" alt="">
                                                         Материалы/Ленты с антискольжением
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Аэрозольная краска EasyLine
-                                                    </a>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Знаки безопасности
-                                                    </a>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Средства временного ограничения пространства_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Средства временного ограничения пространства_02.svg" width="110" alt="">
                                                         Средства ограничения пространства
-                                                    </a>
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-1.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/topmenu/02/04-2.svg" width="110" alt="">
-                                                        Защитные амортизаторы
-                                                    </a>
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Фотолюминесцентная разметка_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Визуализация/Визуализация. Фотолюминесцентная разметка_02.svg" width="110" alt="">
+                                                        Фотолюминесцентная разметка<br>&nbsp;
+													</a>
+													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+															Основное преимущество BRADY – широкая гамма оборудования и решений по идентификации и технологиям безопасности в разных сегментах рынка, в том числе для зонирования пространства, сигнальной разметки, обозначения опасных зон и создания безопасных маршрутов передвижения в соответствии с современными требованиями производства и техники безопасности.
+														</li>
+													</ul>
 												</li> 
                                             </ul>
 										</li>

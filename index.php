@@ -189,22 +189,88 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 		</section>
 
 
-		<section class="newsfeed">
-			<div class="newsfeed__section">
-				<div class="text text_xsmall newsfeed__article">Артикул</div>
-				<div class="newsfeed__rotator">
-					<div class="newsfeed__item title title_medium">WEICON S 4-28 Multi, Кабельный нож - 345.74 руб </div>
-					<div class="newsfeed__item title title_medium">WEICON S 4-28 Multi 2, Кабельный нож - 1345.74 руб </div>
-					<div class="newsfeed__item title title_medium">WEICON S 4-28 Multi 3, Кабельный нож - 2345.74 руб </div>
+		<section class="pricerotator">
+			<div class="pricerotator__section">
+				<div class="text text_xsmall text_lightgrey pricerotator__article">Артикул</div>
+				<div class="pricerotator__rotator">
+					<div class="pricerotator__item title title_medium">WEICON S 4-28 Multi, Кабельный нож - 345.74 руб </div>
+					<div class="pricerotator__item title title_medium">WEICON S 4-28 Multi 2, Кабельный нож - 1345.74 руб </div>
+					<div class="pricerotator__item title title_medium">WEICON S 4-28 Multi 3, Кабельный нож - 2345.74 руб </div>
 				</div>
 			</div>
-			<div class="newsfeed__section">
-				<a href="#" class="button newsfeed__button">
+			<div class="pricerotator__section">
+				<a href="#" class="button pricerotator__button">
 					Узнать наличие и цену других товаров
-					<img src="/local/templates/ump/img/newsfeed-arrow-left.png" alt="">
+					<img src="/local/templates/ump/img/pricerotator-arrow-left.png" alt="">
 				</a>
 			</div>
+		</section><!-- /.pricerotator -->
+
+
+
+		<section class="newsfeed">
+			<div class="title title_large title_redline">
+				Лента событий
+			</div>
+			<div class="newsfeed__items">
+				<div class="newsfeed__item">
+					<div class="text text_xsmall text_lightgrey newsfeed__date">09.02.2018</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Когда жизнь и здоровье на первом месте</a>
+					<div class="text text_medium text_grey">
+						Передовые технологии и оборудование для промышленной безопасности
+					</div>
+				</div>
+				<div class="newsfeed__item">
+					<div class="text text_xsmall text_lightgrey newsfeed__date">12.11.2017</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Хорошая цена на оборудование для ударно- точечной маркировки</a>
+					<div class="text text_medium text_grey">
+						ЮМП предлагает новые ударно-точечные маркираторы SIC Marking, которые работали в демо-залах, со скидкой 30%
+					</div>
+				</div>
+				<div class="newsfeed__item">
+					<div class="text text_xsmall text_lightgrey newsfeed__date">21.10.2017</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Химия немецкого гостеприимства. ЮНИТ МАРК ПРО в гостях у WEICON</a>
+					<div class="text text_medium text_grey">
+					Специалисты по промышленной химии из России и Германии несколько дней обменивались опытом и, в конце концов, обменялись
+					</div>
+				</div>
+				<div class="newsfeed__item">
+					<div class="text text_xsmall text_lightgrey newsfeed__date">04.09.2017</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Такое бывает раз в году: РАСПРОДАЖИЩЕ!</a>
+					<div class="text text_medium text_grey">
+						ЮНИТ МАРК ПРО организовала грандиозную акцию – РАСПРОДАЖИЩЕ – в которой мы объединили продукцию сразу нескольких брендов ...
+					</div>
+				</div>
+			</div>
 		</section><!-- /.newsfeed -->
+
+
+
+
+		<section class="certificates">
+			<div class="title title_large title_redline certificates__title">
+				Сертификаты
+			</div>
+			<div class="text text_grey text_medium">
+				Мы официально представляем в РФ продукцию торговых марок Brady, Klauke, Greenlee, General Cable, Weicon, SIC Marking, Leoni, Novkabel. Наши сертификаты официального дистрибьютерства в России:
+			</div>
+			<div class="certificates__items">
+				<div class="certificates__item">
+					<div class="certificates__pic">
+						
+					</div>
+					<div class="certificates__title">
+						
+					</div>
+				</div>
+			</div>
+		</section><!-- /.certificates -->
+
+
+
+
+
+		
 
 	</div><!-- /.container -->
 </main>
