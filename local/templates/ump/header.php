@@ -293,7 +293,12 @@ $APPLICATION->ShowPanel();
 							</a>
 						</div>
 					</div>	
-				</div>			
+				</div>
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);"></div>	
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);"></div>	
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);"></div>	
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);"></div>	
+				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);"></div>		
             </div><!-- /.slider -->
             <? endif; ?>
 		</header>
