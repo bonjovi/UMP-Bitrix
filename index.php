@@ -256,15 +256,42 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 			<div class="certificates__items">
 				<div class="certificates__item">
-					<div class="certificates__pic">
-						
-					</div>
-					<div class="certificates__title">
-						
-					</div>
+					<a class="certificates__pic" href="#">
+						<img src="/local/templates/ump/img/intro-icon.png" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="#">
+						Brady
+					</a>
 				</div>
 			</div>
 		</section><!-- /.certificates -->
+
+
+		<section class="clients">
+			<div class="title title_large title_redline certificates__title">
+				Наши клиенты
+			</div>
+			<div class="clients__items">
+				<div class="clients__item">
+					<img class="clients__pic" src="/local/templates/ump/img/intro-icon.png" alt="">
+				</div>
+			</div>
+		</section><!-- /.clients -->
+
+
+
+
+		<section class="brandmanagers">
+			<div class="title title_large title_redline brandmanagers__title">
+				Наши бренд-менеджеры
+			</div>
+			<div class="brandmanagers__items">
+				<div class="brandmanagers__item">
+					<img src="/local/templates/ump/img/intro-icon.png" alt="">
+					<div class="brandmanagers__name">Наталья Охрименко</div>
+				</div>
+			</div>
+		</section><!-- /.brandmanagers -->
 
 
 
