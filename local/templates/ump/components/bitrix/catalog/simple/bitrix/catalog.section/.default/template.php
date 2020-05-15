@@ -16,12 +16,20 @@ $this->setFrameMode(true);
 		
 		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3">
 
+
+<?php
+// echo "<pre>";
+// print_r($arElement);
+// echo "</pre>";
+?>
+
+
 			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small">
 				<div class="catalog__product-pic">
 					<img 
 					src="
-					<?if (true == is_array($arElement["PREVIEW_PICTURE"])):?>
-						<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>
+					<?if (true == is_array($arElement["DETAIL_PICTURE"])):?>
+						<?=$arElement["DETAIL_PICTURE"]["SRC"]?>
 					<?else:?>
 						/local/templates/ump/images/no-image.jpg
 					<?endif?>
@@ -49,7 +57,7 @@ $this->setFrameMode(true);
 			
 					
 
-			<?if(is_array($arElement["OFFERS"]) && !empty($arElement["OFFERS"])):?>
+			<?/*if(is_array($arElement["OFFERS"]) && !empty($arElement["OFFERS"])):?>
 				<?foreach($arElement["OFFERS"] as $arOffer):?>
 					<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 						<?=$arProperty["NAME"]?>: <?
@@ -103,7 +111,7 @@ $this->setFrameMode(true);
 				<?elseif((count($arResult["PRICES"]) > 0) || is_array($arElement["PRICE_MATRIX"])):?>
 					<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
 				<?endif?>
-			<?endif?>
+			<?endif*/?>
 
 </div>
 

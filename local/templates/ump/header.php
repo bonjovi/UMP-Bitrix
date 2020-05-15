@@ -25,7 +25,6 @@
     //Asset::getInstance()->addString("<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext' rel='stylesheet'>");
     ?>
 	<title><?$APPLICATION->ShowTitle()?></title>
-
 </head>
 <body>
 <?
@@ -93,9 +92,9 @@ $APPLICATION->ShowPanel();
 			<div class="header__main">
 				<div class="container">
 					<div class="row">
-						<div class="header_logo col-lg-2">
+						<a class="header_logo col-lg-2" href="/">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="АО «ЮМП»">
-                        </div>
+						</a>
 						<nav class="topmenu col-lg-8">
 							<ul class="topmenu__list">
 								<li class="topmenu__item">
@@ -110,9 +109,9 @@ $APPLICATION->ShowPanel();
 										<li class="dropdown-topmenu__item">
 											<a href="/about/promo" class="text text_xsmall dropdown-topmenu__link">Акции</a>
 										</li>
-										<li class="dropdown-topmenu__item">
+										<!--<li class="dropdown-topmenu__item">
 											<a href="/about/vacancies" class="text text_xsmall dropdown-topmenu__link">Вакансии</a>
-										</li>
+										</li>-->
 										<li class="dropdown-topmenu__item">
 											<a href="/about/exhibitions" class="text text_xsmall dropdown-topmenu__link">Выставки</a>
 										</li>
@@ -131,10 +130,10 @@ $APPLICATION->ShowPanel();
 									<a href="/catalog" class="topmenu__link products <?if(CSite::InDir('/catalog/')){echo 'topmenu__link_active';}?>">Продукция</a>
 									<ul class="dropdown-topmenu__list">
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
+											<a href="/catalog/?SECTION_ID=201" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=232" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_02.svg" alt="">
 														Портативные<br>принтеры<br>этикеток
@@ -146,7 +145,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=233" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Промышленные принтеры_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Промышленные принтеры_02.svg" alt="">
 														Настольные<br>принтеры<br>этикеток
@@ -158,7 +157,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=371" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры знаков безопасности_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры знаков безопасности_02.svg" alt="">
 														Принтеры<br>знаков<br>безопасности
@@ -170,7 +169,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=240" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры-аппликаторы-другое_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Принтеры-аппликаторы-другое_02.svg" alt="">
 														Принтеры-<br>аппликаторы/<br>Другое
@@ -182,7 +181,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=210" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Материалы. Этикетки и риббоны_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Материалы. Этикетки и риббоны_02.svg" alt="">
 														Материалы/<br>Этикетки/<br>Риббоны
@@ -194,7 +193,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=247" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Маркировка на офисном оборудовании_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Маркировка на офисном оборудовании_02.svg" alt="">
 														Маркировка<br>на офисном<br>оборудовании
@@ -206,7 +205,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=262" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Готовая маркировка_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Готовая маркировка_02.svg" alt="">
 														Готовая<br>маркировка для<br>провода/кабеля
@@ -218,7 +217,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=202" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. ПО_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. ПО_02.svg" alt="">
 														Программное<br>обеспечение<br>&nbsp;
@@ -232,10 +231,10 @@ $APPLICATION->ShowPanel();
 											</ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-                                            <a href="#" class="text text_xsmall dropdown-topmenu__link" counter="second">Механическая<br>маркировка</a>
+                                            <a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=141" class="text text_xsmall dropdown-topmenu__link" counter="second">Механическая<br>маркировка</a>
                                             <ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=147" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Портативное оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Портативное оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Портативное
@@ -247,7 +246,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=148" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Стационарное оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Стационарное оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Стационарное
@@ -259,7 +258,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=143" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Интегрируемое оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Ударно-точечная. Интегрируемое оборудование_02.svg" width="110" alt="">
                                                         Ударно-точечная маркировка.<br>Интегрируемое
@@ -271,7 +270,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=429" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Прочерчиванием. Интегрируемое оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Прочерчиванием. Интегрируемое оборудование_02.svg" width="110" alt="">
                                                         Прочерчиванием.<br>Интегрируемое<br>&nbsp;
@@ -283,7 +282,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=297" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная. Стационарное оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная. Стационарное оборудование_02.svg" width="110" alt="">
                                                         Лазерная маркировка.<br>Стационарное
@@ -295,7 +294,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=296" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная маркировка. Интегрируемое_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Механическая маркировка/Механическая маркировка. Лазерная маркировка. Интегрируемое_02.svg" width="110" alt="">
                                                         Лазерная маркировка.<br>Интергрируемое
@@ -309,10 +308,10 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>промышленные</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=276" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>промышленные</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=277" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Re-Form - экосорбенты_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Re-Form - экосорбенты_02.svg" width="110" alt="">
                                                         Re-form экосорбенты<br>&nbsp;
@@ -324,7 +323,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
                                                 <li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=278" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Масловпитывающие_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Масловпитывающие_02.svg" width="110" alt="">
                                                         Для сбора масла<br>&nbsp;<br>&nbsp;
@@ -336,7 +335,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=280" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для водных поверхностей_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для водных поверхностей_02.svg" width="110" alt="">
                                                         Для сбора на воде<br>&nbsp;<br>&nbsp;
@@ -348,7 +347,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=281" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для сбора химикатов_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Для сбора химикатов_02.svg" width="110" alt="">
                                                         Для сбора химии<br>&nbsp;<br>&nbsp;
@@ -360,7 +359,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=279" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Маты и покрытия_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Маты и покрытия_02.svg" width="110" alt="">
                                                         Маты и напольные покрытия
@@ -372,7 +371,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=282" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Средства локализации_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Средства локализации_02.svg" width="110" alt="">
                                                         Наборы сорбентов<br>&nbsp;
@@ -384,7 +383,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=283" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Универсальные сорбенты_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Сорбенты/Сорбенты. Универсальные сорбенты_02.svg" width="110" alt="">
                                                         Универсальные<br>&nbsp;<br>&nbsp;
@@ -398,10 +397,10 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Блокираторы<br>и замки ЛОТО</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Блокираторы<br>и замки ЛОТО</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_02.svg" width="110" alt="">
                                                         Аксессуары<br>&nbsp;
@@ -413,7 +412,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=417" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_02.svg" width="110" alt="">
                                                         Бирки информационные
@@ -425,7 +424,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=389" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_02.svg" width="110" alt="">
                                                         Блокираторы<br>&nbsp;
@@ -437,7 +436,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=413" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_02.svg" width="110" alt="">
                                                         Блокировка групповая
@@ -449,7 +448,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=404" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_02.svg" width="110" alt="">
                                                         Замки блокировочные
@@ -461,7 +460,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=415" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_02.svg" width="110" alt="">
                                                         Наборы блокираторов
@@ -473,7 +472,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_02.svg" width="110" alt="">
                                                         Программные продукты
@@ -485,7 +484,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=418" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_02.svg" width="110" alt="">
                                                         Хранение и переноска
@@ -499,7 +498,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Каб. наконечники<br>и соединители</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=149" class="text text_xsmall dropdown-topmenu__link">Каб. наконечники<br>и соединители</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
@@ -588,7 +587,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Инструменты<br>и оборудование</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=269" class="text text_xsmall dropdown-topmenu__link">Инструменты<br>и оборудование</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
@@ -666,10 +665,10 @@ $APPLICATION->ShowPanel();
 										</li>
 										
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=136" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=137" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Безопасный монтажный провод_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабель и провод/Кабель и провод. Безопасный монтажный провод_02.svg" width="110" alt="">
                                                         Безопасный монтажный провод
@@ -708,10 +707,10 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="#" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия</a>
+											<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=206" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=308" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_02.svg" width="110" alt="">
                                                         Антикоры<br>&nbsp;
@@ -723,7 +722,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=251" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_02.svg" width="110" alt="">
                                                         Вспомогательные материалы
@@ -735,7 +734,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=324" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_02.svg" width="110" alt="">
                                                         Герметики<br>&nbsp;
@@ -747,7 +746,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=324" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_02.svg" width="110" alt="">
                                                         Защита плюс<br>&nbsp;
@@ -759,7 +758,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=253" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_02.svg" width="110" alt="">
                                                         Клеи<br>&nbsp;
@@ -771,7 +770,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=241" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_02.svg" width="110" alt="">
                                                         Металлополимеры<br>&nbsp;
@@ -783,7 +782,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=241" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_02.svg" width="110" alt="">
                                                         Очистители<br>&nbsp;
@@ -795,7 +794,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="#" class="text text_xsmall dropdown-topmenu__link">
+													<a href="http://dev.umpgroup.loc/catalog/?SECTION_ID=335" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_02.svg" width="110" alt="">
                                                         Ремонтные наборы
@@ -915,7 +914,7 @@ $APPLICATION->ShowPanel();
 									<a href="/usage/solutions/" class="topmenu__link">Применение</a>
 									<ul class="dropdown-topmenu__list">
 										<li class="dropdown-topmenu__item">
-											<a href="/usage/loto/" class="text text_xsmall dropdown-topmenu__link">Система LOTO</a>
+											<a href="https://umpgroup.ru/loto" target="_blank" class="text text_xsmall dropdown-topmenu__link">Система LOTO</a>
 										</li>
 										<li class="dropdown-topmenu__item">
 											<a href="/usage/solutions/" class="text text_xsmall dropdown-topmenu__link">Решения</a>
@@ -924,13 +923,13 @@ $APPLICATION->ShowPanel();
 											<a href="/usage/useful/" class="text text_xsmall dropdown-topmenu__link">Полезно знать</a>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/usage/5s/" class="text text_xsmall dropdown-topmenu__link">Бережливое производство</a>
+											<a href="https://umpgroup.ru/5s/" target="_blank" class="text text_xsmall dropdown-topmenu__link">Бережливое производство</a>
 										</li>
 									</ul>
 								</li>
-								<li class="topmenu__item">
-									<a href="" class="topmenu__link">Сервис</a>
-								</li>
+								<!-- <li class="topmenu__item">
+									<a href="/service/" class="topmenu__link">Сервис</a>
+								</li> -->
 								<li class="topmenu__item">
 									<a href="/dealer/" class="topmenu__link <?if(CSite::InDir('/dealer/')){echo 'topmenu__link_active';}?>">Партнёрам</a>
 								</li>
@@ -951,8 +950,8 @@ $APPLICATION->ShowPanel();
             
 
             <? if ($APPLICATION->GetCurPage(false) === '/'): ?>
-			<div class="slider">
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/bmp61.png);">
+			<div class="slider owl-carousel">
+				<!-- <div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/bmp61.png);">
 					<div class="container">
 						<div class="slider__content">
 							<div class="slider__title">
@@ -983,12 +982,12 @@ $APPLICATION->ShowPanel();
 							</a>
 						</div>
 					</div>	
-				</div>
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);"></div>	
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);"></div>	
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);"></div>	
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);"></div>	
-				<div class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);"></div>		
+				</div> -->
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);" href="#"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);" href="#"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);" href="#"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);" href="#"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);" href="#"></a>		
             </div><!-- /.slider -->
             <? endif; ?>
 		</header>

@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("Дилерские новости");
 			"USE_SEARCH" => "N",	// Разрешить поиск
 			"USE_SHARE" => "N",	// Отображать панель соц. закладок
 			"COMPONENT_TEMPLATE" => ".default",
-			"SEF_FOLDER" => "/about/news/",	// Каталог ЧПУ (относительно корня сайта)
+			"SEF_FOLDER" => "/dealer/news/",	// Каталог ЧПУ (относительно корня сайта)
 			"SEF_URL_TEMPLATES" => array(
 				"news" => "",
 				"section" => "",

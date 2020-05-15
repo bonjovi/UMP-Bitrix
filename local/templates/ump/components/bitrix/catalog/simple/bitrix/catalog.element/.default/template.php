@@ -11,7 +11,12 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 ?>
 
 
+
+
 <div class="product">
+
+	<h1 class="title title_large product__title"><?=$arResult['NAME']?></h1>
+
 	<div class="col-lg-5 product__image">
 		<!-- Картинка детальная -->
 		<img 
@@ -111,11 +116,47 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
 				<?endif?>
 			<?endif?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				
 			
 			<!-- Описание -->
 			<?=$arResult["DETAIL_TEXT"]?>
 
+			
 
 
 			<!-- Оценка -->
@@ -156,6 +197,8 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				'ATT_ORDERINFO',
 				'ATT_PUBLICATION',
 				'ATT_DOWNLOAD',
+				'WEB_NAZVANIE',
+				'OSNOVNYE_KHARAKTERISTIKI',
 			];
 		?>
 

@@ -7,13 +7,15 @@ $(document).ready(function() {
     var owl = $(".slider").owlCarousel({
         items: 1,
         autoplay: true,
-        nav: true,
+        autoplayTimeout:8000,
+        loop: true,
+        nav: false,
         animateOut: 'fadeOut',
         dots: true,
-        dotsData: true
+        
     });
 
-    $('.owl-dot').click(function(){owl.trigger('to.owl.carousel', [$(this).index(), 300]);});
+    //$('.owl-dot').click(function(){owl.trigger('to.owl.carousel', [$(this).index(), 300]);});
     
     $(".pricerotator__rotator").owlCarousel({
         items: 1,
@@ -56,17 +58,42 @@ $(document).ready(function() {
         $('.header__searchcontainer').toggleClass('header__searchcontainer_shown');
     });
 
-    // $('.leftmenu__link').on('click', function(e) {
-    //     e.preventDefault();
-    //     $(this).parent().toggleClass('leftmenu__item_active');
-    //     $(this).parent().find('> .leftmenu__sublist').slideToggle();
-    // });
 
-    // $('.leftmenu__sublink').on('click', function(e) {
-    //     e.preventDefault();
-    //     $(this).parent().toggleClass('leftmenu__subitem_active');
-    //     $(this).parent().find('> .leftmenu__sublist').slideToggle();
-    // });
+
+
+
+
+
+
+
+
+    $('.leftmenu__link').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent().toggleClass('leftmenu__item_active');
+        $(this).parent().find('> .leftmenu__sublist').slideToggle();
+    });
+    
+    $('.leftmenu__sublink').on('click', function(e) {
+        if($(this).parent().hasClass('leftmenu__subitem_last')) {
+
+        } else {
+            e.preventDefault();
+            $(this).parent().toggleClass('leftmenu__subitem_active');
+            $(this).parent().find('> .leftmenu__sublist').slideToggle();
+        }
+        
+    });
+
+
+
+
+
+
+
+
+
+
+
 
     // Табы в карточке товара
     if($('.product__tab').length == 0) {

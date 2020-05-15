@@ -5,6 +5,7 @@
         height: 570px;
         background-size: contain;
         background-repeat: no-repeat;
+        display: block;
     }
 
     & .owl-stage {
@@ -16,7 +17,7 @@
     }
 
     & .owl-dots {
-        margin: -70px auto 50px auto;
+        margin: -50px auto 50px auto;
         text-align: center;
         z-index: 1;
         position: relative;
@@ -31,6 +32,7 @@
             cursor: pointer;
             text-indent: -9999px;
             margin-right: 10px;
+            outline: none;
 
             &.active {
                 background-color: #ff3f30;

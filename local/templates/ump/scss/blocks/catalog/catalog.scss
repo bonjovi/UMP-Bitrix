@@ -10,7 +10,17 @@
 
     &__image-container {
         min-height: 163px;
-        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            height: 140px;
+        }
+
+        &_empty {
+            background-color: lightgray;
+        }
     }
 
     &__item {

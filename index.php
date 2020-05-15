@@ -256,11 +256,51 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 			<div class="certificates__items">
 				<div class="certificates__item">
-					<a class="certificates__pic" href="#">
-						<img src="/local/templates/ump/img/intro-icon.png" alt="">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/brady2020.jpg" target="_blank">
+						<img src="/local/templates/ump/img/certificates/brady2020.jpg" alt="">
 					</a>
-					<a class="certificates__title text text_medium text_lightgrey" href="#">
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/brady2020.jpg" target="_blank">
 						Brady
+					</a>
+				</div>
+				<div class="certificates__item">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" target="_blank">
+						<img src="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" target="_blank">
+						Klauke
+					</a>
+				</div>
+				<div class="certificates__item">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank">
+						<img src="/local/templates/ump/img/certificates/novkabel2020.jpg" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank">
+						Novkabel
+					</a>
+				</div>
+				<div class="certificates__item">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/weicon2020.jpg" target="_blank">
+						<img src="/local/templates/ump/img/certificates/weicon2020.jpg" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/weicon2020.jpg" target="_blank">
+						Weicon
+					</a>
+				</div>
+				<div class="certificates__item">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/tfkable2020.jpg" target="_blank">
+						<img src="/local/templates/ump/img/certificates/tfkable2020.jpg" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/tfkable2020.jpg" target="_blank">
+						TFKable
+					</a>
+				</div>
+				<div class="certificates__item">
+					<a class="certificates__pic" href="/local/templates/ump/img/certificates/sic2020.jpg">
+						<img src="/local/templates/ump/img/certificates/sic2020.jpg" alt="">
+					</a>
+					<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/sic2020.jpg">
+						SIC
 					</a>
 				</div>
 			</div>
@@ -273,7 +313,55 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 			<div class="clients__items">
 				<div class="clients__item">
-					<img class="clients__pic" src="/local/templates/ump/img/intro-icon.png" alt="">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/danone.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/mars.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/baltika.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/nissan.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/maz.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/ikea.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/lada.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/legrand.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="clients__items">
+				<div class="clients__item">
+					<img width="110" class="clients__pic" src="https://umpgroup.ru/f/images/clients/gazprom.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/nestle.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/motorola.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/heineken.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/cocacola.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/tatneft.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/rosneft.jpg" alt="">
+				</div>
+				<div class="clients__item">
+					<img class="clients__pic" src="https://umpgroup.ru/f/images/clients/kalashnikov.jpg" alt="">
 				</div>
 			</div>
 		</section><!-- /.clients -->
@@ -287,8 +375,29 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 			<div class="brandmanagers__items">
 				<div class="brandmanagers__item">
-					<img src="/local/templates/ump/img/intro-icon.png" alt="">
-					<div class="brandmanagers__name">Наталья Охрименко</div>
+					<img src="/local/templates/ump/img/employees/bondarenko.png" alt="">
+					<div class="brandmanagers__brand title">Klauke</div>
+					<div class="brandmanagers__name text text_grey">Андрей Бондаренко</div>
+				</div>
+			
+				<div class="brandmanagers__item">
+					<img src="/local/templates/ump/img/employees/okhrimenko.png" alt="">
+					<div class="brandmanagers__brand title">Brady</div>
+					<div class="brandmanagers__name text text_grey">Наталья Охрименко</div>
+				</div>
+			
+			
+				<div class="brandmanagers__item">
+					<div  style="width:225px; height:300px; overflow:hidden;"><img width="225" src="/local/templates/ump/img/employees/golubeva.jpg" alt=""></div>
+					<div class="brandmanagers__brand title">Weicon</div>
+					<div class="brandmanagers__name text text_grey">Екатерина Голубева</div>
+				</div>
+			
+			
+				<div class="brandmanagers__item">
+					<img src="/local/templates/ump/img/employees/domashuk.png" alt="">
+					<div class="brandmanagers__brand title">SIC Marking</div>
+					<div class="brandmanagers__name text text_grey">Павел Домашук</div>
 				</div>
 			</div>
 		</section><!-- /.brandmanagers -->

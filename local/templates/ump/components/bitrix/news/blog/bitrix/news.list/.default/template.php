@@ -40,12 +40,12 @@ $this->setFrameMode(true);
 				<!-- <img src="img/news-1.png" alt=""> -->
 				<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
 					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
-						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><img
+						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="news__linkcontainer"><img
 								class="preview_picture"
 								border="0"
 								src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
-								width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
-								height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
+								width="<?/*=$arItem["PREVIEW_PICTURE"]["WIDTH"]*/?>"
+								height="<?/*=$arItem["PREVIEW_PICTURE"]["HEIGHT"]*/?>"
 								alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
 								style="float:left"

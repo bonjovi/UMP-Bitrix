@@ -22,10 +22,14 @@ ul ul, ol ol {
     margin: 0 20px;
 }
 
-li {
-    font-size: 13px;
-}
+// li {
+//     font-size: 13px;
+// }
 
 strong {
     font-family: 'OpenSans Bold';
+}
+
+div.news-detail img.detail_picture {
+    margin: 0 20px 20px 0 !important;
 }

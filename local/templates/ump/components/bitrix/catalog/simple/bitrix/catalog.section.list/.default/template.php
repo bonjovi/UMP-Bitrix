@@ -9,11 +9,17 @@ $CURRENT_DEPTH = $TOP_DEPTH;
 
 
 
+<?php
+// echo "<pre>";
+// print_r($arResult);
+// echo "</pre>";
+?>
+
+<?if(CSite::InDir('/catalog/')):?>
+	<h1 class="title title_large">Каталог товаров</h1>
+<? endif; ?>	
 
 
-
-
-<h1 class="title title_large"><?=$arResult["SECTION"]["NAME"]?></h1>
 	<div class="catalog__categories row">
 
 
@@ -47,7 +53,8 @@ foreach($arResult["SECTIONS"] as $arSection):
 	?>
 		<li id="<?=$this->GetEditAreaId($arSection['ID']);?>" class="col-lg-3 catalog__item">
 		<a href="<?=$arSection["SECTION_PAGE_URL"]?>" class="catalog__link">
-			<div class="catalog__image-container">
+			<div class="catalog__image-container <?if($arSection["PICTURE"]["SRC"] == '') { echo 'catalog__image-container_empty'; }?>">
+				<img src="<?=$arSection["PICTURE"]["SRC"]?>" alt="">
 			</div>
 			<h3 class="title title_medium"><?=$arSection["NAME"]?></h3>
 			<!--(--><?//echo $arSection["ELEMENT_CNT"]?><!--)-->
