@@ -444,6 +444,7 @@ $APPLICATION->SetTitle("");
 		"USE_STORE" => "N",
 		"COMPONENT_TEMPLATE" => "simple",
 		"OFFERS_CART_PROPERTIES" => array(
+			0 => "ARTIKUL_POSTAVSHCHIKA",
 		),
 		"TOP_OFFERS_FIELD_CODE" => array(
 			0 => "ID",
@@ -485,7 +486,7 @@ $APPLICATION->SetTitle("");
 			1 => "",
 		),
 		"LIST_OFFERS_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "ARTIKUL_POSTAVSHCHIKA",
 			1 => "",
 		),
 		"LIST_OFFERS_LIMIT" => "5",
@@ -494,7 +495,7 @@ $APPLICATION->SetTitle("");
 			1 => "",
 		),
 		"DETAIL_OFFERS_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "ARTIKUL_POSTAVSHCHIKA",
 			1 => "",
 		),
 		"USE_ALSO_BUY" => "N",
