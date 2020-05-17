@@ -100,7 +100,7 @@ $APPLICATION->SetTitle("Полезно знать");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
-			"detail" => "#ELEMENT_CODE#/",
+			"detail" => "#ELEMENT_ID#/",
 		)
 	),
 	false
