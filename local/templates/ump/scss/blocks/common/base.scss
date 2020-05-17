@@ -33,3 +33,52 @@ strong {
 div.news-detail img.detail_picture {
     margin: 0 20px 20px 0 !important;
 }
+
+
+
+#basket-container a {
+    color: #a7a7a7;
+    font-size: 12px;
+    text-indent: -9999px;
+}
+
+
+
+.product form {
+    display: flex;
+}
+
+.qty_minus, .qty_plus {
+    border: 1px solid #d5d5d5;
+    display: table-cell;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13px;
+    font-size: 20px;
+    color: grey;
+}
+
+.qty {
+    border: 1px solid #d5d5d5;
+    height: 52px;
+    text-align: center;
+    border-right: none;
+    border-left: none;
+}
+
+
+.product-item-detail-tab-content {
+    margin-top: 20px;
+}
+
+.product-item-detail-properties dt {
+    float: left;
+    margin-right: 20px;
+}
+
+.product-item-detail-properties dt, .product-item-detail-properties dd {
+    font-size: 12px;
+    color: grey;
+}

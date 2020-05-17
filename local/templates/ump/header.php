@@ -70,20 +70,7 @@ $APPLICATION->ShowPanel();
 									<button class="button header__button">Заказать звонок</button>
 								</form>
 							</div>
-							<div id="basket-container">
-								<?php $APPLICATION->IncludeComponent(
-									"bazarow:basket.small.bazarow",
-									"ajax",
-									Array(
-										"COMPONENT_TEMPLATE" => "ajax",
-										"PATH_TO_BASKET" => "/cabinet/cart",
-										"PATH_TO_ORDER" => "/cabinet/cart",
-										"SHOW_DELAY" => "N",
-										"SHOW_NOTAVAIL" => "Y",
-										"SHOW_SUBSCRIBE" => "Y"
-									)
-								); ?>
-							</div>
+							
 							<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
 								<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
@@ -99,6 +86,21 @@ $APPLICATION->ShowPanel();
 								</form>
 								<a href="#" class="text text_xsmall header__callback-link">Не помню пароль</a>
 								<a href="#" class="text text_xsmall header__callback-link">Как стать дилером?</a>	
+							</div>
+
+							<div id="basket-container">
+								<?php $APPLICATION->IncludeComponent(
+									"bazarow:basket.small.bazarow",
+									"ajax",
+									Array(
+										"COMPONENT_TEMPLATE" => "ajax",
+										"PATH_TO_BASKET" => "/cabinet/cart",
+										"PATH_TO_ORDER" => "/cabinet/cart",
+										"SHOW_DELAY" => "N",
+										"SHOW_NOTAVAIL" => "Y",
+										"SHOW_SUBSCRIBE" => "Y"
+									)
+								); ?>
 							</div>
 						</div><!-- /.header__links -->
 					</div><!-- /.row -->

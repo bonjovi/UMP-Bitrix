@@ -15,6 +15,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 <div class="product">
 
+
 	<h1 class="title title_large product__title"><?=$arResult['NAME']?></h1>
 
 	<div class="col-lg-5 product__image">
@@ -73,14 +74,14 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					<!-- Покупка -->
 					<?if($arOffer["CAN_BUY"]):?>
 							<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data" сlass="add_form">
-								<a href="javascript:void(0)" onclick="if (BX('QUANTITY<?= $arOffer['ID'] ?>').value &gt; 1) BX('QUANTITY<?= $arOffer['ID'] ?>').value--;">-</a>
-									<input type="text" name="QUANTITY" value="1" id="QUANTITY<?= $arOffer['ID'] ?>"/>
-								<a href="javascript:void(0)" onclick="BX('QUANTITY<?= $arOffer['ID'] ?>').value++;">+</a>
+								<a class="qty_minus" href="javascript:void(0)" onclick="if (BX('QUANTITY<?= $arOffer['ID'] ?>').value &gt; 1) BX('QUANTITY<?= $arOffer['ID'] ?>').value--;">-</a>
+									<input class="qty" type="text" name="QUANTITY" value="1" id="QUANTITY<?= $arOffer['ID'] ?>"/>
+								<a class="qty_plus" href="javascript:void(0)" onclick="BX('QUANTITY<?= $arOffer['ID'] ?>').value++;">+</a>
 								<!-- <input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5"> -->
 								<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
 								<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arOffer["ID"]?>">
 								<!-- <input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>"> -->
-								<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CT_BCE_CATALOG_ADD")?>">
+								<input class="button button_white" type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CT_BCE_CATALOG_ADD")?>">
 							</form>
 					<?elseif(count($arResult["CAT_PRICES"]) > 0):?>
 						<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
@@ -110,7 +111,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
 						<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arResult["ID"]?>">
 						<!-- <input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>"> -->
-						<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD_TO_BASKET")?>">
+						<input class="button" type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD_TO_BASKET")?>">
 						</form>
 				<?elseif((count($arResult["PRICES"]) > 0) || is_array($arResult["PRICE_MATRIX"])):?>
 					<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
@@ -155,6 +156,49 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 			
 			<!-- Описание -->
 			<?=$arResult["DETAIL_TEXT"]?>
+
+
+
+			<?php
+			if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS'])
+				{
+					?>
+					<div class="product-item-detail-tab-content" data-entity="tab-container" data-value="properties">
+						<?
+						if (!empty($arResult['DISPLAY_PROPERTIES']))
+						{
+							?>
+							<dl class="product-item-detail-properties">
+								<?
+								foreach ($arResult['DISPLAY_PROPERTIES'] as $property)
+								{
+									?>
+									<dt><?=$property['NAME']?></dt>
+									<dd><?=(
+										is_array($property['DISPLAY_VALUE'])
+											? implode(' / ', strip_tags($property['DISPLAY_VALUE']))
+											: strip_tags($property['DISPLAY_VALUE'])
+										)?>
+									</dd>
+									<?
+								}
+								unset($property);
+								?>
+							</dl>
+							<?
+						}
+
+						if ($arResult['SHOW_OFFERS_PROPS'])
+						{
+							?>
+							<dl class="product-item-detail-properties" id="<?=$itemIds['DISPLAY_PROP_DIV']?>"></dl>
+							<?
+						}
+						?>
+					</div>
+					<?
+				}
+			?>	
 
 			
 
@@ -240,4 +284,3 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 	</div>
 </div>
-

@@ -54,7 +54,7 @@ $defaultCurr = CSaleLang::GetLangCurrency(SITE_ID);
             } 
         } 
 if($quant==0){?>
-    <a href="/cabinet/cart/"><span class="fa">&#xf07a;</span> Корзина <i>0</i></a>
+    <a href="/cabinet/cart/"><img src="<?=SITE_TEMPLATE_PATH?>/img/basket-icon.png" alt=""> <i>0</i></a>
 <?}else{?>
-    <a href="/cabinet/cart/"><span class="fa">&#xf07a;</span> Корзина <i><?=$quant?></i></a>
+    <a href="/cabinet/cart/"><img src="<?=SITE_TEMPLATE_PATH?>/img/basket-icon.png" alt=""> <i><?=$quant?></i></a>
 <?}?> 
