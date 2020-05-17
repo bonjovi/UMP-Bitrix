@@ -12,16 +12,16 @@ if (CModule::IncludeModule("sale") && CModule::IncludeModule("catalog")) {
 else { echo "Не подключены модули"; }
 
 $APPLICATION->IncludeComponent(
-	"basket.small.bazarow",
-	"ajax",
-	Array(
-		"COMPONENT_TEMPLATE" => "ajax",
-		"PATH_TO_BASKET" => "/personal/cart",
-		"PATH_TO_ORDER" => "/personal/cart",
-		"SHOW_DELAY" => "Y",
-		"SHOW_NOTAVAIL" => "Y",
-		"SHOW_SUBSCRIBE" => "Y"
-	)
+    "bazarow:basket.small.bazarow",
+    "ajax",
+    Array(
+        "COMPONENT_TEMPLATE" => "ajax",
+        "PATH_TO_BASKET" => "/personal/cart",
+        "PATH_TO_ORDER" => "/personal/cart",
+        "SHOW_DELAY" => "N",
+        "SHOW_NOTAVAIL" => "Y",
+        "SHOW_SUBSCRIBE" => "Y"
+    )
 );
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");

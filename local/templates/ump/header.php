@@ -4,7 +4,8 @@
 <head>
 	<?
     $APPLICATION->ShowHead();
-    use Bitrix\Main\Page\Asset;
+	use Bitrix\Main\Page\Asset;
+
     // CSS
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/owl.carousel.min.css');
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/owl.theme.default.min.css');
@@ -68,6 +69,20 @@ $APPLICATION->ShowPanel();
 									<input type="text" name="" id="" class="header__input header__input_phone-number" placeholder="Номер телефона">
 									<button class="button header__button">Заказать звонок</button>
 								</form>
+							</div>
+							<div id="basket-container">
+								<?php $APPLICATION->IncludeComponent(
+									"bazarow:basket.small.bazarow",
+									"ajax",
+									Array(
+										"COMPONENT_TEMPLATE" => "ajax",
+										"PATH_TO_BASKET" => "/cabinet/cart",
+										"PATH_TO_ORDER" => "/cabinet/cart",
+										"SHOW_DELAY" => "N",
+										"SHOW_NOTAVAIL" => "Y",
+										"SHOW_SUBSCRIBE" => "Y"
+									)
+								); ?>
 							</div>
 							<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">

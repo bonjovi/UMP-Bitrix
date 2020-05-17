@@ -1,20 +1,3 @@
-@import "../../../../templates/theme_typical/sass.scss";
-
-
-
-
-a.basket_top {float: right; text-decoration: none; width: 230px;
-            @include animation;
-    span { display: block; border: 2px $greener solid; text-align: center; width: 40px; height: auto; 
-			padding: 8px 0px; font-size: 25px; color: $greener; border-radius: 100px; float: left; 
-			margin: 20px 10px 0px 15px;}
-	b {display: block; font-size: 16px; color: $greener; padding: 26px 0px 0px 0px;}
-	i { color: #555; font-size: 12px; font-style: normal; display: block;}
-		&:hover {
-		span { color: $bluegray; border: 2px $bluegray solid;}
-		b {color: $bluegray; text-decoration: underline;}
-	}
-}
 
 
 

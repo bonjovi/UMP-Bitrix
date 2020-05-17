@@ -1,13 +1,18 @@
 <?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
-$templateFolder = &$this->GetFolder();
-$APPLICATION->AddHeadScript($templateFolder."/js/jquery.form.js" );
-$APPLICATION->AddHeadScript($templateFolder."/js/jquery.jgrowl.min.js" );
+// $templateFolder = &$this->GetFolder();
+// $APPLICATION->AddHeadScript($templateFolder."/js/jquery.form.js" );
+// $APPLICATION->AddHeadScript($templateFolder."/js/jquery.jgrowl.min.js" );
 ?>
+<script src="/local/components/bazarow/basket.small.bazarow/templates/ajax/js/jquery.form.js"></script>
+<script src="/local/components/bazarow/basket.small.bazarow/templates/ajax/js/jquery.jgrowl.min.js"></script>
+
 <script>
    $(document).ready(
+       
       function()
       {
+        
          var options = {
          url: '<?=$templateFolder?>/ajax/add2basket.php?RND='+Math.random(),
          type: "POST",
@@ -37,9 +42,7 @@ function getNumEnding($number, $endingArray)
                 } 
         return $ending; 
     } 
-?> 
-<?$defaultCurr = CSaleLang::GetLangCurrency(SITE_ID); ?> 
-<? 
+$defaultCurr = CSaleLang::GetLangCurrency(SITE_ID);
     $quant='0';$price='0'; 
     foreach ($arResult["ITEMS"] as $v) 
         { 
@@ -51,17 +54,7 @@ function getNumEnding($number, $endingArray)
             } 
         } 
 if($quant==0){?>
-<a href="/catalog/" ttile="Начать покупки" class="basket_top">
-    <span class="fa"></span>
-    <b>В корзине</b>
-    <i>пока нет товаров</i>
-</a>
-<?}else{?> 
-<a href="/personal/cart/" title="В корзину" class="basket_top">
-    <span class="fa"></span>
-    <b>В корзине</b>
-    <i><?=$quant?>
-    <? echo getNumEnding($quant, array("товар", "товара", "товаров"));?>
-    на <? echo SaleFormatCurrency($price, $defaultCurr); ?></i>
-</a>
+    <a href="/cabinet/cart/"><span class="fa">&#xf07a;</span> Корзина <i>0</i></a>
+<?}else{?>
+    <a href="/cabinet/cart/"><span class="fa">&#xf07a;</span> Корзина <i><?=$quant?></i></a>
 <?}?> 
