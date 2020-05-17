@@ -17,33 +17,33 @@ $APPLICATION->SetTitle("Торговые марки");
 		.clients__items { width: 1000px; margin: 40px auto 0 auto; }
 	</style>
 	<div class="clients__items">
-		<div class="clients__item">
+		<a class="clients__item" href="/about/brands/brady/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/brady.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		</a>
+		<a class="clients__item" href="/about/brands/weicon/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/weicon.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		</a>
+		<a class="clients__item" href="/about/brands/klauke/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/klauke.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		</a>
+		<a class="clients__item" href="/about/brands/sic/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/sic.jpg" alt="">
-		</div>
+		</a>
 	</div>		
 
 	<div class="clients__items">
-		<div class="clients__item">
-			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/telefonika.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		<a class="clients__item" href="/about/brands/greenlee/">
+			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/greenlee.jpg" alt="">
+		</a>
+		<a class="clients__item" href="/about/brands/leoni/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/leoni.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		</a>
+		<a class="clients__item" href="/about/brands/uniroller/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/uniroller.jpg" alt="">
-		</div>
-		<div class="clients__item">
+		</a>
+		<a class="clients__item" href="/about/brands/novkabel/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/novkabel_2.png" alt="">
-		</div>
+		</a>
 	</div>	
 	
 </div>

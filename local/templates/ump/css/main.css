@@ -6235,7 +6235,7 @@ label {
           align-items: center;
   position: relative; }
   .topmenu__item {
-    padding: 42px 0; }
+    padding: 42px 25px; }
     .topmenu__item ul {
       display: none;
       position: absolute;
@@ -6275,14 +6275,14 @@ label {
     padding: 0;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    margin-left: -25px; }
   .topmenu__link {
     font-family: 'MuseoSans Regular';
     color: #000000;
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
-    margin-right: 50px;
     text-transform: uppercase;
     transition: color 0.5s; }
     .topmenu__link:hover, .topmenu__link_active {

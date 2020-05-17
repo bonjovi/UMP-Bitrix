@@ -13,6 +13,14 @@
 $this->setFrameMode(true);
 ?>
 
+<?php
+	// echo "<pre>";
+	// print_r($arResult['NAME']);
+	// echo "</pre>";
+?>
+
+
+
 
 
 
@@ -33,8 +41,10 @@ $this->setFrameMode(true);
 				<?if($arParams["DISPLAY_DATE"]!="N" && $arItem["DISPLAY_ACTIVE_FROM"]):?>
 					<div class="news__date text text_small text_lightgrey"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?></div>
 				<?endif?>
-
-				<div class="text text_small text_lightgrey">Категория</div>
+				
+				<div class="text text_small text_lightgrey">
+					<?=$arResult['NAME']?>
+				</div>
 			</div>
 			<div class="news__image-container">
 				<!-- <img src="img/news-1.png" alt=""> -->

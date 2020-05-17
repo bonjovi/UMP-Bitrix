@@ -63,7 +63,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 
 			<div class="row directions__row">
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=201">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/brady01.svg" alt="" width="200">
 						</div>
@@ -76,7 +76,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=141">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/sic01.svg" alt="" width="200">
 						</div>
@@ -89,7 +89,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=149">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/klauke01.svg" alt="" width="200">
 						</div>
@@ -105,7 +105,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 
 			<div class="row directions__row">
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=144">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/loto01.svg" alt="" width="200">
 						</div>
@@ -118,7 +118,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=269">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/tools01.svg" alt="" width="200">
 						</div>
@@ -131,7 +131,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=206">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/weicon01.svg" alt="" width="200">
 						</div>
@@ -147,7 +147,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 
 			<div class="row directions__row">
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=276">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/sorbents01.svg" alt="" width="200">
 						</div>
@@ -160,7 +160,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/?SECTION_ID=136">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/cable01.svg" alt="" width="200">
 						</div>
@@ -173,7 +173,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					</div>
 				</div>
 				<div class="col-lg-4 directions__item">
-					<a class="directions__link" href="#">
+					<a class="directions__link" href="/catalog/">
 						<div class="directions__icon">
 							<img src="/local/templates/ump/img/products/visualization01.svg" alt="" width="200">
 						</div>
