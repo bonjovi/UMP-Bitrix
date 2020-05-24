@@ -12,6 +12,7 @@ $APPLICATION->SetTitle("Торговые марки");
 	)
 );?>
 	<h1 class="title title_large simplepage__title">
+
 	<?=$APPLICATION->ShowTitle()?> </h1>
 	<style>
 		.clients__items { width: 1000px; margin: 40px auto 0 auto; }
@@ -41,9 +42,9 @@ $APPLICATION->SetTitle("Торговые марки");
 		<a class="clients__item" href="/about/brands/uniroller/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/uniroller.jpg" alt="">
 		</a>
-		<a class="clients__item" href="/about/brands/novkabel/">
+		<!-- <a class="clients__item" href="/about/brands/novkabel/">
 			<img class="clients__pic" src="https://umpgroup.ru/images/brands/horizontal/novkabel_2.png" alt="">
-		</a>
+		</a> -->
 	</div>	
 	
 </div>

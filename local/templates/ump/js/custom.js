@@ -126,6 +126,18 @@ $(document).ready(function() {
     // }
 
 
+    $('.product__offerlabel:first-child input').attr('checked', 'checked');
+
+    $('.product__offerradio').on('click', function() {
+        var offerId = $(this).attr('data-offer-id');
+        $('.product__offerprice').hide();
+        $('.product__offerprice[data-offer-id="' + offerId + '"]').fadeIn();
+    });
+
+
+    
+
+
 
 
 

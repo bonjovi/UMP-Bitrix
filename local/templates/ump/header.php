@@ -948,7 +948,7 @@ $APPLICATION->ShowPanel();
 									<a href="/service/" class="topmenu__link">Сервис</a>
 								</li> -->
 								<li class="topmenu__item">
-									<a href="/dealer/" class="topmenu__link <?if(CSite::InDir('/dealer/')){echo 'topmenu__link_active';}?>">Партнёрам</a>
+									<a href="/dealer/" class="topmenu__link <?if(CSite::InDir('/dealer/')){echo 'topmenu__link_active';}?>">Дилерам</a>
 								</li>
 								<li class="topmenu__item">
 									<a href="/contacts/" class="topmenu__link <?if(CSite::InDir('/contacts/')){echo 'topmenu__link_active';}?>">Контакты</a>

@@ -28,8 +28,8 @@ $this->setFrameMode(true);
 				<div class="catalog__product-pic">
 					<img 
 					src="
-					<?if (true == is_array($arElement["DETAIL_PICTURE"])):?>
-						<?=$arElement["DETAIL_PICTURE"]["SRC"]?>
+					<?if (true == is_array($arElement["PREVIEW_PICTURE"])):?>
+						<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>
 					<?else:?>
 						/local/templates/ump/images/no-image.jpg
 					<?endif?>

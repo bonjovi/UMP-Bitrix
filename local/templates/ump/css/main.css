@@ -7029,6 +7029,11 @@ ul.news-list {
 .product__tabsinfo {
   padding: 20px 0; }
 
+.product__offerprice {
+  display: none; }
+  .product__offerprice:first-child {
+    display: block; }
+
 .dealer__list {
   display: -webkit-flex;
   display: -ms-flexbox;

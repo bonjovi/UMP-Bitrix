@@ -49,44 +49,106 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 	<div class="col-lg-7">
 		
 			<?if(is_array($arResult["OFFERS"]) && !empty($arResult["OFFERS"])):?>
-			<!-- Если есть преддожения -->
-				<?foreach($arResult["OFFERS"] as $arOffer):?>
-					<!-- Свойства -->
-					<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
-						<small><?=$arProperty["NAME"]?>:&nbsp;<?
-							if(is_array($arProperty["DISPLAY_VALUE"]))
-								echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-							else
-								echo $arProperty["DISPLAY_VALUE"];?></small><br />
-					<?endforeach?>
-					<!-- Цены -->
-					<?foreach($arOffer["PRICES"] as $code=>$arPrice):?>
-						<?if($arPrice["CAN_ACCESS"]):?>
-							<?=$arResult["CAT_PRICES"][$code]["TITLE"];?>
-							<?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
-								<s><?=$arPrice["PRINT_VALUE"]?></s> <?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
-							<?else:?>
-								<?=$arPrice["PRINT_VALUE"]?>
-							<?endif?>
-							</p>
-						<?endif;?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="product__offers">
+					<!-- Если есть преддожения -->
+					<?foreach($arResult["OFFERS"] as $arOffer):?>
+						<?php
+							// echo "<pre>";
+							// print_r($arOffer);
+							// echo "</pre>";
+						?>
+						<!-- Свойства -->
+						<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+							
+
+							<!-- <small>
+								<?=$arProperty["NAME"]?>:&nbsp;
+								<? if(is_array($arProperty["DISPLAY_VALUE"])): ?>
+									<? echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);?>
+								<? else: ?>
+									<? echo $arProperty["DISPLAY_VALUE"]; ?>
+								<? endif; ?>
+							</small> -->
+							<label class="product__offerlabel">
+								<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
+								<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].'руб.' : 'Нет цены' ?>
+								<input name="offer-price" type="radio" value="<?=$arProperty["DISPLAY_VALUE"]?>" class="product__offerradio" data-offer-id="<?=$arOffer['ID']?>">
+							</label>
+							<br />
+						<?endforeach?>
+						
 					<?endforeach;?>
-					<!-- Покупка -->
-					<?if($arOffer["CAN_BUY"]):?>
-							<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data" сlass="add_form">
-								<a class="qty_minus" href="javascript:void(0)" onclick="if (BX('QUANTITY<?= $arOffer['ID'] ?>').value &gt; 1) BX('QUANTITY<?= $arOffer['ID'] ?>').value--;">-</a>
-									<input class="qty" type="text" name="QUANTITY" value="1" id="QUANTITY<?= $arOffer['ID'] ?>"/>
-								<a class="qty_plus" href="javascript:void(0)" onclick="BX('QUANTITY<?= $arOffer['ID'] ?>').value++;">+</a>
-								<!-- <input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5"> -->
-								<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
-								<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arOffer["ID"]?>">
-								<!-- <input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>"> -->
-								<input class="button button_white" type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CT_BCE_CATALOG_ADD")?>">
-							</form>
-					<?elseif(count($arResult["CAT_PRICES"]) > 0):?>
-						<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
-					<?endif?>
-				<?endforeach;?>
+				</div>
+				
+				<div class="product__offerprices">
+					<?foreach($arResult["OFFERS"] as $arOffer):?>
+						<div class="product__offerprice" data-offer-id="<?=$arOffer['ID']?>">
+							<!-- Цены -->
+							<?foreach($arOffer["PRICES"] as $code=>$arPrice):?>
+								<?if($arPrice["CAN_ACCESS"]):?>
+									<?=$arResult["CAT_PRICES"][$code]["TITLE"];?>
+									<?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
+										<s><?=$arPrice["PRINT_VALUE"]?></s> <?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
+									<?else:?>
+										<?=$arPrice["PRINT_VALUE"]?>
+									<?endif?>
+									</p>
+								<?endif;?>
+							<?endforeach;?>
+							<!-- Покупка -->
+							<?if($arOffer["CAN_BUY"]):?>
+									<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data" сlass="add_form">
+										<a class="qty_minus" href="javascript:void(0)" onclick="if (BX('QUANTITY<?= $arOffer['ID'] ?>').value &gt; 1) BX('QUANTITY<?= $arOffer['ID'] ?>').value--;">-</a>
+											<input class="qty" type="text" name="QUANTITY" value="1" id="QUANTITY<?= $arOffer['ID'] ?>"/>
+										<a class="qty_plus" href="javascript:void(0)" onclick="BX('QUANTITY<?= $arOffer['ID'] ?>').value++;">+</a>
+										<!-- <input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5"> -->
+										<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
+										<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arOffer["ID"]?>">
+										<!-- <input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>"> -->
+										<input class="button button_white" type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CT_BCE_CATALOG_ADD")?>">
+									</form>
+							<?elseif(count($arResult["CAT_PRICES"]) > 0):?>
+								<? echo GetMessage("CATALOG_NOT_AVAILABLE")?>
+							<?endif?>
+						</div>
+					<?endforeach;?>
+				</div>
+
+
+
+
+
+
+
 			<?else:?>
 			<!-- Если нет преддожений -->
 
@@ -258,6 +320,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					</div>
 				<?endif?>	
 			<?endforeach?>
+			<div class="product__tab text text_grey text_medium" data-tabname="TABLEPRICES">
+				Табличные цены
+			</div>
 		</div>
 		<div class="product__tabsinfo">
 			<!-- Значения свойств -->
@@ -280,6 +345,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					<?endif?>
 				<?endif?>
 			<?endforeach?>
+			<div class="product__tabinfo" data-tabname="TABLEPRICES">
+				123
+			</div>
 		</div>
 
 	</div>

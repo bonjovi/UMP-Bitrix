@@ -33,14 +33,14 @@ $APPLICATION->SetTitle("Сертификаты дистрибьютора");
 				Klauke
 			</a>
 		</div>
-		<div class="certificates__item">
+		<!--<div class="certificates__item">
 			<a class="certificates__pic" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank">
 				<img src="/local/templates/ump/img/certificates/novkabel2020.jpg" alt="">
 			</a>
 			<a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank">
 				Novkabel
 			</a>
-		</div>
+		</div>-->
 		<div class="certificates__item">
 			<a class="certificates__pic" href="/local/templates/ump/img/certificates/weicon2020.jpg" target="_blank">
 				<img src="/local/templates/ump/img/certificates/weicon2020.jpg" alt="">
