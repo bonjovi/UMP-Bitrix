@@ -16,9 +16,15 @@ $CURRENT_DEPTH = $TOP_DEPTH;
 ?>
 
 <?if(CSite::InDir('/catalog/')):?>
-	<h1 class="title title_large">Каталог товаров</h1>
+	<!-- <h1 class="title title_large">Каталог товаров</h1> -->
 <? endif; ?>	
-
+<?
+$id_section =$arResult['VARIABLES']['SECTION_ID'];
+$res = CIBlockSection::GetByID($id_section);
+if($ar_res = $res->GetNext())
+    $name_section = $ar_res['NAME'];
+$APPLICATION->SetTitle($name_section);
+?>
 
 	<div class="catalog__categories row">
 

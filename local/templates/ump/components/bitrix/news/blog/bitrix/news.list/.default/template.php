@@ -48,7 +48,7 @@ $this->setFrameMode(true);
 			</div>
 			<div class="news__image-container">
 				<!-- <img src="img/news-1.png" alt=""> -->
-				<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
+				<?if(file_exists($arItem["PREVIEW_PICTURE"]["SRC"]) && $arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
 					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
 						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="news__linkcontainer"><img
 								class="preview_picture"
@@ -61,21 +61,23 @@ $this->setFrameMode(true);
 								style="float:left"
 								/></a>
 					<?else:?>
-						<img
-							class="preview_picture"
-							border="0"
-							src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
-							width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
-							height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
-							alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
-							title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
-							style="float:left"
+						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>">
+							<img
+								class="preview_picture"
+								border="0"
+								src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+								width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
+								height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
+								alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
+								title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
+								style="float:left"
 							/>
+						</a>
 					<?endif;?>
 				<?else:?>
-					<div class="news__noimage title title_large">
+					<a class="news__noimage title title_large" href="<?=$arItem["DETAIL_PAGE_URL"]?>">
 						No image
-					</div>
+					</a>
 				<?endif?>
 			</div>
 			<div class="news__content">
