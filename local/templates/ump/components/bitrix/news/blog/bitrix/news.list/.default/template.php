@@ -48,8 +48,11 @@ $this->setFrameMode(true);
 			</div>
 			<div class="news__image-container">
 				<!-- <img src="img/news-1.png" alt=""> -->
-				<?if(file_exists($arItem["PREVIEW_PICTURE"]["SRC"]) && $arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
-					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
+				<?php
+					//print_r($arItem);
+				?>
+				<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
+					<?if(file_exists($arItem["PREVIEW_PICTURE"]["SRC"]) && !$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
 						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="news__linkcontainer"><img
 								class="preview_picture"
 								border="0"

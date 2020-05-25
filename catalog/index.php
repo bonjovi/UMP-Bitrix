@@ -1,12 +1,20 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("");
-?><br>
+?>
  <main class="main">
 <div class="container">
-	<div class="text text_xsmall" style="padding: 30px 0; border-bottom:1px solid #ebeff1; margin-bottom: 40px;">
- <span style="margin-right: 20px;" class="text_lightgrey">Главная</span> <span style="margin-right: 20px;" class="text_lightgrey">О компании</span> <span style="margin-right: 20px;">Каталог</span>
-	</div>
+
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:breadcrumb",
+		"breadcrumbs",
+		Array(
+			"PATH" => "",
+			"SITE_ID" => "s1",
+			"START_FROM" => "0"
+		)
+	);?>
+
 	<div class="row">
 		<div class="col-lg-3">
 			<div class="leftmenu">

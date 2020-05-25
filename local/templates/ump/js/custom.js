@@ -116,14 +116,6 @@ $(document).ready(function() {
         url.searchParams.append('tab', currentDataTabname);
     });
 
-    // var url_string = window.location.href;
-    // var url = new URL(url_string);
-    // var tab = url.searchParams.get("tab");
-    // if(tab == 'true') {
-    
-    // } else {
-    
-    // }
 
 
     $('.product__offerlabel:first-child input').attr('checked', 'checked');
@@ -133,6 +125,29 @@ $(document).ready(function() {
         $('.product__offerprice').hide();
         $('.product__offerprice[data-offer-id="' + offerId + '"]').fadeIn();
     });
+
+
+    // В каталоге в левом меню делаем авторазворот блоков при нахождении в нужном разделе
+    var breadcrumb_2 = $('#bx_breadcrumb_1 a span').text();
+    $('.leftmenu__list > .leftmenu__item').map(function() {
+        if($(this).find('> a').text() == breadcrumb_2) {
+            $(this).find('> a').trigger('click');
+        }
+    });
+
+
+    if($('.breadcrumbs > .breadcrumbs__item').length == 3) {
+        var breadcrumb_3 = $('.breadcrumbs > .breadcrumbs__item:nth-child(3) span').text();
+        $('.leftmenu__sublink:contains("' + breadcrumb_3 + '")').parent().addClass('leftmenu__subitem_active');
+    }
+
+    if($('.breadcrumbs > .breadcrumbs__item').length == 4) {
+        var breadcrumb_4 = $('.breadcrumbs > .breadcrumbs__item:nth-child(4) span').text();
+
+        $('.leftmenu__sublink:contains("' + breadcrumb_4 + '")').parent().addClass('leftmenu__subitem_active');
+        $('.leftmenu__sublink:contains("' + breadcrumb_4 + '")').parent().parent().parent().find('> a').trigger('click');
+    }
+
 
 
     

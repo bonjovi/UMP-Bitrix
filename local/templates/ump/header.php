@@ -519,8 +519,8 @@ $APPLICATION->ShowPanel();
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_из листовой меди_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_из листовой меди_02.svg" width="110" alt="">
                                                         Из листовой меди<br>&nbsp;<br>&nbsp;<br>&nbsp;
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -531,8 +531,8 @@ $APPLICATION->ShowPanel();
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Изолированные втулочные наконечники_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Изолированные втулочные наконечники_02.svg" width="110" alt="">
                                                         Изолированные втулочные наконечники<br>&nbsp;
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -543,8 +543,8 @@ $APPLICATION->ShowPanel();
 												</li>
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Изолированные и неизолированные разъёмы и контакты_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Изолированные и неизолированные разъёмы и контакты_02.svg" width="110" alt="">
                                                         Изолированные кольцевые, вилочные, штыревые
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -555,8 +555,8 @@ $APPLICATION->ShowPanel();
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Неизолированные втулочные_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Неизолированные втулочные_02.svg" width="110" alt="">
                                                         Неизолированные втулочные<br>&nbsp;<br>&nbsp;
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -567,8 +567,8 @@ $APPLICATION->ShowPanel();
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Соединительные зажимы и винтовые соединители_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Соединительные зажимы и винтовые соединители_02.svg" width="110" alt="">
                                                         Соединительные зажимы и винтовые соединители
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -579,8 +579,8 @@ $APPLICATION->ShowPanel();
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Трубчатые медные лужёные стандарта DIN 46235_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Трубчатые медные лужёные стандарта DIN 46235_02.svg" width="110" alt="">
                                                         Трубчатые медные лужёные стандарта DIN 46235
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -591,8 +591,8 @@ $APPLICATION->ShowPanel();
 												</li> 
 												<li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_02.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Трубчатые медные лужёные стандарта KLAUKE_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Кабельные наконечники и соединители/_Кабельные наконечники и соединители_Трубчатые медные лужёные стандарта KLAUKE_02.svg" width="110" alt="">
                                                         Трубчатые медные лужёные стандарта KLAUKE<br>&nbsp;
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
@@ -727,7 +727,7 @@ $APPLICATION->ShowPanel();
 											<a href="/catalog/?SECTION_ID=206" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=308" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=430" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_02.svg" width="110" alt="">
                                                         Антикоры<br>&nbsp;
@@ -739,7 +739,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=251" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=437" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_02.svg" width="110" alt="">
                                                         Вспомогательные материалы
@@ -751,7 +751,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=324" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=448" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_02.svg" width="110" alt="">
                                                         Герметики<br>&nbsp;
@@ -763,7 +763,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=324" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=459" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_02.svg" width="110" alt="">
                                                         Защита плюс<br>&nbsp;
@@ -775,7 +775,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=253" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=460" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_02.svg" width="110" alt="">
                                                         Клеи<br>&nbsp;
@@ -787,7 +787,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=241" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=461" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_02.svg" width="110" alt="">
                                                         Металлополимеры<br>&nbsp;
@@ -799,7 +799,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=241" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=483" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_02.svg" width="110" alt="">
                                                         Очистители<br>&nbsp;
@@ -811,7 +811,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=335" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=488" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_02.svg" width="110" alt="">
                                                         Ремонтные наборы
@@ -824,7 +824,7 @@ $APPLICATION->ShowPanel();
 												</li> 
                                             </ul>
 										</li>
-										<li class="dropdown-topmenu__item">
+										<!-- <li class="dropdown-topmenu__item">
 											<a href="#" class="text text_xsmall dropdown-topmenu__link">Средства визуализации</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
@@ -924,7 +924,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
                                             </ul>
-										</li>
+										</li> -->
 									</ul>
 								</li>
 								<li class="topmenu__item">
