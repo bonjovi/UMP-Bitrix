@@ -6031,7 +6031,8 @@ div.news-detail img.detail_picture {
   margin-left: 278px; }
 
 #header__login-content {
-  margin-left: 278px; }
+  /*margin-left: 278px;*/
+  display: block; }
 
 .main {
   -webkit-flex: 1 0 auto;

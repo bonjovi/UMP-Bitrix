@@ -165,9 +165,10 @@
 }
 
 #header__callback-content {
-    margin-left: 278px;
+    margin-left: 278px; 
 }
 
-#header__login-content {
-    margin-left: 278px;  
+#header__login-content { 
+    /*margin-left: 278px;*/
+    display: block;
 }
