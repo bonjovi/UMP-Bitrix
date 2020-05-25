@@ -2,11 +2,34 @@
 $this->setFrameMode(true);
 ?>
 
+
+
+
+
+
+
+<h1 class="title title_large catalog__title"><?=$arResult['NAME']?></h1>
+
+
+
+
+
+
+
+
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?>
 <?endif;?>
 
 <div class="catalog__products row">
+
+<?php
+// echo "<pre>";
+// print_r($arResult['NAME']);
+// echo "</pre>";
+?>
+
+
 
 		<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
 		<?
@@ -17,14 +40,10 @@ $this->setFrameMode(true);
 		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3">
 
 
-<?php
-// echo "<pre>";
-// print_r($arElement);
-// echo "</pre>";
-?>
 
 
-			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small">
+
+			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small catalog__product-title">
 				<div class="catalog__product-pic">
 					<img 
 					src="

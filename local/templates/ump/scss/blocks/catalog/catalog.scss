@@ -1,6 +1,15 @@
 .catalog {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        order: 1;
+        margin-bottom: 26px;
+    }
+
     &__categories {
-        padding: 40px 0;
+        /*padding: 40px 0;*/
+        order: 2;
 
         & > ul {
             display: flex;
@@ -46,6 +55,7 @@
     &__products {
         display: flex;
         flex-wrap: wrap;
+        order: 3;
     }
 
     &__product {
@@ -71,5 +81,9 @@
 
     &__product-desc {
         margin-top: 10px;
+    }
+
+    &__product-title {
+        display: block;
     }
 }
