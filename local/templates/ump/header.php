@@ -76,7 +76,7 @@ $APPLICATION->ShowPanel();
 								<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
 							</a>
 							<div id="header__login-content" class="header__popup">
-								<div class="text text_xsmall text_lightgrey text_pink">
+								<!-- <div class="text text_xsmall text_lightgrey text_pink">
 									Ошибка
 								</div>
 								<form action="#" class="header__popup-form">
@@ -85,7 +85,24 @@ $APPLICATION->ShowPanel();
 									<button class="button header__button">Войти</button>
 								</form>
 								<a href="#" class="text text_xsmall header__callback-link">Не помню пароль</a>
-								<a href="#" class="text text_xsmall header__callback-link">Как стать дилером?</a>	
+								<a href="#" class="text text_xsmall header__callback-link">Как стать дилером?</a>	 -->
+
+								<?if(CUser::IsAuthorized()):?>
+									<?=$USER->GetFullName();?> <a href="?logout=yes">Выйти</a>
+								<?else:?>
+									<?$APPLICATION->IncludeComponent(
+										"bitrix:system.auth.form", 
+										".default", 
+										array(
+											"COMPONENT_TEMPLATE" => ".default",
+											"REGISTER_URL" => "registration.php",
+											"FORGOT_PASSWORD_URL" => "forgotpassword.php",
+											"PROFILE_URL" => "/cabinet/",
+											"SHOW_ERRORS" => "Y"
+										),
+										false
+									);?>
+								<?endif?>
 							</div>
 
 							<div id="basket-container">
