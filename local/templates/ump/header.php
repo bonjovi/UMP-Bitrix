@@ -75,7 +75,7 @@ $APPLICATION->ShowPanel();
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
 								<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
 							</a>
-							<div id="header__login-content" class="header__popup">
+							<div id="header__login-content" class="header__popup" style="display:none;">
 								<!-- <div class="text text_xsmall text_lightgrey text_pink">
 									Ошибка
 								</div>
@@ -94,7 +94,7 @@ $APPLICATION->ShowPanel();
 										"bitrix:system.auth.form", 
 										".default", 
 										array(
-											"COMPONENT_TEMPLATE" => ".default",
+											"COMPONENT_TEMPLATE" => "satan",
 											"REGISTER_URL" => "registration.php",
 											"FORGOT_PASSWORD_URL" => "forgotpassword.php",
 											"PROFILE_URL" => "/cabinet/",
@@ -977,7 +977,12 @@ $APPLICATION->ShowPanel();
 						</div>
 					</div><!-- /.row -->
 					<div class="header__searchcontainer">
-						<input href="#" type="text" class="header__searchinput" placeholder="Введите фразу для поиска...">
+						<!-- <input href="#" type="text" class="header__searchinput" placeholder="Введите фразу для поиска..."> -->
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:search.form",
+							"",
+						Array()
+						);?>
 					</div>
 				</div><!-- /.container -->
 			</div><!-- /.header__main -->
