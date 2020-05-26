@@ -31,6 +31,16 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 		alt="<?=$arElement["NAME"]?>"/>
 						
 
+
+
+<style>
+.product__image > a {
+	display:none;
+}
+</style>
+
+
+
 		<!-- Доп картинки -->
 						<?
 						$LINE_ELEMENT_COUNT = 1;
@@ -99,7 +109,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 								<? endif; ?>
 							</small> -->
 							<label class="product__offerlabel">
-								<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
+								<?=$arOffer['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?> - <?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
 								<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].'руб.' : 'Нет цены' ?>
 								<input name="offer-price" type="radio" value="<?=$arProperty["DISPLAY_VALUE"]?>" class="product__offerradio" data-offer-id="<?=$arOffer['ID']?>">
 							</label>
@@ -222,7 +232,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 
 			<?php
-			if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS'])
+			/*if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS'])
 				{
 					?>
 					<div class="product-item-detail-tab-content" data-entity="tab-container" data-value="properties">
@@ -259,7 +269,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						?>
 					</div>
 					<?
-				}
+				}*/
 			?>	
 
 			
@@ -320,9 +330,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					</div>
 				<?endif?>	
 			<?endforeach?>
-			<div class="product__tab text text_grey text_medium" data-tabname="TABLEPRICES">
+			<!-- <div class="product__tab text text_grey text_medium" data-tabname="TABLEPRICES">
 				Табличные цены
-			</div>
+			</div> -->
 		</div>
 		<div class="product__tabsinfo">
 			<!-- Значения свойств -->
@@ -345,9 +355,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					<?endif?>
 				<?endif?>
 			<?endforeach?>
-			<div class="product__tabinfo" data-tabname="TABLEPRICES">
+			<!-- <div class="product__tabinfo" data-tabname="TABLEPRICES">
 				123
-			</div>
+			</div> -->
 		</div>
 
 	</div>

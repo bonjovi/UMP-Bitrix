@@ -28,7 +28,11 @@ $APPLICATION->SetTitle($name_section);
 
 	<div class="catalog__categories row">
 
-
+	<script>
+		$(function() {
+			$('.catalog__categories.row').next().next('.catalog__products row').hide();
+		});
+	</script>
 
 
 

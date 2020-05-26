@@ -50,7 +50,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 					<div class="text intro__simpletext">
 						Если вы хотите открыть собственную торговую организацию или увеличить ассортимент уже существующей, мы приглашаем вас присоединиться к дилерской сети ЮМП, которая уже сейчас насчитывает более 300 компаний.
 					</div>
-					<a class="button intro__button" href="#">
+					<a class="button intro__button" href="/dealer/">
 						Оставить заявку
 					</a>
 				</div>
@@ -199,7 +199,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 				</div>
 			</div>
 			<div class="pricerotator__section">
-				<a href="#" class="button pricerotator__button">
+				<a href="/catalog/" class="button pricerotator__button">
 					Узнать наличие и цену других товаров
 					<img src="/local/templates/ump/img/pricerotator-arrow-left.png" alt="">
 				</a>
@@ -214,31 +214,31 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 			<div class="newsfeed__items">
 				<div class="newsfeed__item">
-					<div class="text text_xsmall text_lightgrey newsfeed__date">09.02.2018</div>
-					<a class="newsfeed__itemtitle title title_medium" href="#">Когда жизнь и здоровье на первом месте</a>
+					<div class="text text_xsmall text_lightgrey newsfeed__date">09.05.2020</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Компания BRADY сделала работу с принтерами еще проще</a>
 					<div class="text text_medium text_grey">
-						Передовые технологии и оборудование для промышленной безопасности
+					Учитывая запросы своих клиентов, корпорация BRADY старается производить и модернизировать продукцию таким образом, чтобы она максимально отвечала всем требованиям, которые предъявляют пользователи. 
 					</div>
 				</div>
 				<div class="newsfeed__item">
-					<div class="text text_xsmall text_lightgrey newsfeed__date">12.11.2017</div>
-					<a class="newsfeed__itemtitle title title_medium" href="#">Хорошая цена на оборудование для ударно- точечной маркировки</a>
+					<div class="text text_xsmall text_lightgrey newsfeed__date">17.04.2020</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Инструменты WEICON-Tools в новой упаковке: от пластика к картону</a>
 					<div class="text text_medium text_grey">
-						ЮМП предлагает новые ударно-точечные маркираторы SIC Marking, которые работали в демо-залах, со скидкой 30%
+						В начале 2020 года немецкая компания WEICON, являющаяся производителем стрипперов и других инструментов для снятия изоляции провода/кабеля марки WEICON-Tools.
 					</div>
 				</div>
 				<div class="newsfeed__item">
-					<div class="text text_xsmall text_lightgrey newsfeed__date">21.10.2017</div>
-					<a class="newsfeed__itemtitle title title_medium" href="#">Химия немецкого гостеприимства. ЮНИТ МАРК ПРО в гостях у WEICON</a>
+					<div class="text text_xsmall text_lightgrey newsfeed__date">12.04.2020</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Обновленные поддоны BRADY для еврокубов. Теперь в желтом!</a>
 					<div class="text text_medium text_grey">
-					Специалисты по промышленной химии из России и Германии несколько дней обменивались опытом и, в конце концов, обменялись
+						Летом 2016 года компания BRADY представила поддоны для еврокубов.
 					</div>
 				</div>
 				<div class="newsfeed__item">
-					<div class="text text_xsmall text_lightgrey newsfeed__date">04.09.2017</div>
-					<a class="newsfeed__itemtitle title title_medium" href="#">Такое бывает раз в году: РАСПРОДАЖИЩЕ!</a>
+					<div class="text text_xsmall text_lightgrey newsfeed__date">11.03.2020</div>
+					<a class="newsfeed__itemtitle title title_medium" href="#">Поддоны BRADY для сбора проливов с рампой-пандусом</a>
 					<div class="text text_medium text_grey">
-						ЮНИТ МАРК ПРО организовала грандиозную акцию – РАСПРОДАЖИЩЕ – в которой мы объединили продукцию сразу нескольких брендов ...
+						BRADY предлагает широкий ассортимент поддонов для хранения бочек с опасными и не очень жидкостями.
 					</div>
 				</div>
 			</div>

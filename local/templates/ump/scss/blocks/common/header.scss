@@ -75,7 +75,7 @@
 
     &__searchcontainer {
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         height: 106px;
         background-color: #fff;
         margin-top: 30px;
@@ -109,6 +109,11 @@
         border: none;
         outline: none;
         background: transparent url(../img/search.png) center right no-repeat;
+        font-family: 'MuseoSans Regular';
+        color: #000000;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 900;
     }
 
     &__popup {
@@ -169,6 +174,56 @@
 }
 
 #header__login-content { 
-    /*margin-left: 278px;*/
-    display: block;
+    margin-left: 278px;
+    display: none;
+}
+
+
+
+.header__searchcontainer .search-form {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.header__searchcontainer .search-form table {
+    width: 100%;
+}
+
+article > .search-form {
+    display: none;
+}
+
+.bx-system-auth-form input {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 36px;
+    padding-left: 10px;
+}
+
+.bx-system-auth-form input[type=submit] {
+    height: 46px;
+    margin-bottom: 20px;
+}
+
+.bx-system-auth-form table tr:last-child {
+    display: none;
+}
+
+.user-logged {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.user-logged a {
+    margin-right: 20px;
+}
+
+.profile-table.data-table tr input {
+    margin-bottom: 10px;
+}
+
+.container > .bx-system-auth-form, .simplepage > .bx-system-auth-form {
+    width: 400px;
 }

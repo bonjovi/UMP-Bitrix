@@ -71,11 +71,17 @@ $APPLICATION->ShowPanel();
 								</form>
 							</div>
 							
-							<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
-								<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
-								<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
-							</a>
-							<div id="header__login-content" class="header__popup" style="display:none;">
+							<?if(CUser::IsAuthorized()):?>
+								<div class="user-logged">
+									<a href="/cabinet" class="text text_xsmall text_lightgrey"><?=$USER->GetFullName();?></a> <a class="text text_xsmall text_lightgrey" href="?logout=yes">Выйти</a>
+								</div>
+							<?else:?>
+								<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
+									<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
+									<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
+								</a>
+							<?endif?>
+							<div id="header__login-content" class="header__popup">
 								<!-- <div class="text text_xsmall text_lightgrey text_pink">
 									Ошибка
 								</div>
@@ -961,9 +967,9 @@ $APPLICATION->ShowPanel();
 										</li>
 									</ul>
 								</li>
-								<!-- <li class="topmenu__item">
+								<li class="topmenu__item">
 									<a href="/service/" class="topmenu__link">Сервис</a>
-								</li> -->
+								</li>
 								<li class="topmenu__item">
 									<a href="/dealer/" class="topmenu__link <?if(CSite::InDir('/dealer/')){echo 'topmenu__link_active';}?>">Дилерам</a>
 								</li>
@@ -979,10 +985,15 @@ $APPLICATION->ShowPanel();
 					<div class="header__searchcontainer">
 						<!-- <input href="#" type="text" class="header__searchinput" placeholder="Введите фразу для поиска..."> -->
 						<?$APPLICATION->IncludeComponent(
-							"bitrix:search.form",
-							"",
-						Array()
-						);?>
+	"bitrix:search.form", 
+	"custom", 
+	array(
+		"COMPONENT_TEMPLATE" => "custom",
+		"PAGE" => "#SITE_DIR#search/index.php",
+		"USE_SUGGEST" => "N"
+	),
+	false
+);?>
 					</div>
 				</div><!-- /.container -->
 			</div><!-- /.header__main -->
@@ -1022,11 +1033,11 @@ $APPLICATION->ShowPanel();
 						</div>
 					</div>	
 				</div> -->
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);" href="#"></a>	
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);" href="#"></a>	
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);" href="#"></a>	
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);" href="#"></a>	
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);" href="#"></a>		
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);" href="/about/promo/pokupay-bolshe-plati-menshe-supertsena-na-sprei-weicon/"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);" href="/about/promo/printer-brady-v-treyd-in/"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);" href="/about/promo/259-000-rubley-nashe-luchshee-predlozhenie-na-udarno-tochechnyy-markirator-sic/"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);" href="/about/promo/rasprodazhishche/"></a>	
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);" href="/about/promo/markiruesh-mnogo-darim-bolshoy-promyshlennyy-printer/"></a>		
             </div><!-- /.slider -->
             <? endif; ?>
 		</header>

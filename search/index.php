@@ -16,9 +16,14 @@ $APPLICATION->SetTitle("О компании");
  <article>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:search.form",
-	"",
-Array()
+	"bitrix:search.form", 
+	"custom", 
+	array(
+		"COMPONENT_TEMPLATE" => "custom",
+		"PAGE" => "#SITE_DIR#search/index.php",
+		"USE_SUGGEST" => "N"
+	),
+	false
 );?>
 
 <br>

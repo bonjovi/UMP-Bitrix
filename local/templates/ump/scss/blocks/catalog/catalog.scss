@@ -86,4 +86,8 @@
     &__product-title {
         display: block;
     }
+
+    & .text {
+        order: 4;
+    }
 }
