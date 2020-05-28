@@ -440,7 +440,7 @@ $APPLICATION->ShowPanel();
 											<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Блокираторы<br>и замки ЛОТО</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=414" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_02.svg" width="110" alt="">
                                                         Аксессуары<br>&nbsp;
@@ -512,7 +512,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li> 
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=418" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_02.svg" width="110" alt="">
                                                         Программные продукты
@@ -524,7 +524,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=418" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/?SECTION_ID=416" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_02.svg" width="110" alt="">
                                                         Хранение и переноска

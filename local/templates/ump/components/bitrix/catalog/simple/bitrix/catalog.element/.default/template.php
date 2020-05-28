@@ -10,13 +10,19 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
  }
 ?>
 
-
+<?php
+// echo "<pre>";
+// print_r($arResult['PROPERTIES']['WEB_NAZVANIE']['VALUE']);
+// echo "</pre>";
+?>
 
 
 <div class="product">
 
 
-	<h1 class="title title_large product__title"><?=$arResult['NAME']?></h1>
+	<h1 class="title title_large product__title"><?=$arResult['PROPERTIES']['WEB_NAZVANIE']['VALUE']?></h1>
+
+	<!--<p class="text">Артикул: <?=$arResult['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?></p>-->
 
 	<div class="col-lg-5 product__image">
 		<!-- Картинка детальная -->
