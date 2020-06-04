@@ -7,11 +7,11 @@ $this->setFrameMode(true);
 
 
 
-
+<?php if(!empty($arResult['NAME'])): ?>
 <h1 class="title title_large catalog__title"><?=$arResult['NAME']?></h1>
-
-
-
+<?php else: ?>
+<h1 class="title title_large catalog__title">Каталог</h1>
+<?php endif; ?>
 
 
 
@@ -23,118 +23,121 @@ $this->setFrameMode(true);
 
 <div class="catalog__products row">
 
-<?php
-// echo "<pre>";
-// print_r($arResult['NAME']);
-// echo "</pre>";
-?>
+	<?php
+	// echo "<pre>";
+	// print_r($arResult['NAME']);
+	// echo "</pre>";
+	?>
 
 
 
-		<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
+	<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
 		<?
-		$this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
-		$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
+			$this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
+			$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
 		?>
-		
+	
 		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3">
-
-
-
-
-
-			<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small catalog__product-title">
-				<div class="catalog__product-pic">
-					<img 
-					src="
-					<?if (true == is_array($arElement["DETAIL_PICTURE"])):?>
-						<?=$arElement["DETAIL_PICTURE"]["SRC"]?>
-					<?else:?>
-						/local/templates/ump/images/no-image.jpg
-					<?endif?>
-					" 
-					alt="<?=$arElement["NAME"]?>"/>
-				</div>
-				<?=$arElement["NAME"]?>
-			</a>
-
-			<? //var_dump($arElement); ?>
-			
-
-			<?foreach($arElement["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
-				<?//echo $arProperty["NAME"];?> <?
-					if(is_array($arProperty["DISPLAY_VALUE"])) {
-						//echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-					} else {
-						//echo $arProperty["DISPLAY_VALUE"];
-					}
-				?>
-			<?endforeach?>
-			<div class="text text_small text_lightgrey catalog__product-desc">
-				<?=$arElement["PREVIEW_TEXT"]?>
-			</div>
-			
+			<div class="catalog__product-container">
+				<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small catalog__product-title">
+					<div class="catalog__product-pic">
+						<img 
+						src="
+						<?if (true == is_array($arElement["DETAIL_PICTURE"])):?>
+							<?=$arElement["DETAIL_PICTURE"]["SRC"]?>
+						<?else:?>
+							/local/templates/ump/images/no-image.jpg
+						<?endif?>
+						" 
+						alt="<?=$arElement["NAME"]?>"/>
+					</div>
+					<?php
+					// echo "<pre>";
+					// print_r($arElement);
+					// echo "</pre>";
+					?>
 					
+					
+					<?=$arElement["PROPERTIES"]["WEB_NAZVANIE"]["VALUE"]?>
+					
+				</a>
 
-			<?/*if(is_array($arElement["OFFERS"]) && !empty($arElement["OFFERS"])):?>
-				<?foreach($arElement["OFFERS"] as $arOffer):?>
-					<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
-						<?=$arProperty["NAME"]?>: <?
-							if(is_array($arProperty["DISPLAY_VALUE"]))
-								echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-							else
-								echo $arProperty["DISPLAY_VALUE"];?>
-					<?endforeach?>
-					<?foreach($arOffer["PRICES"] as $code=>$arPrice):?>
+				<? //var_dump($arElement); ?>
+				
+
+				<?foreach($arElement["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+					<?//echo $arProperty["NAME"];?> <?
+						if(is_array($arProperty["DISPLAY_VALUE"])) {
+							//echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
+						} else {
+							//echo $arProperty["DISPLAY_VALUE"];
+						}
+					?>
+				<?endforeach?>
+				<div class="text text_small text_lightgrey catalog__product-desc">
+					<?=strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]))?>
+				</div>
+				
+						
+
+				<?/*if(is_array($arElement["OFFERS"]) && !empty($arElement["OFFERS"])):?>
+					<?foreach($arElement["OFFERS"] as $arOffer):?>
+						<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+							<?=$arProperty["NAME"]?>: <?
+								if(is_array($arProperty["DISPLAY_VALUE"]))
+									echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
+								else
+									echo $arProperty["DISPLAY_VALUE"];?>
+						<?endforeach?>
+						<?foreach($arOffer["PRICES"] as $code=>$arPrice):?>
+							<?if($arPrice["CAN_ACCESS"]):?>
+								<?=$arResult["PRICES"][$code]["TITLE"];?>
+								<?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
+									<s><?=$arPrice["PRINT_VALUE"]?></s> <?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
+								<?else:?>
+									<?=$arPrice["PRINT_VALUE"]?>
+								<?endif?>
+							<?endif;?>
+						<?endforeach;?>
+						<?if($arOffer["CAN_BUY"]):?>
+								<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data">
+								<input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5">
+								<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
+								<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arOffer["ID"]?>">
+								<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>">
+								<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD")?>">
+								</form>
+						<?elseif(count($arResult["PRICES"]) > 0):?>
+							<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
+						<?endif?>
+					<?endforeach;?>
+				<?else:?>
+					<?foreach($arElement["PRICES"] as $code=>$arPrice):?>
 						<?if($arPrice["CAN_ACCESS"]):?>
-							<?=$arResult["PRICES"][$code]["TITLE"];?>
+							<?=$arResult["PRICES"][$code]["TITLE"];?>:&nbsp;&nbsp;
 							<?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
 								<s><?=$arPrice["PRINT_VALUE"]?></s> <?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
 							<?else:?>
 								<?=$arPrice["PRINT_VALUE"]?>
-							<?endif?>
+							<?endif;?>
 						<?endif;?>
 					<?endforeach;?>
-					<?if($arOffer["CAN_BUY"]):?>
+				
+					<?if($arElement["CAN_BUY"]):?>
 							<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data">
 							<input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5">
 							<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
-							<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arOffer["ID"]?>">
+							<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arElement["ID"]?>">
 							<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>">
 							<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD")?>">
 							</form>
-					<?elseif(count($arResult["PRICES"]) > 0):?>
+					<?elseif((count($arResult["PRICES"]) > 0) || is_array($arElement["PRICE_MATRIX"])):?>
 						<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
 					<?endif?>
-				<?endforeach;?>
-			<?else:?>
-				<?foreach($arElement["PRICES"] as $code=>$arPrice):?>
-					<?if($arPrice["CAN_ACCESS"]):?>
-						<?=$arResult["PRICES"][$code]["TITLE"];?>:&nbsp;&nbsp;
-						<?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
-							<s><?=$arPrice["PRINT_VALUE"]?></s> <?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
-						<?else:?>
-							<?=$arPrice["PRINT_VALUE"]?>
-						<?endif;?>
-					<?endif;?>
-				<?endforeach;?>
-			
-				<?if($arElement["CAN_BUY"]):?>
-						<form action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data">
-						<input type="text" name="<?echo $arParams["PRODUCT_QUANTITY_VARIABLE"]?>" value="1" size="5">
-						<input type="hidden" name="<?echo $arParams["ACTION_VARIABLE"]?>" value="BUY">
-						<input type="hidden" name="<?echo $arParams["PRODUCT_ID_VARIABLE"]?>" value="<?echo $arElement["ID"]?>">
-						<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."BUY"?>" value="<?echo GetMessage("CATALOG_BUY")?>">
-						<input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD")?>">
-						</form>
-				<?elseif((count($arResult["PRICES"]) > 0) || is_array($arElement["PRICE_MATRIX"])):?>
-					<?=GetMessage("CATALOG_NOT_AVAILABLE")?>
-				<?endif?>
-			<?endif*/?>
-
-</div>
-
-		<?endforeach;?>
+				<?endif*/?>
+			</div><!-- /.catalog__product-container -->
+		</div><!-- /.catalog__product -->
+	<?endforeach;?>
 		
 </div> <!-- /.catalog__products -->
 

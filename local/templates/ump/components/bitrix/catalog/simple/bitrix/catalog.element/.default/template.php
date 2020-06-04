@@ -22,7 +22,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 
 	<h1 class="title title_large product__title"><?=$arResult['PROPERTIES']['WEB_NAZVANIE']['VALUE']?></h1>
 
-	<!--<p class="text">Артикул: <?=$arResult['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?></p>-->
+	<!--<p class="text">Артикул: <?=$arResult['PROPERTIES']['CML2_ARTICLE']['VALUE']?></p>-->
 
 	<div class="col-lg-5 product__image">
 		<!-- Картинка детальная -->
@@ -116,7 +116,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 							</small> -->
 							<label class="product__offerlabel">
 								<?=$arOffer['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?> - <?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
-								<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].'руб.' : 'Нет цены' ?>
+								<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].' руб.' : 'Нет цены' ?>
 								<input name="offer-price" type="radio" value="<?=$arProperty["DISPLAY_VALUE"]?>" class="product__offerradio" data-offer-id="<?=$arOffer['ID']?>">
 							</label>
 							<br />
@@ -315,12 +315,13 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				'ATT_OPTIONS',
 				'ATT_ADVANTAGES',
 				'ATT_VIDEO',
+				'OSNOVNYE_KHARAKTERISTIKI',
 				'ATT_USAGE',
+				'ATT_PUBLICATION',
 				'ATT_ORDERINFO',
 				'ATT_PUBLICATION',
 				'ATT_DOWNLOAD',
-				'WEB_NAZVANIE',
-				'OSNOVNYE_KHARAKTERISTIKI',
+				'ATT_EXPENDABLES',
 			];
 		?>
 

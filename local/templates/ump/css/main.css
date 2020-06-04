@@ -5885,6 +5885,11 @@ div.news-detail img.detail_picture {
           flex-direction: column;
   height: 100vh; }
 
+.header__logo-img {
+  margin-top: -8px;
+  margin-bottom: -20px;
+  width: 150px; }
+
 .header__top {
   padding: 15px 0;
   border-bottom: 1px solid #ededed;
@@ -6208,8 +6213,8 @@ article > .search-form {
 
 .checkbox {
   margin-right: 10px !important;
-  position: absolute;
-  visibility: hidden;
+  /*position: absolute;
+    visibility: hidden;*/
   cursor: pointer; }
   .checkbox__mark {
     display: inline-block;
@@ -6330,7 +6335,7 @@ label {
     color: #000000;
     font-size: 14px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     transition: color 0.5s; }
     .topmenu__link:hover, .topmenu__link_active {
@@ -6429,7 +6434,9 @@ label {
     position: relative;
     display: block;
     height: auto;
-    width: 100%; }
+    width: 100%;
+    font-weight: 700;
+    font-size: 13px; }
     .dropdown-topmenu__link img {
       transition: opacity 0.5s;
       position: absolute; }
@@ -6446,7 +6453,7 @@ label {
     text-align: center;
     width: 110px; }
   .dropdown-topmenu__level2 .dropdown-topmenu__link img {
-    margin-top: -110px;
+    margin-top: -115px;
     left: 50%; }
 
 .search {
@@ -6854,7 +6861,10 @@ label {
         -ms-flex-order: 3;
             order: 3; }
   .catalog__product {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    position: relative;
+    height: 400px;
+    overflow: visible; }
   .catalog__product-pic {
     width: 100%;
     height: 200px;
@@ -6864,10 +6874,14 @@ label {
     overflow: hidden; }
     .catalog__product-pic > img {
       width: 100%;
-      /*height: 100%;*/
+      height: 100%;
       margin: 0 auto;
       display: block;
       object-fit: contain; }
+  .catalog__product-container {
+    position: absolute;
+    height: auto;
+    z-index: 2; }
   .catalog__product-desc {
     margin-top: 10px; }
   .catalog__product-title {
@@ -6905,7 +6919,8 @@ label {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  transition: background-color 0.5s; }
+  transition: background-color 0.5s;
+  font-weight: 700; }
   .leftmenu__link:hover {
     background-color: #fff; }
   .leftmenu__link:active, .leftmenu__link:focus {
@@ -6954,7 +6969,8 @@ label {
   display: block;
   margin: 25px 0 25px 65px;
   line-height: 16px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 13px; }
   .leftmenu__sublink:active, .leftmenu__sublink:focus {
     text-decoration: none; }
 

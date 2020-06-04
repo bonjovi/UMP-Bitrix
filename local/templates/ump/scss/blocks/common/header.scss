@@ -1,4 +1,10 @@
 .header {
+    &__logo-img {
+        margin-top: -8px;
+        margin-bottom: -20px;
+        width: 150px;
+    }
+
     &__top {
         padding: 15px 0;
         border-bottom: 1px solid #ededed;
