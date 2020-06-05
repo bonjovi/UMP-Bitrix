@@ -75,7 +75,7 @@ $this->setFrameMode(true);
 					?>
 				<?endforeach?>
 				<div class="text text_small text_lightgrey catalog__product-desc">
-					<?=strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]))?>
+					<?=mb_strimwidth(strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"])), 0, 140, "...");?>
 				</div>
 				
 						

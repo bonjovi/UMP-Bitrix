@@ -98,9 +98,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 					<!-- Если есть преддожения -->
 					<?foreach($arResult["OFFERS"] as $arOffer):?>
 						<?php
-							// echo "<pre>";
-							// print_r($arOffer);
-							// echo "</pre>";
+							echo "<pre>";
+							print_r($arOffer);
+							echo "</pre>";
 						?>
 						<!-- Свойства -->
 						<?foreach($arOffer["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
