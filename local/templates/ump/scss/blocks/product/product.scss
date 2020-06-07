@@ -81,4 +81,30 @@
             display: block;
         }
     }
+
+    &__offerprices {
+        margin-bottom: 50px;
+    }
+
+    &__offers {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &__offerstable {
+        & th, & td {
+            padding: 10px;
+            border: 1px solid #ededed;
+        }
+
+        & tr {
+            &:hover {
+                background-color: #f7f7f7;
+            }
+        }
+
+        & tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+    }
 }

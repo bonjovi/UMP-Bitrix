@@ -108,7 +108,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
  <img width="200" src="/local/templates/ump/img/products/loto01.svg" alt="">
 			</div>
 			<div class="directions__title">
-				 Промышленные блокираторы LOTO
+				 Промышленная блокировка LOTO
 			</div>
  </a>
 			<div class="directions__text text">

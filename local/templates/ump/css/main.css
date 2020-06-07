@@ -6813,7 +6813,8 @@ label {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
-    margin-bottom: 26px; }
+    margin-bottom: 26px;
+    font-weight: 500; }
   .catalog__categories {
     /*padding: 40px 0;*/
     -webkit-order: 2;
@@ -6863,12 +6864,12 @@ label {
   .catalog__product {
     margin-bottom: 40px;
     position: relative;
-    height: 400px;
+    height: 450px;
     overflow: visible; }
   .catalog__product-pic {
     width: 100%;
     height: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border: 1px solid #efefef;
     padding: 5px;
     overflow: hidden; }
@@ -6879,13 +6880,16 @@ label {
       display: block;
       object-fit: contain; }
   .catalog__product-container {
-    position: absolute;
+    /*position: absolute;*/
     height: auto;
     z-index: 2; }
   .catalog__product-desc {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: #585858; }
   .catalog__product-title {
-    display: block; }
+    display: block;
+    font-weight: 700;
+    color: #000000; }
   .catalog .text {
     -webkit-order: 4;
         -ms-flex-order: 4;
@@ -6955,14 +6959,15 @@ label {
     margin: 0 0 25px 85px; }
 
 .leftmenu__subitem_active > .leftmenu__sublink {
-  color: #034ea2; }
+  color: #034ea2;
+  padding-right: 10px; }
   .leftmenu__subitem_active > .leftmenu__sublink:before {
     content: '';
     display: block;
     width: 4px;
     height: 4px;
     position: absolute;
-    background-color: red;
+    background-color: #034ea2;
     margin: 5px 0 0 -30px; }
 
 .leftmenu__sublink {
@@ -6970,7 +6975,8 @@ label {
   margin: 25px 0 25px 65px;
   line-height: 16px;
   box-sizing: border-box;
-  font-size: 13px; }
+  font-size: 13px;
+  padding-right: 10px; }
   .leftmenu__sublink:active, .leftmenu__sublink:focus {
     text-decoration: none; }
 
@@ -7121,6 +7127,23 @@ ul.news-list {
   display: none; }
   .product__offerprice:first-child {
     display: block; }
+
+.product__offerprices {
+  margin-bottom: 50px; }
+
+.product__offers {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.product__offerstable th, .product__offerstable td {
+  padding: 10px;
+  border: 1px solid #ededed; }
+
+.product__offerstable tr:hover {
+  background-color: #f7f7f7; }
+
+.product__offerstable tr:nth-child(even) {
+  background-color: #f7f7f7; }
 
 .dealer__list {
   display: -webkit-flex;

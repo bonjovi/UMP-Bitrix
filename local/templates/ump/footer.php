@@ -3,7 +3,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-2">
-							<a href="/"><img src="/local/templates/ump/img/logo.png" alt="АО «ЮМП»"></a>
+							<a href="/"><img src="/local/templates/ump/img/ump-logo.svg" alt="АО «ЮМП»" width="150"></a>
 						</div>
 						<div class="col-lg-3">
 							<ul class="footer__list">

@@ -25,13 +25,19 @@ $this->setFrameMode(true);
 
 	<?php
 	// echo "<pre>";
-	// print_r($arResult['NAME']);
+	// print_r($arResult);
 	// echo "</pre>";
 	?>
 
 
 
 	<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
+
+	<?php
+	// echo "<pre>";
+	// print_r($arElement);
+	// echo "</pre>";
+	?>
 		<?
 			$this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
 			$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
@@ -51,13 +57,7 @@ $this->setFrameMode(true);
 						" 
 						alt="<?=$arElement["NAME"]?>"/>
 					</div>
-					<?php
-					// echo "<pre>";
-					// print_r($arElement);
-					// echo "</pre>";
-					?>
-					
-					
+									
 					<?=$arElement["PROPERTIES"]["WEB_NAZVANIE"]["VALUE"]?>
 					
 				</a>
@@ -74,6 +74,18 @@ $this->setFrameMode(true);
 						}
 					?>
 				<?endforeach?>
+				<div class="text text_small text_lightgrey">
+					Артикулы:
+					<?foreach($arElement["OFFERS"] as $arOffer):?>
+						<?php
+							$artcls[] = $arOffer["PROPERTIES"]["ARTIKUL_POSTAVSHCHIKA"]["VALUE"];
+						?>
+					<?endforeach?>
+					<?php 
+						echo implode(",", $artcls);
+						unset($artcls);
+					?>
+				</div>
 				<div class="text text_small text_lightgrey catalog__product-desc">
 					<?=mb_strimwidth(strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"])), 0, 140, "...");?>
 				</div>
