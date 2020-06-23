@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Сервис");
 		false
 	);?>
 	<div class="simplepage">
-		<?$APPLICATION->IncludeComponent(
+    <?$APPLICATION->IncludeComponent(
             "bitrix:menu",
             "dealer_menu",
             Array(

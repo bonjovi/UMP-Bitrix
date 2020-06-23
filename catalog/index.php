@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("");
  <main class="main">
 <div class="container">
 
-	<?$APPLICATION->IncludeComponent(
+	<? $APPLICATION->IncludeComponent(
 		"bitrix:breadcrumb",
 		"breadcrumbs",
 		Array(
@@ -21,6 +21,9 @@ $APPLICATION->SetTitle("");
 				<div class="leftmenu__first">
 					 Каталог
 				</div>
+
+				
+
 				 <?$APPLICATION->IncludeComponent(
 					"bitrix:menu",
 					"ump_catalog_left",
@@ -40,6 +43,12 @@ $APPLICATION->SetTitle("");
 							</div>
 						</div>
 						<div class="col-lg-9 catalog">
+							<?
+								/*echo "<pre>";
+								print_r($breadcrumbs);
+								echo "</pre>";*/
+							?>
+							<a class="title title_small catalog__sitemap-link" href="/catalog/map">Каталог в виде дерева</a>
 							
 							<?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 

@@ -746,7 +746,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Промышленные<br>блокираторы LOTO</a>
+											<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Промышленная<br>блокировка LOTO</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=404" class="text text_xsmall dropdown-topmenu__link">
@@ -821,10 +821,10 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
                                                 <li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=414" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Доп оборудование_02.svg" width="110" alt="">
-                                                        Аксессуары<br>LOTO<br>&nbsp;
+													<a href="/catalog/?SECTION_ID=536" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Услуги по внедрению системы LOTO_01.svg" width="110" alt="">
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Услуги по внедрению системы LOTO_02.svg" width="110" alt="">
+                                                        Услуги по<br>внедрению<br>системы LOTO
 													</a>
 													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
 														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">

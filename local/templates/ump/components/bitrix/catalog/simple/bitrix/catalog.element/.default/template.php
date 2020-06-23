@@ -65,9 +65,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 	<div class="col-lg-7">
 			<!-- Описание -->
 			<?php if($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"] != ''): ?>
-				<?=strip_tags(html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]));?>
+				<?=html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]);?>
 			<?php else: ?>
-				<?=strip_tags(html_entity_decode($arResult["PROPERTIES"]["ATT_USAGE"]["VALUE"]));?>
+				<?=html_entity_decode($arResult["PROPERTIES"]["ATT_USAGE"]["VALUE"]);?>
 			<?php endif; ?>
 
 			<?php
@@ -142,7 +142,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 			<div class="product__offers">
 				<table class="product__offerstable">
 					<thead>
-						<th width="200">Артикул поставщика</th>
+						<th width="200">Артикул</th>
 						<th>Название</th>
 						<th width="150">Цена</th>
 						<th></th>
