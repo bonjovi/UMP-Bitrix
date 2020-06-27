@@ -79,7 +79,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
  <img width="200" src="/local/templates/ump/img/products/sic01.svg" alt="">
 			</div>
 			<div class="directions__title">
-				 Механическая маркировка
+				 Механическая маркировка SIC Marking
 			</div>
  </a>
 			<div class="directions__text text">
@@ -252,7 +252,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 		 Сертификаты
 	</div>
 	<div class="text text_grey text_medium">
-		 Мы официально представляем в РФ продукцию торговых марок Brady, Klauke, Greenlee, General Cable, Weicon, SIC Marking, Leoni, Novkabel. Наши сертификаты официального дистрибьютерства в России:
+		 Мы официально представляем в РФ продукцию торговых марок BRADY, KLAUKE, GREENLEE,&nbsp;WEICON, WEICON TOOLS, SIC Marking, LEONI, TF Kable. Наши сертификаты официального дистрибьютерства в России:
 	</div>
 	<div class="certificates__items">
 		<div class="certificates__item">

@@ -42,12 +42,12 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
+	/*Array(
 		"Ход ремонта", 
 		"/service/progress/", 
 		Array(), 
 		Array(), 
 		"" 
-	)
+	)*/
 );
 ?>
