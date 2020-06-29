@@ -170,10 +170,10 @@ $APPLICATION->ShowPanel();
 									<a href="/catalog" class="topmenu__link products <?if(CSite::InDir('/catalog/')){echo 'topmenu__link_active';}?>">Продукция</a>
 									<ul class="dropdown-topmenu__list">
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=201" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
+											<a href="/catalog/markirovka_brady/" class="text text_xsmall dropdown-topmenu__link" counter="first">Маркировка<br>BRADY</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=232" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/markirovka_brady/" class="text text_xsmall dropdown-topmenu__link">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_01.svg" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Маркировка BRADY/Маркировка BRADY. Портативные принтеры_02.svg" alt="">
 														Портативные<br>принтеры<br>этикеток
@@ -271,7 +271,7 @@ $APPLICATION->ShowPanel();
 											</ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-                                            <a href="/catalog/?SECTION_ID=141" class="text text_xsmall dropdown-topmenu__link" counter="second">Механическая и лазерная<br>маркировка SIC MARKING</a>
+                                            <a href="/catalog/mekhanicheskaya_markirovka/" class="text text_xsmall dropdown-topmenu__link" counter="second">Механическая и лазерная<br>маркировка SIC MARKING</a>
                                             <ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=147" class="text text_xsmall dropdown-topmenu__link">
@@ -348,7 +348,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=206" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия WEICON</a>
+											<a href="/catalog/promyshlennaya_khimiya/" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия WEICON</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=430" class="text text_xsmall dropdown-topmenu__link">
@@ -449,7 +449,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=269" class="text text_xsmall dropdown-topmenu__link">Инструменты<br>и оборудование</a>
+											<a href="/catalog/instrumenty-i-oborudovanie/" class="text text_xsmall dropdown-topmenu__link">Инструменты<br>и оборудование</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=500" class="text text_xsmall dropdown-topmenu__link">
@@ -526,7 +526,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=276" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>BRADY</a>
+											<a href="/catalog/sorbenty/" class="text text_xsmall dropdown-topmenu__link" counter="third">Сорбенты<br>BRADY</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=277" class="text text_xsmall dropdown-topmenu__link">
@@ -615,7 +615,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=136" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
+											<a href="/catalog/kabel_i_provod/" class="text text_xsmall dropdown-topmenu__link">Кабель<br>и провод</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="/catalog/?SECTION_ID=137" class="text text_xsmall dropdown-topmenu__link">
@@ -657,7 +657,7 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=149" class="text text_xsmall dropdown-topmenu__link">Кабельные наконечники<br>и соединители</a>
+											<a href="/catalog/kabelnye_nakonechniki_i_soediniteli/" class="text text_xsmall dropdown-topmenu__link">Кабельные наконечники<br>и соединители</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
 													<a href="#" class="text text_xsmall dropdown-topmenu__link">
@@ -746,10 +746,10 @@ $APPLICATION->ShowPanel();
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
-											<a href="/catalog/?SECTION_ID=144" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Промышленная<br>блокировка LOTO</a>
+											<a href="/catalog/blokiratory_i_zamki_loto/" class="text text_xsmall dropdown-topmenu__link" counter="fourth">Промышленная<br>блокировка LOTO</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=404" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/blokirovochnye_zamki/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокировочные замки_02.svg" width="110" alt="">
                                                         Замки<br>LOTO<br>&nbsp;
@@ -761,7 +761,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=389" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/blokiratory/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Блокираторы_02.svg" width="110" alt="">
                                                         Блокираторы<br>LOTO<br>&nbsp;
@@ -773,7 +773,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=413" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/gruppovye_blokirovochnye_boksy_i_tsentry_dlya_zamkov/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Групповая блокировка_02.svg" width="110" alt="">
                                                         Групповая<br>блокировка<br>LOTO
@@ -785,7 +785,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=417" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/preduprezhdayushchie_birki/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Бирки предупреждающие_02.svg" width="110" alt="">
                                                         Информационные<br>бирки<br>LOTO
@@ -797,7 +797,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=416" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/perenosnye_sumki_dlya_blokiratorov/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Размещение и хранение_02.svg" width="110" alt="">
                                                         Хранение<br>и переноска LOTO
@@ -809,7 +809,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=415" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/nabory_blokiruyushchikh_ustroystv/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. Наборы блокираторов_02.svg" width="110" alt="">
                                                         Наборы блокирующих<br>устройств LOTO
@@ -821,7 +821,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>
                                                 <li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=536" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/uslugi/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Услуги по внедрению системы LOTO_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Услуги по внедрению системы LOTO_02.svg" width="110" alt="">
                                                         Услуги по<br>внедрению<br>системы LOTO
@@ -833,7 +833,7 @@ $APPLICATION->ShowPanel();
 													</ul>
 												</li>												 
 												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=418" class="text text_xsmall dropdown-topmenu__link">
+													<a href="/catalog/programmnye-produkty-loto/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_01.svg" width="110" alt="">
 														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Блокираторы и замки ЛОТО/Блокираторы и замки ЛОТО. ПО_02.svg" width="110" alt="">
                                                         Программные<br>продукты<br>LOTO
