@@ -82,3 +82,12 @@ div.news-detail img.detail_picture {
     font-size: 12px;
     color: grey;
 }
+
+.bx-ui-slider-track .bx-ui-slider-part > span {
+    display: none;
+}
+
+.bx-ui-slider-track .bx-ui-slider-part.p1 > span,
+.bx-ui-slider-track .bx-ui-slider-part.p5 > span {
+    display: block;
+}
