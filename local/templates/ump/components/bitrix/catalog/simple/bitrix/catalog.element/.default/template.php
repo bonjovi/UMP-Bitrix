@@ -142,6 +142,23 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						);*/ ?> 
 	</div>
 
+	<?
+		/*$system_properties_array = [
+			'ATT_COMPLECTATION',
+			'ATT_TECHS',
+			'ATT_OPTIONS',
+			'ATT_ADVANTAGES',
+			'ATT_VIDEO',
+			'OSNOVNYE_KHARAKTERISTIKI',
+			'ATT_USAGE',
+			'ATT_PUBLICATION',
+			'ATT_ORDERINFO',
+			'ATT_PUBLICATION',
+			'ATT_DOWNLOAD',
+			'ATT_EXPENDABLES',
+		];*/
+	?>
+
 	<div class="col-lg-12">
 		<?if(is_array($arResult["OFFERS"]) && !empty($arResult["OFFERS"])):?>
 			<div class="product__offers">
@@ -185,6 +202,15 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 									<td>
 										<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE']?>
 									</td>
+									
+									<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
+										<?if($arProperty["VALUE"] != '' && in_array($arProperty["CODE"], $system_properties_array)):?>
+											<!--<td>
+												<?//=$arProperty["DISPLAY_VALUE"]?>
+											</td>-->
+										<?endif?>	
+									<?endforeach?>
+
 									<td>
 										<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].' руб.' : 'Нет цены' ?>
 									</td>
