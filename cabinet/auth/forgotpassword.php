@@ -20,7 +20,9 @@ $APPLICATION->SetTitle("Восстановление пароля");
 	<?else:?>
 		<?$APPLICATION->IncludeComponent( "bitrix:system.auth.forgotpasswd",
 		".default",
-		Array()
+		Array(
+			"SHOW_ERRORS" => "Y"
+		)
 		);?>
 	<?endif?>
 	

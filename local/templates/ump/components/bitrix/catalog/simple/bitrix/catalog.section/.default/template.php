@@ -87,7 +87,8 @@ $this->setFrameMode(true);
 					?>
 				</div>
 				<div class="text text_small text_lightgrey catalog__product-desc">
-					<?=mb_strimwidth(strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"])), 0, 140, "...");?>
+					<?php /*echo mb_strimwidth(strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_OPISANIE"]["VALUE"])), 0, 140, "..."); */ ?>
+					<?=mb_strimwidth(strip_tags(html_entity_decode($arElement["PROPERTIES"]["WEB_ANONS"]["VALUE"])), 0, 140, "..."); ?>
 				</div>
 				
 						

@@ -63,11 +63,16 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 						<? endif ?>
 	</div>
 	<div class="col-lg-7">
+			<?php
+				//echo "<pre>";
+				//print_r($arResult["PROPERTIES"]);
+				//echo "</pre>";
+			?>
 			<!-- Описание -->
 			<?php if($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"] != ''): ?>
 				<?=html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]);?>
 			<?php else: ?>
-				<?=html_entity_decode($arResult["PROPERTIES"]["ATT_USAGE"]["VALUE"]);?>
+				<?=html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]);?>
 			<?php endif; ?>
 
 			<?php
