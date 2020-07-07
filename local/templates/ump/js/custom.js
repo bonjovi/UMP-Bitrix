@@ -150,6 +150,16 @@ $(document).ready(function() {
 
 
 
+    // В оформлении заказа подсовываем юр.лицу дилеров из его города
+    /*$('input[name="PERSON_TYPE"]').on('click', function() {
+        var person_type = $(this).parent().text();
+        if(person_type == 'Юридическое лицо') {
+            setTimeout(function() {
+                $('<div>Test</div>').insertBefore($('.bx-soa-reference'));
+            }, 2000);
+        }
+    });*/
+
     
 
 

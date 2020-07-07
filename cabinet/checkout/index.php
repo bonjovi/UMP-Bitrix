@@ -15,10 +15,10 @@ $APPLICATION->SetTitle("Оформление заказа");
 	<?=$APPLICATION->ShowTitle()?> </h1>
 	
 	<p>
-		 <?$APPLICATION->IncludeComponent(
-	"bitrix:sale.order.ajax",
-	"",
-Array()
+		 <?$APPLICATION->IncludeComponent("bitrix:sale.order.ajax", "custom", Array(
+	
+	),
+	false
 );?><br>
 	</p>
 </div>

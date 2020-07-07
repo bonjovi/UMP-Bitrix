@@ -5883,6 +5883,11 @@ div.news-detail img.detail_picture {
 .bx-ui-slider-track .bx-ui-slider-part.p5 > span {
   display: block; }
 
+.found_dealers {
+  background-color: #63c6a4;
+  color: #fff;
+  padding: 20px; }
+
 .pagewrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
