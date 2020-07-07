@@ -47,19 +47,23 @@
 
     &__tab {
         cursor: pointer;
-        padding: 20px;
+        padding: 15px 20px;
+        margin-right: 2px;
+        white-space: nowrap;
         transition: color 0.5s;
         transition: border-color 0.5s;
         position: relative;
         z-index: 0;
-        border: 1px solid #fff;
+        background-color: #f9f9f9;
+        border: 1px solid #ededed;
         border-radius: 10px 10px 0 0;
         align-items: center;
 
         &:hover, &_active {
-            color: #000000;
+            color: #fff;
             z-index: 1;
-            border-bottom: 1px solid #585858;
+            border: 1px solid #63c6a4;
+            background-color: #63c6a4;
         }
     }
 
@@ -93,9 +97,19 @@
     }
 
     &__offerstable {
+        width: 100%;
+        border-collapse: collapse;
+        
         & th, & td {
-            padding: 10px;
+            padding: 5px 10px;
             border: 1px solid #ededed;
+            font-size: 12px;
+        }
+
+        & th {
+            background-color: #2d2d2d;
+            border: 1px solid #2d2d2d;
+            color: #fff;
         }
 
         & tr {

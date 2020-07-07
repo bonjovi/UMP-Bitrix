@@ -7137,20 +7137,24 @@ ul.news-list {
 
 .product__tab {
   cursor: pointer;
-  padding: 20px;
+  padding: 15px 20px;
+  margin-right: 2px;
+  white-space: nowrap;
   transition: color 0.5s;
   transition: border-color 0.5s;
   position: relative;
   z-index: 0;
-  border: 1px solid #fff;
+  background-color: #f9f9f9;
+  border: 1px solid #ededed;
   border-radius: 10px 10px 0 0;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
   .product__tab:hover, .product__tab_active {
-    color: #000000;
+    color: #fff;
     z-index: 1;
-    border-bottom: 1px solid #585858; }
+    border: 1px solid #63c6a4;
+    background-color: #63c6a4; }
 
 .product__tabinfo {
   display: none; }
@@ -7172,15 +7176,21 @@ ul.news-list {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-.product__offerstable th, .product__offerstable td {
-  padding: 10px;
-  border: 1px solid #ededed; }
-
-.product__offerstable tr:hover {
-  background-color: #f7f7f7; }
-
-.product__offerstable tr:nth-child(even) {
-  background-color: #f7f7f7; }
+.product__offerstable {
+  width: 100%;
+  border-collapse: collapse; }
+  .product__offerstable th, .product__offerstable td {
+    padding: 5px 10px;
+    border: 1px solid #ededed;
+    font-size: 12px; }
+  .product__offerstable th {
+    background-color: #2d2d2d;
+    border: 1px solid #2d2d2d;
+    color: #fff; }
+  .product__offerstable tr:hover {
+    background-color: #f7f7f7; }
+  .product__offerstable tr:nth-child(even) {
+    background-color: #f7f7f7; }
 
 .dealer__list {
   display: -webkit-flex;
