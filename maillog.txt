@@ -1,0 +1,663 @@
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=9551c31a0d3d7b93f255d7bdea4b95c6&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 09:59:04 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 1.3 (08.07.2020 09:59:00)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => okorneeva@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0J3QvtCy0YvQuSDQt9Cw0LrQsNC3IE4xNg==?=
+    [BODY] => ---------alt8735f05708
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Вами оформлен заказ в магазине АО "ЮНИТ МАРК ПРО"
+
+Уважаемый Оксана Корнеева,
+Ваш заказ номер 16 от 08.07.2020 10:06:42 принят.
+
+Стоимость заказа: 740 996.62 руб..
+
+Состав заказа:
+
+WEICON Очиститель Cleaner S (5 л) - 4 шт x 4 226.04 руб.
+Портативный маркиратор E-markXL, окно 120x40мм - 1 шт x 724 092.46 руб.
+
+Вы можете следить за выполнением своего заказа (на какой стадии выполнения он находится), войдя в Ваш персональный раздел сайта АО "ЮНИТ МАРК ПРО".
+
+Обратите внимание, что для входа в этот раздел Вам необходимо будет ввести логин и пароль пользователя сайта АО "ЮНИТ МАРК ПРО".
+
+Для того, чтобы аннулировать заказ, воспользуйтесь функцией отмены заказа, которая доступна в Вашем персональном разделе сайта АО "ЮНИТ МАРК ПРО".
+
+Пожалуйста, при обращении к администрации сайта АО "ЮНИТ МАРК ПРО" ОБЯЗАТЕЛЬНО указывайте номер Вашего заказа - 16.
+
+Спасибо за покупку!
+
+С уважением,
+администрация Интернет-магазина:
+http://dev.umpgroup.ru
+
+E-mail: web@umpgroup.ru:
+mailto:web@umpgroup.ru
+
+
+---------alt8735f05708
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<style>
+		body
+		{
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="850" style="background-color: #d1d1d1; border-radius: 2px; border:1px solid #d1d1d1; margin: 0 auto;" border="1" bordercolor="#d1d1d1">
+	<tr>
+		<td height="83" width="850" bgcolor="#eaf3f5" style="border: none; padding-top: 23px; padding-right: 17px; padding-bottom: 24px; padding-left: 17px;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td bgcolor="#ffffff" height="75" style="font-weight: bold; text-align: center; font-size: 26px; color: #0b3961;">Вами оформлен заказ в магазине АО "ЮНИТ МАРК ПРО"</td>
+				</tr>
+				<tr>
+					<td bgcolor="#bad3df" height="11"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 16px; padding-left: 44px;">
+			<p style="margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;">Уважаемый Оксана Корнеева,</p>
+			<p style="margin-top: 0; margin-bottom: 20px; line-height: 20px;">Ваш заказ номер 16 от 08.07.2020 10:06:42 принят.<br />
+<br />
+Стоимость заказа: 740 996.62 руб..<br />
+<br />
+Состав заказа:<br />
+WEICON Очиститель Cleaner S (5 л) - 4 шт x 4 226.04 руб.<br/>Портативный маркиратор E-markXL, окно 120x40мм - 1 шт x 724 092.46 руб.<br/><br />
+<br />
+Вы можете следить за выполнением своего заказа (на какой стадии выполнения он находится), войдя в Ваш персональный раздел сайта АО "ЮНИТ МАРК ПРО".<br />
+<br />
+Обратите внимание, что для входа в этот раздел Вам необходимо будет ввести логин и пароль пользователя сайта АО "ЮНИТ МАРК ПРО".<br />
+<br />
+Для того, чтобы аннулировать заказ, воспользуйтесь функцией отмены заказа, которая доступна в Вашем персональном разделе сайта АО "ЮНИТ МАРК ПРО".<br />
+<br />
+Пожалуйста, при обращении к администрации сайта АО "ЮНИТ МАРК ПРО" ОБЯЗАТЕЛЬНО указывайте номер Вашего заказа - 16.<br />
+<br />
+Спасибо за покупку!<br />
+</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="40px" width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 30px; padding-left: 44px;">
+			<p style="border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; line-height:21px;">С уважением,<br />администрация <a href="http://dev.umpgroup.ru" style="color:#2e6eb6;">Интернет-магазина</a><br />
+				E-mail: <a href="mailto:web@umpgroup.ru" style="color:#2e6eb6;">web@umpgroup.ru</a>
+			</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+---------alt8735f05708--
+
+    [HEADERS] => From: web@umpgroup.ru
+BCC: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: SALE_NEW_ORDER
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 10:06:43 +0300
+MIME-Version: 1.0
+To: okorneeva@umpgroup.ru
+X-MID: 2.30 (08.07.2020 10:06:42)
+Content-Type: multipart/alternative; boundary="-------alt8735f05708"
+)
+
+========
+Array
+(
+    [TO] => okorneeva@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?ZGV2LnVtcGdyb3VwLnJ1OiDQmNC30LzQtdC90LXQvdC40LUg0YHRgtCw0YLRg9GB0LAg0LfQsNC60LDQt9CwIE4xNg==?=
+    [BODY] => ---------alt9455f05708
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Изменение статуса заказа в магазине АО "ЮНИТ МАРК ПРО"
+
+Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+
+------------------------------------------
+
+Статус заказа номер 16 от 08.07.2020 10:06:42 изменен.
+
+Новый статус заказа:
+
+Принят, ожидается оплата
+
+Заказ принят, но пока не обрабатывается (например, заказ только что создан или ожидается оплата заказа)
+
+Для получения подробной информации по заказу пройдите на сайт dev.umpgroup.ru/personal/order/16/
+
+Спасибо за ваш выбор!
+
+АО "ЮНИТ МАРК ПРО"
+
+С уважением,
+администрация Интернет-магазина:
+http://dev.umpgroup.ru
+
+E-mail: web@umpgroup.ru:
+mailto:web@umpgroup.ru
+
+
+---------alt9455f05708
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<style>
+		body
+		{
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="850" style="background-color: #d1d1d1; border-radius: 2px; border:1px solid #d1d1d1; margin: 0 auto;" border="1" bordercolor="#d1d1d1">
+	<tr>
+		<td height="83" width="850" bgcolor="#eaf3f5" style="border: none; padding-top: 23px; padding-right: 17px; padding-bottom: 24px; padding-left: 17px;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td bgcolor="#ffffff" height="75" style="font-weight: bold; text-align: center; font-size: 26px; color: #0b3961;">Изменение статуса заказа в магазине АО "ЮНИТ МАРК ПРО"</td>
+				</tr>
+				<tr>
+					<td bgcolor="#bad3df" height="11"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 16px; padding-left: 44px;">
+			<p style="margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;"></p>
+			<p style="margin-top: 0; margin-bottom: 20px; line-height: 20px;">Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"<br />
+------------------------------------------<br />
+<br />
+Статус заказа номер 16 от 08.07.2020 10:06:42 изменен.<br />
+<br />
+Новый статус заказа:<br />
+Принят, ожидается оплата<br />
+Заказ принят, но пока не обрабатывается (например, заказ только что создан или ожидается оплата заказа)<br />
+<br />
+<br />
+Для получения подробной информации по заказу пройдите на сайт dev.umpgroup.ru/personal/order/16/<br />
+<br />
+Спасибо за ваш выбор!<br />
+АО "ЮНИТ МАРК ПРО"<br />
+</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="40px" width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 30px; padding-left: 44px;">
+			<p style="border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; line-height:21px;">С уважением,<br />администрация <a href="http://dev.umpgroup.ru" style="color:#2e6eb6;">Интернет-магазина</a><br />
+				E-mail: <a href="mailto:web@umpgroup.ru" style="color:#2e6eb6;">web@umpgroup.ru</a>
+			</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+---------alt9455f05708--
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: SALE_STATUS_CHANGED_N
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 10:06:43 +0300
+MIME-Version: 1.0
+To: okorneeva@umpgroup.ru
+X-MID: 3.43 (08.07.2020 10:06:43)
+Content-Type: multipart/alternative; boundary="-------alt9455f05708"
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=1461e85bda168ea6d91dfd2749defae9&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 11:18:02 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 11:18:02)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=8d5f8bfa461baaf74747129e372ff2cd&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 11:38:24 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 11:38:24)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=cf86f147a2216a644d099e3c5315215e&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 12:16:38 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 12:16:38)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=6f90fa19e53709041584d55a13326b08&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 13:18:31 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 13:18:31)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=363b75a6421ce6215a511a5a12eab5c8&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 13:50:15 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 0.3 (08.07.2020 13:50:15)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=32dd1ff53d663e5c8023b691bc8e5250&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 14:28:24 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 0.3 (08.07.2020 14:28:24)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=7551cb7c0364e1413a3818ba11907db9&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 14:36:29 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 0.3 (08.07.2020 14:36:29)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=77442fb3c5591f94178165136df000e0&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 14:37:51 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 14:37:51)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=c350357367e038c4fc3bc1108a7e79c6&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 15:30:42 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 0.3 (08.07.2020 15:30:42)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => nonerased@mail.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=81733b19ea01736a49740dae6d545f73&USER_LOGIN=nonerased
+
+Ваша регистрационная информация:
+
+ID пользователя: 857
+Статус профиля: активен
+Login: nonerased
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 15:33:04 +0300
+MIME-Version: 1.0
+To: nonerased@mail.ru
+X-MID: 0.3 (08.07.2020 15:33:03)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
+Array
+(
+    [TO] => web@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Роман Калашников,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=b7126a78b86b4d2e46575eee23f30414&USER_LOGIN=sys
+
+Ваша регистрационная информация:
+
+ID пользователя: 1
+Статус профиля: активен
+Login: sys
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Wed, 08 Jul 2020 20:26:00 +0300
+MIME-Version: 1.0
+To: web@umpgroup.ru
+X-MID: 0.3 (08.07.2020 20:26:00)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========

@@ -2,7 +2,9 @@
 define ("NEED_AUTH", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Восстановление пароля");
-?><div class="container simplepage">
+?>
+
+<div class="container simplepage">
 	 <?$APPLICATION->IncludeComponent(
 	"bitrix:breadcrumb",
 	"breadcrumbs",
@@ -19,7 +21,7 @@ $APPLICATION->SetTitle("Восстановление пароля");
 		<p>Вы успешно авторизованы и Вам не нужно ничего восстанавливать</p>
 	<?else:?>
 		<?$APPLICATION->IncludeComponent( "bitrix:system.auth.forgotpasswd",
-		".default",
+		"custom",
 		Array(
 			"SHOW_ERRORS" => "Y"
 		)

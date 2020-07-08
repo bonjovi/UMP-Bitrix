@@ -100,10 +100,10 @@ $APPLICATION->ShowPanel();
 										"bitrix:system.auth.form", 
 										".default", 
 										array(
-											"COMPONENT_TEMPLATE" => "satan",
+											"COMPONENT_TEMPLATE" => "custom",
 											"REGISTER_URL" => "registration.php",
 											"FORGOT_PASSWORD_URL" => "forgotpassword.php",
-											"PROFILE_URL" => "/cabinet/",
+											"PROFILE_URL" => "/cabinet/auth/",
 											"SHOW_ERRORS" => "Y"
 										),
 										false

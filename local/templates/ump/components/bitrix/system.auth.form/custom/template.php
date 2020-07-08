@@ -4,7 +4,7 @@ CJSCore::Init();
 ?>
 
 <div class="bx-system-auth-form">
-SATAn
+
 <?
 if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
 	ShowMessage($arResult['ERROR_MESSAGE']);
