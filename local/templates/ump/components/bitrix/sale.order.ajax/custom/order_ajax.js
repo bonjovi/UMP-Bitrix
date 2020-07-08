@@ -319,8 +319,8 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				   }
 				});
 				setTimeout(function() {
-					alert(123);
-					$('666').appendTo('#bx-soa-region');
+					alert(1234);
+					$('<div>666</div>').appendTo('.found_dealers');
 				}, 2000);
 				
 				
