@@ -150,15 +150,28 @@ $(document).ready(function() {
 
 
 
-    // В оформлении заказа подсовываем юр.лицу дилеров из его города
-    /*$('input[name="PERSON_TYPE"]').on('click', function() {
-        var person_type = $(this).parent().text();
-        if(person_type == 'Юридическое лицо') {
-            setTimeout(function() {
-                $('<div>Test</div>').insertBefore($('.bx-soa-reference'));
-            }, 2000);
-        }
-    });*/
+    
+
+
+    var dataTable = $('.product__offerstable_locks').DataTable({
+        fixedHeader: true,
+        "aLengthMenu": [[5, 10, 15, -1], [5, 10, 15, "All"]],
+        "iDisplayLength": 5
+    });
+
+    /*var select = $('<div class="product__offerstable-selectwrapper"><select><option value="" class="product__offerstable-option"></option></select></div>')
+        .appendTo( $('tfoot th.satan').empty() )
+        .on( 'change', function () {
+            dataTable.column( 6 )
+                .search( $(this).val() )
+                .draw();
+        } );
+
+        dataTable.column( 6 ).data().unique().sort().each( function ( d, j ) {
+        select.find('select').append( '<option value="'+d+'" class="product__offerstable-option">'+d+'</option>' )
+    } );*/
+
+    
 
     
 

@@ -64,9 +64,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 	</div>
 	<div class="col-lg-7">
 			<?php
-				//echo "<pre>";
-				//print_r($arResult["PROPERTIES"]);
-				//echo "</pre>";
+				// echo "<pre>";
+				// print_r($arResult["ID"]);
+				// echo "</pre>";
 			?>
 			<!-- Описание -->
 			<?php if($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"] != ''): ?>
@@ -159,16 +159,45 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 		];*/
 	?>
 
+	<?php
+		if(CModule::IncludeModule("iblock"))
+		{
+			$res = CIBlockElement::GetByID( $arResult["ID"] );
+			if($category_id = $res->GetNext()) {
+				//echo $ar_res['IBLOCK_SECTION_ID'];
+				if($category_id['IBLOCK_SECTION_ID'] == 540) {
+					//echo 123;
+				}
+			}
+		}
+	?>
+
 	<div class="col-lg-12">
 		<?if(is_array($arResult["OFFERS"]) && !empty($arResult["OFFERS"])):?>
 			<div class="product__offers">
-				<table class="product__offerstable">
+				
+				<table class="product__offerstable <?=($category_id['IBLOCK_SECTION_ID'] == 540) ? 'product__offerstable_locks' : '' ?>">
 					<thead>
-						<th width="200">Артикул</th>
-						<th>Название</th>
-						<th width="150">Цена</th>
-						<th></th>
+						<tr>
+							<th>Артикул</th>
+							<th>Название</th>
+
+							<? if($category_id['IBLOCK_SECTION_ID'] == 540): ?>
+								<th>Высота дужки, мм</th>
+								<th>Диаметр дужки, мм</th>
+								<th>Цвет</th>
+								<th>Шт/уп</th>
+								<th>Система замков</th>
+							<?endif;?>
+
+							<th width="150">Цена</th>
+							<th></th>
+						</tr>
+						
 					</thead>
+
+					
+
 					<tbody>
 						<!-- Если есть преддожения -->
 						<?foreach($arResult["OFFERS"] as $arOffer):?>
@@ -194,7 +223,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 									<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].' руб.' : 'Нет цены' ?>
 									<input name="offer-price" type="radio" value="<?=$arProperty["DISPLAY_VALUE"]?>" class="product__offerradio" data-offer-id="<?=$arOffer['ID']?>">
 								</label> -->
-								<br />
+								
 								<tr>
 									<td>
 										<?=$arOffer['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?>
@@ -202,6 +231,14 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 									<td>
 										<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE']?>
 									</td>
+
+									<? if($category_id['IBLOCK_SECTION_ID'] == 540): ?>
+										<td><?=$arOffer['PROPERTIES']['VYSOTA_DUZHKI_MM']['VALUE']?></td>
+										<td><?=$arOffer['PROPERTIES']['DIAMETR_DUZHKI_MM']['VALUE']?></td>
+										<td><?=$arOffer['PROPERTIES']['TSVET']['VALUE']?></td>
+										<td><?=$arOffer['PROPERTIES']['SHT_UP']['VALUE']?></td>
+										<td><?=$arOffer['PROPERTIES']['SISTEMA_ZAMKOV']['VALUE']?></td>
+									<? endif; ?>
 									
 									<?foreach($arResult["DISPLAY_PROPERTIES"] as $pid=>$arProperty):?>
 										<?if($arProperty["VALUE"] != '' && in_array($arProperty["CODE"], $system_properties_array)):?>

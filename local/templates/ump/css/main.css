@@ -7197,6 +7197,25 @@ ul.news-list {
   .product__offerstable tr:nth-child(even) {
     background-color: #f7f7f7; }
 
+.product__offerstable-option {
+  color: black; }
+
+.product__offerstable-selectwrapper {
+  position: relative; }
+  .product__offerstable-selectwrapper:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    top: 8px;
+    right: 13px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    border-right: 2px solid #2D2D2D;
+    border-bottom: 2px solid #2D2D2D; }
+
 .dealer__list {
   display: -webkit-flex;
   display: -ms-flexbox;

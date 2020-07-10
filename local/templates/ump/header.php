@@ -11,12 +11,16 @@
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/owl.theme.default.min.css');
 	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/jquery.fancybox.min.css');
 	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/jquery.mCustomScrollbar.min.css');
+	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/datatables.min.css');
+	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/fixedHeader.dataTables.min.css');
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/main.css');
     // JS
     CJSCore::Init(array("jquery"));
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/owl.carousel.min.js');
 	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/jquery.fancybox.min.js');
 	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/jquery.mCustomScrollbar.js');
+	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/datatables.min.js');
+	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/dataTables.fixedHeader.min.js');
 	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/custom.js');
 
     //STRING
