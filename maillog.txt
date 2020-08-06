@@ -661,3 +661,39 @@ Content-Transfer-Encoding: 8bit
 )
 
 ========
+Array
+(
+    [TO] => admin@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0KDQtdCz0LjRgdGC0YDQsNGG0LjQvtC90L3QsNGPINC40L3RhNC+0YDQvNCw0YbQuNGP?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Admin ,
+
+Администратор зарегистрировал вас на сайте
+
+Ваша регистрационная информация:
+
+ID пользователя: 876
+Статус профиля: активен
+Login: admin
+
+Вы можете изменить пароль, перейдя по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=d6531955954ee89a82f434869134e783&USER_LOGIN=admin
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_INFO
+X-Priority: 3 (Normal)
+Date: Fri, 31 Jul 2020 12:22:45 +0300
+MIME-Version: 1.0
+To: admin@umpgroup.ru
+X-MID: 0.2 (31.07.2020 12:22:45)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========

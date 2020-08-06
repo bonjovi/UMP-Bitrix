@@ -176,11 +176,11 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
  <img width="200" src="/local/templates/ump/img/products/visualization01.svg" alt="">
 			</div>
 			<div class="directions__title">
-				 Визуализация
+				 Сигнальная разметка
 			</div>
  </a>
 			<div class="directions__text text">
-				 Оборудование, материалы, ассортимент готовых изделий для визуализации пространства на предприятии, складе, офисе, торговом зале
+				Ленты для обозначения социальной дистанции, знаки безопасности, оборудование и ассортимент готовых изделий для визуализации пространства на предприятии, складе, офисе, торговом зале
 			</div>
 		</div>
 	</div>

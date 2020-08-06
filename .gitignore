@@ -2,7 +2,6 @@
 Thumbs.db
 /.idea/
 /bitrix/*
-/upload/*
 /images/*
 /local/templates/ump/node_modules/*
 /local/templates/ump/package-lock.json

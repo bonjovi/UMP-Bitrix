@@ -45,7 +45,7 @@ $APPLICATION->SetTitle("");
 	array(
 		"COMPONENT_TEMPLATE" => "custom",
 		"IBLOCK_TYPE" => "catalogs",
-		"IBLOCK_ID" => "1",
+		"IBLOCK_ID" => "32",
 		"SECTION_ID" => $_REQUEST["SECTION_ID"],
 		"SECTION_CODE" => "",
 		"SECTION_LIST" => array(
