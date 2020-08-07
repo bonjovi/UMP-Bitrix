@@ -35,6 +35,16 @@ $(document).ready(function() {
         dots: false
     });
 
+    $(".reviews__items").owlCarousel({
+        items: 2,
+        autoplay: false,
+        loop: true,
+        mouseDrag: true,
+        nav: true,
+        dots: false,
+        margin: 30
+    });
+
 
 
     // Центрируем картинки в главном навигационном меню
@@ -159,6 +169,23 @@ $(document).ready(function() {
             }, 2000);
         }
     });*/
+
+    $('.header__dealers-entry').on('click', function() {
+        setTimeout(function() {
+            if($('div').is('.fancybox-container .header__popup')) {
+                $('.header__top').css('z-index','99999');
+            } 
+        }, 100);
+    });
+
+    $('[data-fancybox]').fancybox({
+        'beforeClose': function() { $('.header__top').css('z-index','0'); },
+        'closeClick': true
+    });
+
+    $('.reviews__items .owl-nav').insertAfter('.reviews__items');
+
+
 
     
 

@@ -190,14 +190,14 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 									<? endif; ?>
 								</small> -->
 								<!-- <label class="product__offerlabel">
-									<?=$arOffer['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?> - <?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
+									<?=$arOffer['PROPERTIES']['CML2_ARTICLE']['VALUE']?> - <?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE'].' - '?>
 									<?=(count($arOffer['PRICES'][1]['VALUE']) != NULL) ? $arOffer['PRICES'][1]['VALUE'].' руб.' : 'Нет цены' ?>
 									<input name="offer-price" type="radio" value="<?=$arProperty["DISPLAY_VALUE"]?>" class="product__offerradio" data-offer-id="<?=$arOffer['ID']?>">
 								</label> -->
 								<br />
 								<tr>
 									<td>
-										<?=$arOffer['PROPERTIES']['ARTIKUL_POSTAVSHCHIKA']['VALUE']?>
+										<?=$arOffer['PROPERTIES']['CML2_ARTICLE']['VALUE']?>
 									</td>
 									<td>
 										<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE']?>
