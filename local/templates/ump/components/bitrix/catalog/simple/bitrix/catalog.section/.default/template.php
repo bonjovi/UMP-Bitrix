@@ -8,9 +8,12 @@ $this->setFrameMode(true);
 
 
 <?php if(!empty($arResult['NAME'])): ?>
-<h1 class="title title_large catalog__title"><?=$arResult['NAME']?></h1>
+	<h1 class="title title_large catalog__title"><?=$arResult['NAME']?></h1>
+	<div class="catalog__description">
+		<?=$arResult['DESCRIPTION']?>
+	</div>
 <?php else: ?>
-<h1 class="title title_large catalog__title">Каталог</h1>
+	<h1 class="title title_large catalog__title">Каталог</h1>
 <?php endif; ?>
 
 
@@ -78,7 +81,7 @@ $this->setFrameMode(true);
 					Артикулы:
 					<?foreach($arElement["OFFERS"] as $arOffer):?>
 						<?php
-							$artcls[] = $arOffer["PROPERTIES"]["ARTIKUL_POSTAVSHCHIKA"]["VALUE"];
+							$artcls[] = $arOffer["PROPERTIES"]["CML2_ARTICLE"]["VALUE"];
 						?>
 					<?endforeach?>
 					<?php 

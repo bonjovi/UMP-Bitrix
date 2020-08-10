@@ -14,7 +14,7 @@
 									<a href="/about/sertificates" class="text">Сертификаты дистрибьютора</a>
 								</li>
 								<li class="footer__item">
-									<a href="#" class="text">Поддержка и сервис</a>
+									<a href="/service/" class="text">Поддержка и сервис</a>
 								</li>
 								<li class="footer__item">
 									<a href="/catalog" class="text">Продукты</a>
@@ -33,22 +33,22 @@
 						<div class="col-lg-3">
 							<ul class="footer__list">
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=201" class="text">Маркировка BRADY</a>
+									<a href="/catalog/markirovka_brady/" class="text">Маркировка BRADY</a>
 								</li>
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=141" class="text">Механическая маркировка</a>
+									<a href="/catalog/mekhanicheskaya_markirovka/" class="text">Механическая маркировка</a>
 								</li>
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=206" class="text">Промышленная химия</a>
+									<a href="/catalog/promyshlennaya_khimiya/" class="text">Промышленная химия</a>
 								</li>
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=269" class="text">Кабельные инструменты и оборудование</a>
+									<a href="/catalog/instrumenty-i-oborudovanie/" class="text">Кабельные инструменты и оборудование</a>
 								</li>
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=144" class="text">Блокираторы и замки ЛОТО</a>
+									<a href="/catalog/blokiratory_i_zamki_loto/" class="text">Промышленная блокировка LOTO</a>
 								</li>
 								<li class="footer__item">
-									<a href="/catalog/?SECTION_ID=276" class="text">Сорбенты промышленные</a>
+									<a href="/catalog/sorbenty/" class="text">Сорбенты промышленные</a>
 								</li>
 							</ul>
 						</div>

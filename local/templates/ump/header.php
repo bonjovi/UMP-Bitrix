@@ -33,7 +33,7 @@
 </head>
 <body>
 <?
-global $USER; if ($USER->IsAdmin()){echo "<style>#bx-panel {z-index:99999999 !important;} .fancybox-container {margin-top: 184px !important;}</style>";}
+//global $USER; if ($USER->IsAdmin()){echo "<style>#bx-panel {z-index:99999999 !important;} .fancybox-container {margin-top: 184px !important;}</style>";}
 $APPLICATION->ShowPanel();
 ?>
 
@@ -80,7 +80,7 @@ $APPLICATION->ShowPanel();
 									<a href="/cabinet" class="text text_xsmall text_lightgrey"><?=$USER->GetFullName();?></a> <a class="text text_xsmall text_lightgrey" href="?logout=yes">Выйти</a>
 								</div>
 							<?else:?>
-								<a class="header__link" data-fancybox data-src="#header__login-content" href="javascript:;">
+								<a class="header__link header__dealers-entry" data-fancybox data-src="#header__login-content" href="javascript:;">
 									<img src="<?=SITE_TEMPLATE_PATH?>/img/login.png" alt="Вход для дилеров" class="header__login-icon">
 									<span class="text text_xsmall text_lightgrey">Вход для дилеров</span>
 								</a>
@@ -105,8 +105,8 @@ $APPLICATION->ShowPanel();
 										".default", 
 										array(
 											"COMPONENT_TEMPLATE" => "custom",
-											"REGISTER_URL" => "registration.php",
-											"FORGOT_PASSWORD_URL" => "forgotpassword.php",
+											"REGISTER_URL" => "/cabinet/auth/registration.php",
+											"FORGOT_PASSWORD_URL" => "/cabinet/auth/forgotpassword.php",
 											"PROFILE_URL" => "/cabinet/auth/",
 											"SHOW_ERRORS" => "Y"
 										),

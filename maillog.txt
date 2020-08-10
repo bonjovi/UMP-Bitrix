@@ -697,3 +697,39 @@ Content-Transfer-Encoding: 8bit
 )
 
 ========
+Array
+(
+    [TO] => nn-2@umpgroup.ru
+    [SUBJECT] => =?UTF-8?B?0JDQniAi0K7QndCY0KIg0JzQkNCg0Jog0J/QoNCeIjog0JfQsNC/0YDQvtGBINC90LAg0YHQvNC10L3RgyDQv9Cw0YDQvtC70Y8=?=
+    [BODY] => Информационное сообщение сайта АО "ЮНИТ МАРК ПРО"
+------------------------------------------
+Никита Фомин,
+
+Вы запросили ваши регистрационные данные.
+
+Для смены пароля перейдите по следующей ссылке:
+http://dev.umpgroup.ru/auth/index.php?change_password=yes&lang=ru&USER_CHECKWORD=d9f49685a6eb2051cf1b613b0f5d43a0&USER_LOGIN=00-00003521-01
+
+Ваша регистрационная информация:
+
+ID пользователя: 778
+Статус профиля: активен
+Login: 00-00003521-01
+
+Сообщение сгенерировано автоматически.
+
+
+
+    [HEADERS] => From: web@umpgroup.ru
+Reply-To: web@umpgroup.ru
+X-EVENT_NAME: USER_PASS_REQUEST
+X-Priority: 3 (Normal)
+Date: Mon, 10 Aug 2020 12:36:24 +0300
+MIME-Version: 1.0
+To: nn-2@umpgroup.ru
+X-MID: 0.3 (10.08.2020 12:36:23)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+)
+
+========
