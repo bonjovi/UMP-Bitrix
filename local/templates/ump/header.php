@@ -988,7 +988,7 @@ $APPLICATION->ShowPanel();
 					</div><!-- /.row -->
 					<div class="header__searchcontainer">
 						<!-- <input href="#" type="text" class="header__searchinput" placeholder="Введите фразу для поиска..."> -->
-						<?/*$APPLICATION->IncludeComponent(
+						<?$APPLICATION->IncludeComponent(
 							"bitrix:search.form", 
 							"custom", 
 							array(
@@ -997,9 +997,9 @@ $APPLICATION->ShowPanel();
 								"USE_SUGGEST" => "N"
 							),
 							false
-						);*/?>
+						);?>
 
-						<?$APPLICATION->IncludeComponent(
+						<?/*$APPLICATION->IncludeComponent(
 							"bitrix:catalog.search", 
 							".default", 
 							array(
@@ -1073,7 +1073,7 @@ $APPLICATION->ShowPanel();
 								)
 							),
 							false
-						);?>
+						);*/?>
 					</div>
 				</div><!-- /.container -->
 			</div><!-- /.header__main -->
