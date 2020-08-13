@@ -29,9 +29,9 @@ $APPLICATION->SetTitle("О компании");
 <br>
  
 	<?$APPLICATION->IncludeComponent(
-	"bitrix:search.page",
-	"",
-	Array(
+	"bitrix:search.page", 
+	".default", 
+	array(
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "N",
@@ -55,12 +55,16 @@ $APPLICATION->SetTitle("О компании");
 		"SHOW_RATING" => "",
 		"SHOW_WHEN" => "N",
 		"SHOW_WHERE" => "Y",
-		"USE_LANGUAGE_GUESS" => "Y",
+		"USE_LANGUAGE_GUESS" => "N",
 		"USE_SUGGEST" => "N",
 		"USE_TITLE_RANK" => "N",
-		"arrFILTER" => array(),
-		"arrWHERE" => array()
-	)
+		"arrFILTER" => array(
+		),
+		"arrWHERE" => array(
+		),
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?>
 
 

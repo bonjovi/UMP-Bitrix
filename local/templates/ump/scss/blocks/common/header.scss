@@ -65,6 +65,11 @@
         border: none;
         outline: none;
         cursor: pointer;
+        text-indent: -9999px;
+
+        &_second {
+            margin: 0;
+        }
 
         &_clicked {
             background: transparent url(../img/close.png) 0 0 no-repeat;
@@ -115,12 +120,13 @@
         width: calc(100% - 30px);
         border: none;
         outline: none;
-        background: transparent url(../img/search.png) center right no-repeat;
+        /*background: transparent url(../img/search.png) center right no-repeat;*/
         font-family: 'MuseoSans Regular';
         color: #000000;
         font-size: 20px;
         line-height: 20px;
         font-weight: 900;
+        background-color: #fff !important;
     }
 
     &__popup {
@@ -194,7 +200,7 @@
 }
 
 .header__searchcontainer .search-form table {
-    width: 100%;
+    width: calc(100% - 30px);
 }
 
 article > .search-form {
