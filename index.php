@@ -421,27 +421,46 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 	</div>
 
 	<div class="reviews__items">
-		<div class="reviews__item">
-			<div class="reviews__name title title_medium">Имя 1</div>
-			<div class="reviews__company text text_large text_black">Компания 1</div>
-			<div class="reviews__text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		<a class="reviews__item" href="#">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-		</div>
-		<div class="reviews__item">
-			<div class="reviews__name title title_medium">Имя 2</div>
-			<div class="reviews__company text text_large text_black">Компания 2</div>
-			<div class="reviews__text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			<div class="reviews__company text text_xlarge text_black text_bold">Компания 1</div>
+			<div class="reviews__name text text_large">Имя 1</div>
+		</a>
+
+		<a class="reviews__item" href="#">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-		</div>
-		<div class="reviews__item">
-			<div class="reviews__name title title_medium">Имя 3</div>
-			<div class="reviews__company text text_large text_black">Компания 3</div>
-			<div class="reviews__text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			<div class="reviews__company text text_xlarge text_black text_bold">Компания 2</div>
+			<div class="reviews__name text text_large">Имя 2</div>
+		</a>
+
+		<a class="reviews__item" href="#">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-		</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">Компания 3</div>
+			<div class="reviews__name text text_large">Имя 3</div>
+		</a>
+
+		<a class="reviews__item" href="#">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
+			</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">Компания 4</div>
+			<div class="reviews__name text text_large">Имя 4</div>
+		</a>
+
+		<a class="reviews__item" href="#">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
+			</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">Компания 5</div>
+			<div class="reviews__name text text_large">Имя 5</div>
+		</a>
+		
 	</div><!-- /.reviews__items -->
 
 </section><!-- /.reviews -->

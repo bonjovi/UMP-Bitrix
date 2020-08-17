@@ -36,7 +36,7 @@ $(document).ready(function() {
     });
 
     $(".reviews__items").owlCarousel({
-        items: 2,
+        items: 4,
         autoplay: false,
         loop: true,
         mouseDrag: true,

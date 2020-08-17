@@ -6138,6 +6138,11 @@ article > .search-form {
   .text_large {
     font-size: 16px;
     line-height: 24px; }
+  .text_xlarge {
+    font-size: 18px;
+    line-height: 24px; }
+  .text_bold {
+    font-weight: bold; }
   .text_lightgrey {
     color: #a7a7a7; }
   .text_grey {
@@ -6836,14 +6841,21 @@ label {
     margin: 0 auto; }
   .reviews__item {
     padding: 30px;
-    background-color: #ececec;
+    background-color: transparent;
     width: 100%;
     margin-right: 20px;
-    height: 244px; }
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .reviews__company {
-    margin-bottom: 20px; }
-  .reviews__name {
-    text-transform: uppercase; }
+    margin: 20px 0; }
   .reviews .owl-stage {
     display: -webkit-flex;
     display: -ms-flexbox;
