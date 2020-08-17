@@ -15,7 +15,7 @@ $this->setFrameMode(true);?>
 <form action="<?=$arResult["FORM_ACTION"]?>">
 	<table border="0" cellspacing="0" cellpadding="2" align="center">
 		<tr>
-			<td align="center"><?if($arParams["USE_SUGGEST"] === "Y"):?><?$APPLICATION->IncludeComponent(
+			<td align="center" width="100%"><?if($arParams["USE_SUGGEST"] === "Y"):?><?$APPLICATION->IncludeComponent(
 				"bitrix:search.suggest.input",
 				"",
 				array(
@@ -26,10 +26,8 @@ $this->setFrameMode(true);?>
 				),
 				$component, array("HIDE_ICONS" => "Y")
 			);?><?else:?><input type="text" name="q" value="" size="15" maxlength="50" class="header__searchinput"  placeholder="Введите фразу для поиска..." /><?endif;?></td>
+			<td align="right"><input class="header__searchbutton header__searchbutton_second" name="s" type="submit" value="<?=GetMessage("BSF_T_SEARCH_BUTTON");?>" /></td>
 		</tr>
-		<!-- <tr>
-			<td align="right"><input name="s" type="submit" value="<?=GetMessage("BSF_T_SEARCH_BUTTON");?>" /></td>
-		</tr> -->
 	</table>
 </form>
 </div>
