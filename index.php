@@ -322,7 +322,8 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 		</div>
 		<div class="brandmanagers__item">
 			<div class="brandmanagers__pic">
-				<img src="/local/templates/ump/img/employees/okhrimenko.png" alt="">
+				<!--<img src="/local/templates/ump/img/employees/okhrimenko.png" alt="">-->
+				<img src="/local/templates/ump/img/employees/okhrimenko.jpg" alt="">
 			</div>
 			<div class="brandmanagers__brand title">
 				 Brady
