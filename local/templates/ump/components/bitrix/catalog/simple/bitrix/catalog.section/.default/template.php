@@ -27,16 +27,19 @@ $this->setFrameMode(true);
 <div class="catalog__products row">
 
 	<?php
-	// echo "<pre>";
-	// print_r($arResult);
-	// echo "</pre>";
+		// echo "<pre>";
+		// print_r($arResult);
+		// echo "</pre>";
+
+		$brandsArray = [];
 	?>
 
-
+	
 
 	<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
 
 	<?php
+	$brandsArray[] = $arElement["PROPERTIES"]["MARKA_SERIYA"]["VALUE"];
 	// echo "<pre>";
 	// print_r($arElement);
 	// echo "</pre>";
@@ -78,6 +81,7 @@ $this->setFrameMode(true);
 					?>
 				<?endforeach?>
 				<div class="text text_small text_lightgrey">
+					
 					Артикулы:
 					<?foreach($arElement["OFFERS"] as $arOffer):?>
 						<?php
@@ -155,7 +159,30 @@ $this->setFrameMode(true);
 		</div><!-- /.catalog__product -->
 	<?endforeach;?>
 		
+	
 </div> <!-- /.catalog__products -->
+
+<div class="catalog__brands">
+	<?
+		$brandsArray = array_unique($brandsArray);
+		//print_r($brandsArray);
+		foreach($brandsArray as $brandsItem) {
+			if($brandsItem == 'Brady') {
+				echo "<a class='catalog__brands-item' href='/about/brands/brady/'><img src='/local/templates/ump/img/brands/vertical/brady.jpg'></a>";
+			} elseif($brandsItem == 'Brady SPC') {
+				echo "<a class='catalog__brands-item' href='/about/brands/brady/'><img src='/local/templates/ump/img/brands/vertical/brady_spc.gif'></a>";
+			} elseif($brandsItem == 'WEICON TOOLS') {
+				echo "<a class='catalog__brands-item' href='/about/brands/weicon/'><img src='/local/templates/ump/img/brands/vertical/weicon-tools.png'></a>";
+			} elseif($brandsItem == 'WEICON') {
+				echo "<a class='catalog__brands-item' href='/about/brands/weicon/'><img src='/local/templates/ump/img/brands/vertical/weicon.jpg'></a>";
+			} elseif($brandsItem == 'SIC Marking') {
+				echo "<a class='catalog__brands-item' href='/about/brands/sic/'><img src='/local/templates/ump/img/brands/vertical/sic.jpg'></a>";
+			} elseif($brandsItem == 'Klauke') {
+				echo "<a class='catalog__brands-item' href='/about/brands/klauke/'><img src='/local/templates/ump/img/brands/vertical/klauke.jpg'></a>";
+			}
+		}
+	?>   
+</div>
 
 <?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?>

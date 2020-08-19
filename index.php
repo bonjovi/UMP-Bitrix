@@ -421,44 +421,52 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 	</div>
 
 	<div class="reviews__items">
-		<a class="reviews__item" href="#">
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/SIC_нефтегаз_НЗМП (отзыв).pdf" target="_blank">
 			<div class="reviews__name title title_medium">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-			<div class="reviews__company text text_xlarge text_black text_bold">Компания 1</div>
-			<div class="reviews__name text text_large">Имя 1</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">ООО «НЗМП»<br>&nbsp;</div>
+			<div class="reviews__name text text_large">SIC Marking e1-p63</div>
 		</a>
 
-		<a class="reviews__item" href="#">
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/SIC_нефтегаз_Таргин (отзыв).pdf" target="_blank">
 			<div class="reviews__name title title_medium">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-			<div class="reviews__company text text_xlarge text_black text_bold">Компания 2</div>
-			<div class="reviews__name text text_large">Имя 2</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">ООО «Таргин Механосервис»</div>
+			<div class="reviews__name text text_large">SIC Marking e10-p123</div>
 		</a>
 
-		<a class="reviews__item" href="#">
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/SIC_нефтегаз_ТМС-бурсервис (отзыв).pdf" target="_blank">
 			<div class="reviews__name title title_medium">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-			<div class="reviews__company text text_xlarge text_black text_bold">Компания 3</div>
-			<div class="reviews__name text text_large">Имя 3</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">ООО «ТМС - Буровой сервис»</div>
+			<div class="reviews__name text text_large">SIC Marking e10-p123-40</div>
 		</a>
 
-		<a class="reviews__item" href="#">
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/Отзыв о U-900 от МРСК Центр.pdf" target="_blank">
 			<div class="reviews__name title title_medium">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-			<div class="reviews__company text text_xlarge text_black text_bold">Компания 4</div>
-			<div class="reviews__name text text_large">Имя 4</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">Белгородские электрические сети</div>
+			<div class="reviews__name text text_large">UNIROLLER 900</div>
 		</a>
 
-		<a class="reviews__item" href="#">
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/Положительный отзыв по ленте.pdf" target="_blank">
 			<div class="reviews__name title title_medium">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
 			</div>
-			<div class="reviews__company text text_xlarge text_black text_bold">Компания 5</div>
-			<div class="reviews__name text text_large">Имя 5</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">ООО «Гестамп Тольятти»</div>
+			<div class="reviews__name text text_large">Лента напольная на подложке, материал B514</div>
+		</a>
+
+		<a class="reviews__item" href="/local/templates/ump/img/feedbacks/пээми5.pdf" target="_blank">
+			<div class="reviews__name title title_medium">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/pdf-icon.png" alt="">
+			</div>
+			<div class="reviews__company text text_xlarge text_black text_bold">ЗАО «ПЗЭМИ»<br>&nbsp;</div>
+			<div class="reviews__name text text_large">Общий отзыв</div>
 		</a>
 		
 	</div><!-- /.reviews__items -->

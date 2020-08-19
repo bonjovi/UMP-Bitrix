@@ -181,4 +181,17 @@
             text-decoration: none !important;
         }
     }
+
+    &__brands {
+        position: absolute;
+        top: 0;
+        right: -70px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 85px;
+    }
+
+    &__brands-item {
+        width: 31px;
+    }
 }
