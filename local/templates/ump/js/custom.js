@@ -4,6 +4,10 @@ $(document).ready(function() {
         axis: "x"
     });
 
+    $('.product__tabs').mCustomScrollbar({
+        axis: "x"
+    });
+
     var owl = $(".slider").owlCarousel({
         items: 1,
         autoplay: true,

@@ -6304,6 +6304,12 @@ label {
     margin-left: 20px;
     padding-top: 13px; }
 
+.attentionline {
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  padding: 15px 0;
+  text-align: center; }
+
 .topmenu {
   height: 43px;
   display: -webkit-flex;
@@ -7018,7 +7024,8 @@ label {
   .catalog .text {
     -webkit-order: 4;
         -ms-flex-order: 4;
-            order: 4; }
+            order: 4;
+    word-break: break-all; }
   .catalog__sitemap {
     -webkit-order: 2;
         -ms-flex-order: 2;
@@ -7082,6 +7089,8 @@ label {
     padding-top: 85px; }
   .catalog__brands-item {
     width: 31px; }
+    .catalog__brands-item > img {
+      width: 100%; }
 
 .leftmenu__list {
   list-style: none;
@@ -7276,7 +7285,25 @@ ul.news-list {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  position: relative; }
+  position: relative;
+  overflow: auto; }
+  .product__tabs #mCSB_1_container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .product__tabs .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    height: 6px;
+    opacity: 0.3; }
+  .product__tabs .mCSB_scrollTools .mCSB_draggerRail, .product__tabs .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 0; }
+  .product__tabs .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 6px;
+    background-color: #63c6a4;
+    margin-top: 7px; }
+  .product__tabs .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    margin-bottom: -2px; }
+  .product__tabs .mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-bottom: 10px; }
   .product__tabs:after {
     content: '';
     height: 1px;

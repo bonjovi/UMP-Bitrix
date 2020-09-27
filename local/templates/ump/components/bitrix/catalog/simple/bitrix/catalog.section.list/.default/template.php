@@ -5,9 +5,19 @@ $this->setFrameMode(true);
 <?
 $TOP_DEPTH = $arResult["SECTION"]["DEPTH_LEVEL"];
 $CURRENT_DEPTH = $TOP_DEPTH;
+//echo "<pre>";
+//print_r($arResult);
+//echo "</pre>";
 ?>
 
-
+<?php if(!empty($arResult['SECTION']['NAME'])): ?>
+    <h1 class="title title_large catalog__title"><?=$arResult['SECTION']['NAME']?></h1>
+    <div class="catalog__description">
+        <?=$arResult['DESCRIPTION']?>
+    </div>
+<?php else: ?>
+    <h1 class="title title_large catalog__title">Каталог</h1>
+<?php endif; ?>
 
 <?php
 // echo "<pre>";
@@ -30,7 +40,7 @@ $APPLICATION->SetTitle($name_section);
 
 	<script>
 		$(function() {
-			$('.catalog__categories.row').next().next('.catalog__products row').hide();
+			$('.catalog__categories.row').next().next('.catalog__products .row').hide();
 		});
 	</script>
 

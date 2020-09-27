@@ -7,14 +7,7 @@ $this->setFrameMode(true);
 
 
 
-<?php if(!empty($arResult['NAME'])): ?>
-	<h1 class="title title_large catalog__title"><?=$arResult['NAME']?></h1>
-	<div class="catalog__description">
-		<?=$arResult['DESCRIPTION']?>
-	</div>
-<?php else: ?>
-	<h1 class="title title_large catalog__title">Каталог</h1>
-<?php endif; ?>
+
 
 
 
@@ -89,7 +82,7 @@ $this->setFrameMode(true);
 						?>
 					<?endforeach?>
 					<?php 
-						echo implode(",", $artcls);
+						echo implode(", ", $artcls);
 						unset($artcls);
 					?>
 				</div>

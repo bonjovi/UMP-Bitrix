@@ -105,6 +105,7 @@
 
     & .text {
         order: 4;
+        word-break: break-all;
     }
 
     &__sitemap {
@@ -193,5 +194,9 @@
 
     &__brands-item {
         width: 31px;
+
+        & > img {
+            width: 100%;
+        }
     }
 }

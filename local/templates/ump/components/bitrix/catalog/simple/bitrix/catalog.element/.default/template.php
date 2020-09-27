@@ -69,11 +69,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				// echo "</pre>";
 			?>
 			<!-- Описание -->
-			<?php if($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"] != ''): ?>
-				<?=html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]);?>
-			<?php else: ?>
-				<?=html_entity_decode($arResult["PROPERTIES"]["WEB_OPISANIE"]["VALUE"]);?>
-			<?php endif; ?>
+            <?=$arResult["PROPERTIES"]["WEB_OPISANIE"]["~VALUE"]["TEXT"];?>
 
 			<?php
 			/*if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS'])
@@ -229,7 +225,7 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 										<?=$arOffer['PROPERTIES']['CML2_ARTICLE']['VALUE']?>
 									</td>
 									<td>
-										<?=$arOffer['PROPERTIES']['WEB_NAZVANIE']['VALUE']?>
+										<?=$arOffer['PROPERTIES']['WEB_NAZVANIE_DLYA_TORGOVOGO_PREDLOZHENIYA']['VALUE']?>
 									</td>
 
 									<? if($category_id['IBLOCK_SECTION_ID'] == 540): ?>

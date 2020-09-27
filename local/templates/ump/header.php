@@ -39,6 +39,11 @@ $APPLICATION->ShowPanel();
 
 <div class="pagewrapper">
 		<header class="header">
+            <div class="attentionline">
+                <div class="container text text_xsmall">
+                    Сайт находится в режиме тестирования, все замеченные ошибки и предложения направляйте по адресу <a href="mailto:web@umpgroup.ru">web@umpgroup.ru</a>. <a href="https://umpgroup.ru">Перейти на старую версию сайта</a>
+                </div>
+            </div>
 			<div class="header__top">
 				<div class="container">
 					<div class="row">
