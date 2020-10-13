@@ -68,8 +68,9 @@ if ($arResult["DETAIL_TEXT_TYPE"]!=="html") {
 				// print_r($arResult["ID"]);
 				// echo "</pre>";
 			?>
+            
 			<!-- Описание -->
-            <?=$arResult["PROPERTIES"]["WEB_OPISANIE"]["~VALUE"]["TEXT"];?>
+            <?=$arResult["PROPERTIES"]["WEB_OPISANIE"]["~VALUE"];?>
 
 			<?php
 			/*if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS'])

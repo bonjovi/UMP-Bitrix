@@ -35,19 +35,26 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
-		"Отзывы", 
-		"/dealer/feedback/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Проекты", 
-		"/dealer/projects/", 
-		Array(), 
-		Array(), 
-		"" 
-	)
+//	Array(
+//		"Отзывы",
+//		"/dealer/feedback/",
+//		Array(),
+//		Array(),
+//		""
+//	),
+//	Array(
+//		"Проекты",
+//		"/dealer/projects/",
+//		Array(),
+//		Array(),
+//		""
+//	),
+    Array(
+        "Выгрузки",
+        "/dealer/download/",
+        Array(),
+        Array(),
+        ""
+    )
 );
 ?>

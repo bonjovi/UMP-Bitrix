@@ -7411,3 +7411,17 @@ ul.news-list {
   transition: color 0.5s; }
   .dealer__link_active {
     color: #034ea2; }
+
+.dealer__label {
+  font-size: 14px;
+  font-weight: 400; }
+  .dealer__label input[type=checkbox] {
+    margin-right: 10px;
+    margin-top: 6px; }
+
+.dealer__labels {
+  -webkit-column-count: 4;
+          column-count: 4; }
+
+.dealer__csv-button {
+  margin-top: 20px; }
