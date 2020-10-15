@@ -6,29 +6,23 @@ foreach($_POST as $post_key => $post_val) {
         $categoriesSelected[] = $post_key;
     } else {
         $propertiesSelected[] = $post_key;
+        $ar_fields_array[] = $ar_fields["'".$post_key."'"];
     }
 }
 
 
-
-
-//print_r($categories); echo "<br>";
-//print_r(array_keys($categories)); echo "<br>";
-
-
 if (CModule::IncludeModule("iblock")):
     $properties = CIBlockProperty::GetList(Array("sort"=>"asc", "name"=>"asc"), Array("ACTIVE"=>"Y", "IBLOCK_ID"=> 1));
-    //print_r($properties); die;
+
     while($prop_fields = $properties->GetNext()) {
-        echo $prop_fields["NAME"]."<br>";
-        foreach($categoriesSelected as $categorySelected) {
-            if($categorySelected == $prop_fields["CODE"]) {
-                $categoriesSelectedNames[] = $prop_fields["NAME"];
+        foreach($propertiesSelected as $propertySelected) {
+            if($propertySelected == $prop_fields["CODE"]) {
+                $propertiesSelectedNames[] = $prop_fields["NAME"];
             }
         }
     }
-    print_r($categoriesSelectedNames); die;
-    
+    //print_r($propertiesSelectedNames); die;
+
     // Получаем список корневых разделов из формы и достаём их дочерние подразделы
 //    $sections = CIBlockSection::GetList (
 //        Array('LEFT_MARGIN' => 'ASC'),
@@ -82,9 +76,7 @@ if (CModule::IncludeModule("iblock")):
         Array(
             'ID',
             'NAME',
-            'PREVIEW_PICTURE',
-            'PREVIEW_TEXT',
-            'PROPERTY_CML2_ARTICLE'
+            $propertiesSelected
         )
     );
 
@@ -98,7 +90,7 @@ if (CModule::IncludeModule("iblock")):
     $csvFile->SetDelimiter($delimiter);
 
     // Сначала формируем шапку
-    $arrHeaderCSV = array("NAME","ARTIKUL");
+    $arrHeaderCSV = $propertiesSelectedNames;
     $csvFile->SaveFile($fileName, $arrHeaderCSV);
 
     // А теперь записываем непосредственно данные по товарам
@@ -106,11 +98,11 @@ if (CModule::IncludeModule("iblock")):
     {
 //      $img_path = CFile::GetPath($ar_fields["PREVIEW_PICTURE"]);
 //      echo "<img src='".$img_path."'/>";
-        echo $ar_fields['NAME']."<br>";
-        echo $ar_fields['PROPERTY_CML2_ARTICLE_VALUE']."<br>";
+        //echo $ar_fields['NAME']."<br>";
+        //echo $ar_fields['PROPERTY_CML2_ARTICLE_VALUE']."<br>";
 
 
-        $arrHeaderCSV = array($ar_fields['NAME'],$ar_fields['PROPERTY_CML2_ARTICLE_VALUE']);
+        $arrHeaderCSV = array($ar_fields['ID'],$ar_fields['NAME'],$ar_fields_array);
 
         $csvFile->SaveFile($fileName, $arrHeaderCSV);
     }
