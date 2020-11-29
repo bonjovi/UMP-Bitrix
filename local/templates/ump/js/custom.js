@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $('.topmenu__close-icon, .topmenu__burger-icon').on('click', function() {
+        $('.topmenu').toggleClass('topmenu-mobile');
+    });
+
     $('.newsfeed__container').mCustomScrollbar({
         axis: "x"
     });
@@ -36,7 +40,25 @@ $(document).ready(function() {
         loop: false,
         mouseDrag: true,
         nav: false,
-        dots: false
+        dots: false,
+        responsive : {
+            0 : {
+                items: 1,
+            },
+            992 : {
+                items: 4,
+            }
+        }
+    });
+
+    if($(window).width() < 992){
+        $(".newsfeed__items").trigger('destroy.owl.carousel');
+    }
+
+    $(window).resize(function(){
+        if($(window).width() < 992){
+            $(".newsfeed__items").trigger('destroy.owl.carousel');
+        }
     });
 
     $(".reviews__items").owlCarousel({
@@ -46,7 +68,15 @@ $(document).ready(function() {
         mouseDrag: true,
         nav: true,
         dots: false,
-        margin: 30
+        margin: 30,
+        responsive : {
+            0 : {
+                items: 2,
+            },
+            992 : {
+                items: 4,
+            }
+        }
     });
 
 

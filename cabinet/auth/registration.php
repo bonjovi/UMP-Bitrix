@@ -13,9 +13,9 @@ $APPLICATION->SetTitle("Регистрация");
 );?>
 	<h1 class="title title_large simplepage__title">
 	<?=$APPLICATION->ShowTitle()?> </h1>
-	<p>
+	<!--<p>
 		 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-	</p>
+	</p>-->
 	<p>
 		 <?$APPLICATION->IncludeComponent(
 	"bitrix:main.register", 
@@ -23,10 +23,18 @@ $APPLICATION->SetTitle("Регистрация");
 	array(
 		"COMPONENT_TEMPLATE" => ".default",
 		"SHOW_FIELDS" => array(
+			0 => "EMAIL",
+			1 => "NAME",
+			2 => "LAST_NAME",
+			3 => "WORK_COMPANY",
 		),
 		"REQUIRED_FIELDS" => array(
+			0 => "EMAIL",
+			1 => "NAME",
+			2 => "LAST_NAME",
+			3 => "WORK_COMPANY",
 		),
-		"AUTH" => "Y",
+		"AUTH" => "N",
 		"USE_BACKURL" => "Y",
 		"SUCCESS_PAGE" => "/cabinet/",
 		"SET_TITLE" => "Y",

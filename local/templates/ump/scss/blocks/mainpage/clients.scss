@@ -2,10 +2,30 @@
     margin: 190px 0;
 
     &__items {
-        display: flex;
-        justify-content: space-between;
+        //display: flex;
+        //justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
+
+        @media only screen and (max-width: 992px) {
+            margin-bottom: 0;
+        }
+
+        & .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 992px) {
+            margin-bottom: 20px;
+        }
     }
 
     &__pic {

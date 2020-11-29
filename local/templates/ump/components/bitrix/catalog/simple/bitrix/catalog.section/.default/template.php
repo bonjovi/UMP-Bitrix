@@ -42,7 +42,7 @@ $this->setFrameMode(true);
 			$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
 		?>
 	
-		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3">
+		<div id="<?=$this->GetEditAreaId($arElement['ID']);?>" class="catalog__product col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="catalog__product-container">
 				<a href="<?=$arElement["DETAIL_PAGE_URL"]?>" title="<?=$arElement["NAME"]?>" class="text text_small catalog__product-title">
 					<div class="catalog__product-pic">

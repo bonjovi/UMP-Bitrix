@@ -17,7 +17,7 @@ $APPLICATION->SetAdditionalCSS("/bitrix/css/main/system.auth/flat/style.css");
 <div class="container simplepage">
 	<br>
 
-	<div class="bx-authform">
+	<div class="bx-authform 123">
 
 	<?
 	if(!empty($arParams["~AUTH_RESULT"])):

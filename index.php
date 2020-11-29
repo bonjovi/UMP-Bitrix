@@ -27,14 +27,18 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 ?><br>
  <main class="main">
 <div class="container">
- <section class="intro">
-	<div class="intro__text">
-		 Компания <span class="intro__text_bold">ЮНИТ МАРК ПРО</span> (АО) специализируется на поставке и продаже производственного оборудования, расходных материалов, кабельно-проводниковой и химической продукции, сорбирующих материалов.
-	</div>
-	<div class="intro__text">
- <span class="intro__text_bold">ЮМП</span> – официальный дистрибьютор ведущих производственных предприятий Европы и США, предлагает вам промышленные решения, успешно внедрённые на крупных предприятиях России, Украины, Беларуси и Казахстана.
-	</div>
- </section><!-- /.intro --> <section class="directions">
+<section class="intro">
+    <div class="intro__text">
+        <span class="intro__text_bold">ЮНИТ МАРК ПРО (ЮМП)</span> является официальным дистрибьютором промышленного оборудования и расходных материалов компаний Brady (США), SIC Marking (Франция), Klauke (Германия), Weicon (Германия).
+    </div>
+   <div class="intro__text">
+       Мы поставляем на предприятия России и СНГ готовые решения для промышленной маркировки, инструменты для работы с проводом и кабелем, промышленную химию для ремонта и обслуживания, а также изделия для адсорбции жидкостей и химических веществ.
+   </div>
+   <div class="intro__text">
+       Предлагаемая продукция эффективно решает задачи в области маркировки и безопасности, улучшает качество и скорость электромонтажных работ, повышает надежность оборудования после обслуживания и ремонта, и надежно работает во всех отраслях промышленности. Решения дополняют друг друга, позволяя достичь синергии и увеличить общую эффективность от внедрения.
+   </div>
+</section><!-- /.intro -->
+<section class="directions">
 	<div class="title title_large title_redline">
 		 Направления компании
 	</div>
@@ -250,12 +254,12 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 	<div class="text text_grey text_medium">
 		 Мы официально представляем в РФ продукцию торговых марок BRADY, KLAUKE, GREENLEE,&nbsp;WEICON, WEICON TOOLS, SIC Marking, LEONI, TF Kable. Наши сертификаты официального дистрибьютерства в России:
 	</div>
-	<div class="certificates__items">
-		<div class="certificates__item">
+	<div class="certificates__items row">
+		<div class="certificates__item col-xs-12 col-md-five">
  <a data-fancybox="" class="certificates__pic" href="/local/templates/ump/img/certificates/brady2020.jpg" target="_blank"> <img src="/local/templates/ump/img/certificates/brady2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/brady2020.jpg" target="_blank">
 			Brady </a>
 		</div>
-		<div class="certificates__item">
+		<div class="certificates__item col-xs-12 col-md-five">
  <a data-fancybox="" class="certificates__pic" href="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" target="_blank"> <img src="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/klauke-greenlee2020.jpg" target="_blank">
 			Klauke </a>
 		</div>
@@ -263,25 +267,27 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
  <a class="certificates__pic" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank"> <img src="/local/templates/ump/img/certificates/novkabel2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/novkabel2020.jpg" target="_blank">
 			Novkabel </a>
 		</div> -->
-		<div class="certificates__item">
+		<div class="certificates__item col-xs-12 col-md-five">
  <a data-fancybox="" class="certificates__pic" href="/local/templates/ump/img/certificates/weicon2020.jpg" target="_blank"> <img src="/local/templates/ump/img/certificates/weicon2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/weicon2020.jpg" target="_blank">
 			Weicon </a>
 		</div>
-		<div class="certificates__item">
+		<div class="certificates__item col-xs-12 col-md-five">
  <a data-fancybox="" class="certificates__pic" href="/local/templates/ump/img/certificates/tfkable2020.jpg" target="_blank"> <img src="/local/templates/ump/img/certificates/tfkable2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/tfkable2020.jpg" target="_blank">
 			TFKable </a>
 		</div>
-		<div class="certificates__item">
+		<div class="certificates__item col-xs-12 col-md-five">
  <a data-fancybox="" class="certificates__pic" href="/local/templates/ump/img/certificates/sic2020.jpg"> <img src="/local/templates/ump/img/certificates/sic2020.jpg" alt=""> </a> <a class="certificates__title text text_medium text_lightgrey" href="/local/templates/ump/img/certificates/sic2020.jpg">
 			SIC </a>
 		</div>
 	</div>
- </section><!-- /.certificates --> <section class="brandmanagers">
+ </section><!-- /.certificates -->
+
+<section class="brandmanagers">
 	<div class="title title_large title_redline brandmanagers__title">
 		 Наши бренд-менеджеры
 	</div>
-	<div class="brandmanagers__items">
-		<div class="brandmanagers__item">
+	<div class="brandmanagers__items row">
+		<div class="brandmanagers__item col-sm-3 col-xs-12">
 			<div class="brandmanagers__pic">
  <img src="/local/templates/ump/img/employees/bondarenko.png" alt="">
 			</div>
@@ -292,7 +298,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 				 Андрей Бондаренко
 			</div>
 		</div>
-		<div class="brandmanagers__item">
+		<div class="brandmanagers__item col-sm-3 col-xs-12">
 			<div class="brandmanagers__pic">
 				 <!--<img src="/local/templates/ump/img/employees/okhrimenko.png" alt="">--> <img src="/local/templates/ump/img/employees/okhrimenko.jpg" alt="">
 			</div>
@@ -303,7 +309,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 				 Наталья Охрименко
 			</div>
 		</div>
-		<div class="brandmanagers__item">
+		<div class="brandmanagers__item col-sm-3 col-xs-12">
 			<div class="brandmanagers__pic">
  <img src="/local/templates/ump/img/employees/golubeva.jpg" alt="">
 			</div>
@@ -314,7 +320,7 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 				 Екатерина Голубева
 			</div>
 		</div>
-		<div class="brandmanagers__item">
+		<div class="brandmanagers__item col-sm-3 col-xs-12">
 			<div class="brandmanagers__pic">
  <img src="/local/templates/ump/img/employees/domashuk.png" alt="">
 			</div>
@@ -326,62 +332,81 @@ $trendFilter = array('PROPERTY_TREND' => '#TREND_PROPERTY_VALUE_ID#');
 			</div>
 		</div>
 	</div>
- </section><!-- /.brandmanagers --> <section class="clients">
+ </section><!-- /.brandmanagers -->
+
+<section class="clients">
 	<div class="title title_large title_redline certificates__title">
 		 Наши клиенты
 	</div>
-	<div class="clients__items">
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/danone.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/mars.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/baltika.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/nissan.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/maz.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/ikea.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/lada.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/legrand.jpg" class="clients__pic" alt="">
-		</div>
-	</div>
-	<div class="clients__items">
-		<div class="clients__item">
- <img width="110" src="https://umpgroup.ru/f/images/clients/gazprom.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/nestle.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/motorola.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/heineken.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/cocacola.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/tatneft.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/rosneft.jpg" class="clients__pic" alt="">
-		</div>
-		<div class="clients__item">
- <img src="https://umpgroup.ru/f/images/clients/kalashnikov.jpg" class="clients__pic" alt="">
-		</div>
-	</div>
+	<div class="clients__items row">
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/danone.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/mars.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/baltika.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/nissan.jpg" class="clients__pic" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/maz.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/ikea.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/lada.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/legrand.jpg" class="clients__pic" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="clients__items row">
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img width="110" src="https://old.umpgroup.ru/f/images/clients/heineken.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/motorola.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/gazprom.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/nestle.jpg" class="clients__pic" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/cocacola.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/tatneft.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/rosneft.jpg" class="clients__pic" alt="">
+                </div>
+                <div class="clients__item col-md-3 col-xs-6">
+                    <img src="https://old.umpgroup.ru/f/images/clients/kalashnikov.jpg" class="clients__pic" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
  </section><!-- /.clients --> <section class="reviews">
 	<div class="title title_large title_redline certificates__title">
 		 Отзывы

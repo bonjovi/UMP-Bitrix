@@ -1,0 +1,22 @@
+.clients {
+    margin: 190px 0;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    &__pic {
+        filter: grayscale(100%);
+        opacity: 0.3;
+        transition: 0.5s;
+
+        &:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+    }
+    
+}

@@ -27,7 +27,7 @@
 								</li>
 								<li class="footer__item">
 									<a href="/contacts/" class="text">Контакты</a>
-								</li>								
+								</li>
 							</ul>
 						</div>
 						<div class="col-lg-3">
@@ -66,10 +66,9 @@
 				</div>
 			</div>
 		</footer>
-
-<script data-skip-moving="true">
-    (function(w,d,u){
-        var s=d.createElement('script');s.async=1;s.src=u+'?'+(Date.now()/60000|0);
-        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-    })(window,document,'https://bitrix24.umpgroup.ru/upload/crm/site_button/loader_1_7fx351.js');
+<script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://bitrix24.umpgroup.ru/upload/crm/site_button/loader_1_7fx351.js');
 </script>

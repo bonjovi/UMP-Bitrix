@@ -20,12 +20,14 @@ $APPLICATION->SetTitle("Восстановление пароля");
 	<?if(CUser::IsAuthorized()):?>
 		<p>Вы успешно авторизованы и Вам не нужно ничего восстанавливать</p>
 	<?else:?>
-		<?$APPLICATION->IncludeComponent( "bitrix:system.auth.forgotpasswd",
-		"custom",
-		Array(
-			"SHOW_ERRORS" => "Y"
-		)
-		);?>
+        <div class="container">
+            <?$APPLICATION->IncludeComponent( "bitrix:system.auth.forgotpasswd",
+            "flat",
+            Array(
+                "SHOW_ERRORS" => "Y"
+            )
+            );?>
+        </div>
 	<?endif?>
 	
 

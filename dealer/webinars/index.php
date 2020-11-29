@@ -847,9 +847,9 @@ $APPLICATION->SetTitle("Вебинары");
                 ".default", 
                 array(
                     "COMPONENT_TEMPLATE" => ".default",
-                    "REGISTER_URL" => "registration.php",
-                    "FORGOT_PASSWORD_URL" => "forgotpassword.php",
+                    "FORGOT_PASSWORD_URL" => "/cabinet/auth/forgotpassword.php",
                     "PROFILE_URL" => "/cabinet/",
+                    "REGISTER_URL" => "/cabinet/auth/registration.php",
                     "SHOW_ERRORS" => "Y"
                 ),
                 false

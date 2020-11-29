@@ -1,15 +1,14 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-//print_r($_POST); die;
+
 foreach($_POST as $post_key => $post_val) {
     if((int)$post_key != 0) {
         $categoriesSelected[] = $post_key;
     } else {
         $propertiesSelected[] = $post_key;
-        $ar_fields_array[] = $ar_fields["'".$post_key."'"];
+        $propertiesSelectedCustom[] = 'PROPERTY_'.$post_key;
     }
 }
-
 
 if (CModule::IncludeModule("iblock")):
     $properties = CIBlockProperty::GetList(Array("sort"=>"asc", "name"=>"asc"), Array("ACTIVE"=>"Y", "IBLOCK_ID"=> 1));
@@ -21,25 +20,6 @@ if (CModule::IncludeModule("iblock")):
             }
         }
     }
-    //print_r($propertiesSelectedNames); die;
-
-    // Получаем список корневых разделов из формы и достаём их дочерние подразделы
-//    $sections = CIBlockSection::GetList (
-//        Array('LEFT_MARGIN' => 'ASC'),
-//        Array("IBLOCK_ID" => 1, "ACTIVE" => "Y", "SECTION_ID" => $categories, "INCLUDE_SUBSECTIONS" => "Y"),
-//        false,
-//        Array('ID', 'NAME', 'CODE')
-//    );
-//
-//    // Формируем массив айдишников этих подразделов
-//    while($ar_fields = $sections->GetNext())
-//    {
-//        $sections_ids[] = $ar_fields['NAME'];
-//    }
-
-    //print_r($sections_ids); die;
-
-
 
     foreach($categoriesSelected as $category_key => $category_val) {
         $rsParentSection = CIBlockSection::GetByID($category_val);
@@ -54,16 +34,8 @@ if (CModule::IncludeModule("iblock")):
         }
     }
 
-    //print_r($arTest); die;
-
-
-
-
-
-
-
-
-
+    $customFields = Array('ID', 'NAME');
+    $customFieldsMerged = array_merge($customFields, $propertiesSelectedCustom);
 
     // Получаем все элементы этих подразделов
     $iblock_id = 1;
@@ -73,11 +45,7 @@ if (CModule::IncludeModule("iblock")):
         false,
         //Array("nTopCount" => 1000),
         Array(),
-        Array(
-            'ID',
-            'NAME',
-            $propertiesSelected
-        )
+        $customFieldsMerged
     );
 
     // Начинаем запись в файл всех полученных товаров
@@ -90,27 +58,29 @@ if (CModule::IncludeModule("iblock")):
     $csvFile->SetDelimiter($delimiter);
 
     // Сначала формируем шапку
-    $arrHeaderCSV = $propertiesSelectedNames;
+    $arrHeaderCSV = array_merge(array("ID", "Название"),$propertiesSelectedNames);
     $csvFile->SaveFile($fileName, $arrHeaderCSV);
 
     // А теперь записываем непосредственно данные по товарам
     while($ar_fields = $my_slider->GetNext())
     {
-//      $img_path = CFile::GetPath($ar_fields["PREVIEW_PICTURE"]);
-//      echo "<img src='".$img_path."'/>";
-        //echo $ar_fields['NAME']."<br>";
-        //echo $ar_fields['PROPERTY_CML2_ARTICLE_VALUE']."<br>";
+        $arrHeaderCSV = array($ar_fields['ID'],$ar_fields['NAME']);
 
+        foreach($propertiesSelected as $propertySelected_key => $propertySelected_val) {
+            $propertySelected_val = "PROPERTY_" . $propertySelected_val . "_VALUE";
 
-        $arrHeaderCSV = array($ar_fields['ID'],$ar_fields['NAME'],$ar_fields_array);
+            if(is_array($ar_fields[$propertySelected_val])) {
+                $ar_fields[$propertySelected_val] = $ar_fields[$propertySelected_val]["TEXT"];
+            }
 
+            array_push($arrHeaderCSV, $ar_fields[$propertySelected_val]);
+        }
         $csvFile->SaveFile($fileName, $arrHeaderCSV);
     }
 
     //  Вызываем скачивание файла
     header("Location: ".$fileName);
-
-
+    
 endif;
 
 ?>

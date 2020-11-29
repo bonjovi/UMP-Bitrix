@@ -13,7 +13,11 @@ $APPLICATION->SetTitle("Личный кабинет");
 );?>
 
 
-
+<?if(isset($_GET['registration']) && $_GET['registration'] == 'waiting'):?>
+    <div class="alert alert-success">
+        На Вашу почту, указанную при регистрации, было отправлено письмо со ссылкой подтверждения регистрационных данных. Перейдите по ссылке из письма для завершения регистрации. После этого останется дождаться модерации Вашего аккаунта администратором.
+    </div>
+<?else:?>
 	<?$APPLICATION->IncludeComponent(
 		"bitrix:menu",
 		"dealer_menu",
@@ -44,5 +48,9 @@ $APPLICATION->SetTitle("Личный кабинет");
 Array()
 );?><br>
 	</p>
+<?endif?>
+
+
+
 </div>
 <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

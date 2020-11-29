@@ -4,6 +4,56 @@
     align-items: center;
     position: relative;
 
+    @media only screen and (max-width: 1200px) {
+        display: none;
+    }
+
+    &__close-icon {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        display: none;
+    }
+
+    &.topmenu-mobile {
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+        @media only screen and (max-width: 1200px) {
+            display: flex;
+        }
+
+        & .topmenu__list {
+            flex-direction: column;
+        }
+
+        & .topmenu__close-icon {
+            display: block;
+            cursor: pointer;
+        }
+    }
+
+    &__burger-icon {
+        margin-left: 20px;
+        cursor: pointer;
+        display: none;
+
+        @media only screen and (max-width: 1200px) {
+            display: block;
+            position: absolute;
+            top: -110px;
+            right: 10px;
+        }
+    }
+
+
     &__item {
         padding: 42px 25px;
 
@@ -19,6 +69,10 @@
 
         &:hover > ul {
             display: flex;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            padding: 10px;
         }
     }
 

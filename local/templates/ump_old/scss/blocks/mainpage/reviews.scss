@@ -1,0 +1,99 @@
+.reviews {
+    margin: 190px 0;
+    position: relative;
+
+    &__items {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+
+    &__item {
+        padding: 30px;
+        background-color: transparent;
+        width: 100%;
+        margin-right: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active, &:visited {
+            text-decoration: none;
+        }
+    }
+
+    &__company {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    &__name {
+        text-align: center;
+    }
+
+    & .owl-stage {
+        display: flex;
+    }
+
+    & .owl-item {
+        /*margin-right: 30px;*/
+    }
+
+    & .owl-nav {
+        position: absolute;
+        width: 100%;
+        margin-top: -260px;
+    }
+
+    & .owl-prev {
+        background-color: transparent;
+        border: none;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        width: 25px;
+        height: 25px;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        transition: 0.5s;
+        outline: none;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        & span {
+            display: none;
+        }
+    }
+
+    & .owl-next {
+        float: right;
+
+        background-color: transparent;
+        border: none;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        width: 25px;
+        height: 25px;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: 0.5s;
+        outline: none;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        & span {
+            display: none;
+        }
+    }
+}

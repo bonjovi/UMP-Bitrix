@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="description" content="Форма обратной связи для сайта на HTML5 + CSS3 + jQuery + php. Валидация и экранирование введенных данных, проверка правильности ввода полей формы обратной связи.">
+<meta name=viewport content="width=device-width, initial-scale=1"> 
+
+<link rel="stylesheet" type="text/css" href="style.css">	
+<script src="jquery-3.2.1.min.js"></script>
+<script src="send_message.js"></script>
+
+<title>Форма обратной связи HTML5 + CSS3 + jQuery + php</title>
+</head>
+<body>
+
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+
+      <div class="login-wr">
+      <h2>Написать письмо</h2>
+
+      <div class="form">
+        <form action="send.php" method="POST">
+          <input type="text" id="name" placeholder="Имя" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+          <textarea id="message" required></textarea>
+          <p>* Все поля обязательны для заполнения</p>
+          <button type="submit" id="submit"> Отправить </button>
+          <img src="loader.gif" id="loader" alt="">
+          <div id="result"></div>
+        </form>
+      </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

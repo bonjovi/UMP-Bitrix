@@ -83,7 +83,7 @@ document.getElementById('bx_auth_secure<?=$arResult["RND"]?>').style.display = '
 <?endif?>
 
 		<tr>
-			<td colspan="2"><noindex><a href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>" rel="nofollow"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a></noindex></td>
+			<td colspan="2"><noindex class="123"><a href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>" rel="nofollow"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a></noindex></td>
 		</tr>
 <?if($arResult["AUTH_SERVICES"]):?>
 		<tr>

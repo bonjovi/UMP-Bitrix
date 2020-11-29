@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Полезно знать");
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Полезно знать",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"SEF_MODE" => "N",
+		"SEF_MODE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
@@ -100,9 +100,10 @@ $APPLICATION->SetTitle("Полезно знать");
 		"USE_SHARE" => "N",
 		"COMPONENT_TEMPLATE" => "blog",
 		"SEF_FOLDER" => "/usage/useful/",
-		"VARIABLE_ALIASES" => array(
-			"SECTION_ID" => "SECTION_ID",
-			"ELEMENT_ID" => "ELEMENT_ID",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "",
+			"detail" => "#ELEMENT_CODE#/",
 		)
 	),
 	false

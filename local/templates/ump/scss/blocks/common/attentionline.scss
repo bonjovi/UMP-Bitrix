@@ -3,4 +3,8 @@
     border-bottom: 1px solid #ededed;
     padding: 15px 0;
     text-align: center;
+
+    & .container {
+        padding: 0 50px;
+    }
 }

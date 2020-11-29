@@ -3,14 +3,14 @@
 
     &__items {
         margin-top: 55px;
-        display: flex;
-        justify-content: space-between;
+        /*display: flex;
+        justify-content: space-between;*/
     }
 
     &__item {
         text-align: center;
-        margin-right: 10px;
-        width: 100%;
+        /*margin-right: 10px;
+        width: 100%;*/
 
         & img {
             width: 100%;
@@ -27,5 +27,9 @@
     &__pic {
         height: 300px;
         overflow: hidden;
+
+        @media only screen and (max-width: 768px) {
+            height: auto;
+        }
     }
 }

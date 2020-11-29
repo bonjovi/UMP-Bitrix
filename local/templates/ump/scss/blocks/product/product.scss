@@ -23,6 +23,10 @@
 
         & img {
             width: 100%;
+            height: fit-content;
+            max-height: 500px;
+            object-fit: contain;
+
         }
     }
 
@@ -97,6 +101,7 @@
 
     &__tabinfo {
         display: none;
+        overflow: hidden;
 
         &:first-child {
             display: block;

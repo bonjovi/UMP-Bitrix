@@ -13,7 +13,12 @@ $CURRENT_DEPTH = $TOP_DEPTH;
 <?php if(!empty($arResult['SECTION']['NAME'])): ?>
     <h1 class="title title_large catalog__title"><?=$arResult['SECTION']['NAME']?></h1>
     <div class="catalog__description">
-        <?=$arResult['DESCRIPTION']?>
+        <?php
+//            echo "<pre>";
+//            print_r($arResult);
+//            echo "</pre>";
+        ?>
+        <?=$arResult['SECTION']['DESCRIPTION']?>
     </div>
 <?php else: ?>
     <h1 class="title title_large catalog__title">Каталог</h1>
@@ -45,8 +50,9 @@ $APPLICATION->SetTitle($name_section);
 	</script>
 
 
-
-
+<?if(count($arResult["SECTIONS"]) == 0):?>
+    <!--<h4 class="title title_small" style="padding-left:15px;">Раздел в стадии наполнения</h4>-->
+<?endif?>
 
 <?
 foreach($arResult["SECTIONS"] as $arSection):
@@ -71,7 +77,7 @@ foreach($arResult["SECTIONS"] as $arSection):
 
 	echo "\n",str_repeat("\t", $arSection["DEPTH_LEVEL"]-$TOP_DEPTH);
 	?>
-		<li id="<?=$this->GetEditAreaId($arSection['ID']);?>" class="col-lg-3 catalog__item">
+		<li id="<?=$this->GetEditAreaId($arSection['ID']);?>" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 catalog__item">
 		<a href="<?=$arSection["SECTION_PAGE_URL"]?>" class="catalog__link">
 			<div class="catalog__image-container <?if($arSection["PICTURE"]["SRC"] == '') { echo 'catalog__image-container_empty'; }?>">
 				<img src="<?=$arSection["PICTURE"]["SRC"]?>" alt="">

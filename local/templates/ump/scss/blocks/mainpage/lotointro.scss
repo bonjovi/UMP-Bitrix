@@ -4,6 +4,12 @@
     background-repeat: no-repeat;
     margin: 100px 0 0 0;
 
+    @media only screen and (max-width: 992px) {
+        background-image: none;
+        background-color: #FF3F30;
+        padding: 60px 0;
+    }
+
     &__pic {
         width: 100%;
     }

@@ -8,7 +8,23 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
-  7 => 
+  13 => 
+  array (
+    'CONDITION' => '#^/usage/solutions/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/usage/solutions/index.php',
+    'SORT' => 100,
+  ),
+  12 => 
+  array (
+    'CONDITION' => '#^/usage/useful/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/usage/useful/index.php',
+    'SORT' => 100,
+  ),
+  15 => 
   array (
     'CONDITION' => '#^/dealer/promo/#',
     'RULE' => '',
@@ -16,7 +32,7 @@ $arUrlRewrite=array (
     'PATH' => '/dealer/promo/index.php',
     'SORT' => 100,
   ),
-  5 => 
+  11 => 
   array (
     'CONDITION' => '#^/about/promo/#',
     'RULE' => '',
@@ -24,7 +40,7 @@ $arUrlRewrite=array (
     'PATH' => '/about/promo/index.php',
     'SORT' => 100,
   ),
-  8 => 
+  14 => 
   array (
     'CONDITION' => '#^/dealer/news/#',
     'RULE' => '',
@@ -32,7 +48,7 @@ $arUrlRewrite=array (
     'PATH' => '/dealer/news/index.php',
     'SORT' => 100,
   ),
-  6 => 
+  10 => 
   array (
     'CONDITION' => '#^/about/news/#',
     'RULE' => '',

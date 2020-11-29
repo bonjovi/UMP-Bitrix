@@ -1,5 +1,4 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<!doctype html>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) {die();}?><!doctype html>
 <html>
 <head>
 	<?
@@ -36,12 +35,16 @@
 //global $USER; if ($USER->IsAdmin()){echo "<style>#bx-panel {z-index:99999999 !important;} .fancybox-container {margin-top: 184px !important;}</style>";}
 $APPLICATION->ShowPanel();
 ?>
-
+<?php
+if($_SERVER['SCRIPT_NAME'] == '/cabinet/auth/forgotpassword.php' && isset($_GET['change_password']) && $_GET['change_password'] == 'yes') {
+echo "<script>setTimeout(function() {\$(\".bx-authform\").wrap(\"<div class='container' style='margin-top:40px;'></div>\");}, 100);</script>";
+}
+?>
 <div class="pagewrapper">
 		<header class="header">
             <div class="attentionline">
                 <div class="container text text_xsmall">
-                    Сайт находится в режиме тестирования, все замеченные ошибки и предложения направляйте по адресу <a href="mailto:web@umpgroup.ru">web@umpgroup.ru</a>. <a href="https://umpgroup.ru">Перейти на старую версию сайта</a>
+                    Сайт находится в режиме тестирования, все замеченные ошибки и предложения направляйте по адресу <a href="mailto:web@umpgroup.ru">web@umpgroup.ru</a>. <a href="https://old.umpgroup.ru">Перейти на старую версию сайта</a>
                 </div>
             </div>
 			<div class="header__top">
@@ -50,8 +53,8 @@ $APPLICATION->ShowPanel();
 						<div class="header__phones col-lg-6">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/phone.png" alt="Телефон" class="header__phone-icon">
 							<div class="header__phone text text_xsmall text_grey">
-								<span class="text_lightgrey">+7 (499) </span>
-								649-32-74
+								<span class="text_lightgrey">+7 (495) </span>
+								748-09-07
 								<span class="text_lightgrey">;</span>
 							</div>
 							<div class="header__phone text text_xsmall text_grey">
@@ -60,8 +63,9 @@ $APPLICATION->ShowPanel();
 								<span class="text_lightgrey">;</span>
 							</div>
 							<div class="header__phone text text_xsmall text_grey">
-								<span class="text_lightgrey">+7 (499) </span>
-								505-62-75 
+                                <span class="text_lightgrey">Беспл. линия </span>
+								<span class="text_lightgrey">+7 (800) </span>
+                                505-62-75
 							</div>
 						</div><!-- /.header__phones -->
 						<div class="header__links col-lg-6">
@@ -120,8 +124,12 @@ $APPLICATION->ShowPanel();
 								<?endif?>
 							</div>
 
-							<div id="basket-container">
-								<?php $APPLICATION->IncludeComponent(
+                            <div class="topmenu__burger-icon">
+                                <img src="<?=SITE_TEMPLATE_PATH?>/img/burger-icon.svg" width="30" alt="АО «ЮМП»">
+                            </div>
+
+							<!--<div id="basket-container">
+								<?php /*$APPLICATION->IncludeComponent(
 									"bazarow:basket.small.bazarow",
 									"ajax",
 									Array(
@@ -132,8 +140,8 @@ $APPLICATION->ShowPanel();
 										"SHOW_NOTAVAIL" => "Y",
 										"SHOW_SUBSCRIBE" => "Y"
 									)
-								); ?>
-							</div>
+								);*/ ?>
+							</div>-->
 						</div><!-- /.header__links -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
@@ -145,6 +153,9 @@ $APPLICATION->ShowPanel();
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/ump-logo.svg" class="header__logo-img" alt="АО «ЮМП»">
 						</a>
 						<nav class="topmenu col-lg-8">
+                            <div class="topmenu__close-icon">
+                                <img src="<?=SITE_TEMPLATE_PATH?>/img/close-icon.svg" width="30" alt="АО «ЮМП»">
+                            </div>
 							<ul class="topmenu__list">
 								<li class="topmenu__item">
 									<a href="/about" class="topmenu__link <?if(CSite::InDir('/about/')){echo 'topmenu__link_active';}?>">Компания</a>
@@ -360,101 +371,101 @@ $APPLICATION->ShowPanel();
 											<a href="/catalog/promyshlennaya_khimiya/" class="text text_xsmall dropdown-topmenu__link">Промышленная<br>химия WEICON</a>
 											<ul class="dropdown-topmenu__list dropdown-topmenu__level2">
                                                 <li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=430" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_02.svg" width="110" alt="">
-                                                        Антикоры<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=437" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_02.svg" width="110" alt="">
-                                                        Вспомогательные материалы
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=448" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_02.svg" width="110" alt="">
-                                                        Герметики<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=459" class="text text_xsmall dropdown-topmenu__link">
+                                                    <a href="/catalog/promyshlennaya_khimiya/sostavy-na-osnove-epoksidnykh-smol/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_02.svg" width="110" alt="">
-                                                        Защита плюс<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=460" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Эпоксидные клеи_02.svg" width="110" alt="">
+                                                        Составы на основе эпоксидных смол
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/klei/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_02.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клей для полиэтилена и полипропилена_02.svg" width="110" alt="">
                                                         Клеи<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=461" class="text text_xsmall dropdown-topmenu__link">
-                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Металлополимеры_02.svg" width="110" alt="">
-                                                        Металлополимеры<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li>
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=483" class="text text_xsmall dropdown-topmenu__link">
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/dvustoronnie-montazhnye-lenty/" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_01.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Клеи-герметики_02.svg" width="110" alt="">
+                                                        Клеи-герметики серия Flex
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/antikorrozionnye-montazhnye-pasty-anti-seize/" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные монтажные пасты Anti-Size_01.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные монтажные пасты Anti-Size_02.svg" width="110" alt="">
+                                                        Антикоррозионные монтажные пасты Anti-Seize
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/smazki-tekhnicheskiye/" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_01.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Смазывающие составы_02.svg" width="110" alt="">
+                                                        Смазки технические
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/antikory/" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_01.svg" width="110" alt="">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Антикоррозионные составы_02.svg" width="110" alt="">
+                                                        Антикоры<br>&nbsp;
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/tekhnicheskiye-sostavy/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_02.svg" width="110" alt="">
-                                                        Очистители<br>&nbsp;
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li> 
-												<li class="dropdown-topmenu__item">
-													<a href="/catalog/?SECTION_ID=488" class="text text_xsmall dropdown-topmenu__link">
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Технические составы_02.svg" width="110" alt="">
+                                                        Технические составы
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-topmenu__item">
+                                                    <a href="/catalog/promyshlennaya_khimiya/remontnye-nabory/" class="text text_xsmall dropdown-topmenu__link">
                                                         <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_01.svg" width="110" alt="">
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_02.svg" width="110" alt="">
-                                                        Ремонтные наборы
-													</a>
-													<ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
-														<li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
-															WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
-														</li>
-													</ul>
-												</li> 
+                                                        <img src="<?=SITE_TEMPLATE_PATH?>/img/products/Промышленная химия/Промышленная химия. Рем. наборы для срочного ремонта на морских судах_02.svg" width="110" alt="">
+                                                        Наборы средств для проведения ремонта
+                                                    </a>
+                                                    <ul class="dropdown-topmenu__list dropdown-topmenu__list_last">
+                                                        <li class="dropdown-topmenu__item text text_lightgrey text_xsmall">
+                                                            WEICON является ведущим инновационным брендом в своем сегменте рынка. Развитие научной и производственной базы гарантируют постоянное усовершенствование и адаптацию продуктов и услуг к последним требованиям производства и охраны окружающей среды. Продукция WEICON на Вашем предприятии решит множество различных задач, начиная от производства, ремонта, обслуживания и заканчивая техническим сервисом и уходом.
+                                                        </li>
+                                                    </ul>
+                                                </li>
                                             </ul>
 										</li>
 										<li class="dropdown-topmenu__item">
@@ -1042,14 +1053,13 @@ $APPLICATION->ShowPanel();
 						</div>
 					</div>	
 				</div> -->
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);" href="/about/promo/pokupay-bolshe-plati-menshe-supertsena-na-sprei-weicon/"></a>	
-				<!-- <a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);" href="/about/promo/printer-brady-v-treyd-in/"></a>	 -->
+				<!--<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic_2020.jpg);" href="/about/promo/skidka-10-na-markiratory-s-bolshimi-oknami/"></a>-->
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/blackfriday_2020_newsite.jpg);" href="/blackfriday/"></a>
+				<!-- <a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/weicon.jpg);" href="/about/promo/pokupay-bolshe-plati-menshe-supertsena-na-sprei-weicon/"></a>
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady.jpg);" href="/about/promo/printer-brady-v-treyd-in/"></a>
 				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/sic.jpg);" href="/about/promo/259-000-rubley-nashe-luchshee-predlozhenie-na-udarno-tochechnyy-markirator-sic/"></a>	
 				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/rasprod.jpg);" href="/about/promo/rasprodazhishche/"></a>	
-				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);" href="/about/promo/markiruesh-mnogo-darim-bolshoy-promyshlennyy-printer/"></a>		
+				<a class="slider__item" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/banners/brady_02.jpg);" href="/about/promo/markiruesh-mnogo-darim-bolshoy-promyshlennyy-printer/"></a>	-->
             </div><!-- /.slider -->
             <? endif; ?>
 		</header>
-
-
-	
